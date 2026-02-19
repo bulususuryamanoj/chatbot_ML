@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "what is regression",
+        "classification algorithms",
+        "ml interview questions",
+        "bias variance tradeoff",
+        "supervised vs unsupervised learning",
+        "what is overfitting",
+        "model training process",
+        "machine learning basics"
+      ]
+    },
+    {
+      "tag": "statistics",
+      "patterns": [
+        "mean median difference",
+        "probability basics",
+        "standard deviation explanation",
+        "normal distribution meaning",
+        "z score formula",
+        "variance vs standard deviation",
+        "statistics interview questions"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "python basics",
+        "list vs tuple difference",
+        "lambda function python",
+        "dictionary vs list",
+        "what is pandas",
+        "numpy arrays explanation",
+        "python interview questions"
+      ]
+    },
+    {
+      "tag": "eda",
+      "patterns": [
+        "what is eda",
+        "steps in exploratory data analysis",
+        "handling missing values",
+        "outlier detection",
+        "feature distribution analysis",
+        "eda techniques"
+      ]
+    },
+    {
+      "tag": "data_visualization",
+      "patterns": [
+        "matplotlib vs seaborn",
+        "best charts for data science",
+        "visualization interview questions",
+        "histogram vs bar chart",
+        "data visualization basics"
+      ]
+    },
+    {
+      "tag": "sql",
+      "patterns": [
+        "sql joins explanation",
+        "difference between inner and left join",
+        "group by vs order by",
+        "sql interview questions",
+        "what is normalization"
+      ]
+    },
+    {
+      "tag": "model_evaluation",
+      "patterns": [
+        "accuracy vs precision",
+        "confusion matrix meaning",
+        "f1 score explanation",
+        "roc auc curve",
+        "model evaluation metrics"
+      ]
+    },
+    {
+      "tag": "interview_preparation",
+      "patterns": [
+        "data science interview tips",
+        "how to prepare for data science interview",
+        "resume tips for data science",
+        "common interview mistakes",
+        "portfolio advice"
+      ]
+    }
+  ]
+}

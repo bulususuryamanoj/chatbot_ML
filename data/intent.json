@@ -3,89 +3,207 @@
     {
       "tag": "machine_learning",
       "patterns": [
-        "what is regression",
-        "classification algorithms",
-        "ml interview questions",
+        "machine learning basics",
+        "supervised learning vs unsupervised learning",
+        "classification vs regression",
+        "ensemble learning techniques",
+        "decision tree algorithm",
+        "random forest explanation",
+        "svm algorithm meaning",
+        "gradient boosting models",
+        "overfitting vs underfitting",
         "bias variance tradeoff",
-        "supervised vs unsupervised learning",
-        "what is overfitting",
-        "model training process",
-        "machine learning basics"
+        "hyperparameter tuning methods"
       ]
     },
     {
-      "tag": "statistics",
+      "tag": "statistics_math",
       "patterns": [
-        "mean median difference",
+        "mean median mode difference",
+        "standard deviation meaning",
         "probability basics",
-        "standard deviation explanation",
-        "normal distribution meaning",
-        "z score formula",
-        "variance vs standard deviation",
-        "statistics interview questions"
+        "central limit theorem",
+        "hypothesis testing explanation",
+        "p value meaning",
+        "confidence interval definition",
+        "anova test explanation",
+        "bayesian statistics basics"
       ]
     },
     {
-      "tag": "python",
+      "tag": "python_libraries",
       "patterns": [
-        "python basics",
-        "list vs tuple difference",
-        "lambda function python",
-        "dictionary vs list",
-        "what is pandas",
+        "python basics for data science",
         "numpy arrays explanation",
+        "pandas dataframe operations",
+        "lambda function python",
+        "list comprehension example",
+        "dictionary vs tuple difference",
+        "scikit learn usage",
         "python interview questions"
       ]
     },
     {
-      "tag": "eda",
+      "tag": "eda_preprocessing",
       "patterns": [
-        "what is eda",
-        "steps in exploratory data analysis",
-        "handling missing values",
-        "outlier detection",
-        "feature distribution analysis",
-        "eda techniques"
+        "exploratory data analysis steps",
+        "handling missing values techniques",
+        "outlier detection methods",
+        "data cleaning process",
+        "feature scaling techniques",
+        "data preprocessing pipeline"
       ]
     },
     {
       "tag": "data_visualization",
       "patterns": [
-        "matplotlib vs seaborn",
-        "best charts for data science",
-        "visualization interview questions",
-        "histogram vs bar chart",
-        "data visualization basics"
+        "histogram vs boxplot",
+        "scatter plot explanation",
+        "heatmap usage",
+        "pairplot meaning",
+        "violin plot explanation",
+        "best charts for analysis"
       ]
     },
     {
-      "tag": "sql",
+      "tag": "sql_data_engineering",
       "patterns": [
         "sql joins explanation",
-        "difference between inner and left join",
         "group by vs order by",
-        "sql interview questions",
-        "what is normalization"
+        "window functions sql",
+        "etl pipeline meaning",
+        "data warehouse basics",
+        "star schema vs snowflake schema",
+        "fact table vs dimension table"
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "neural network basics",
+        "activation function relu sigmoid",
+        "cnn vs rnn",
+        "lstm explanation",
+        "dropout layer meaning",
+        "attention mechanism",
+        "transformer architecture"
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "natural language processing basics",
+        "tokenization meaning",
+        "stemming vs lemmatization",
+        "tf idf explanation",
+        "word embeddings meaning",
+        "bag of words model",
+        "semantic search meaning"
+      ]
+    },
+    {
+      "tag": "clustering_unsupervised",
+      "patterns": [
+        "k means clustering explanation",
+        "hierarchical clustering basics",
+        "dbscan algorithm meaning",
+        "silhouette score explanation",
+        "unsupervised learning examples"
+      ]
+    },
+    {
+      "tag": "time_series",
+      "patterns": [
+        "time series forecasting basics",
+        "arima model explanation",
+        "seasonality vs trend",
+        "lag feature meaning",
+        "stationarity explanation",
+        "autocorrelation function"
+      ]
+    },
+    {
+      "tag": "feature_engineering",
+      "patterns": [
+        "feature engineering techniques",
+        "dimensionality reduction",
+        "pca explanation",
+        "feature selection methods",
+        "multicollinearity meaning",
+        "target encoding vs one hot encoding"
       ]
     },
     {
       "tag": "model_evaluation",
       "patterns": [
-        "accuracy vs precision",
-        "confusion matrix meaning",
-        "f1 score explanation",
-        "roc auc curve",
-        "model evaluation metrics"
+        "accuracy precision recall difference",
+        "confusion matrix explanation",
+        "roc auc curve meaning",
+        "mean squared error definition",
+        "cross validation method",
+        "r squared score meaning",
+        "log loss explanation"
+      ]
+    },
+    {
+      "tag": "recommendation_systems",
+      "patterns": [
+        "collaborative filtering meaning",
+        "content based filtering explanation",
+        "matrix factorization basics",
+        "recommendation system interview questions"
+      ]
+    },
+    {
+      "tag": "big_data",
+      "patterns": [
+        "big data meaning",
+        "hadoop vs spark",
+        "data lake vs data warehouse",
+        "distributed computing basics",
+        "parquet file format"
+      ]
+    },
+    {
+      "tag": "mlops_deployment",
+      "patterns": [
+        "model deployment steps",
+        "what is mlops",
+        "docker for machine learning",
+        "rest api basics",
+        "model monitoring meaning",
+        "data drift vs concept drift",
+        "experiment tracking tools"
+      ]
+    },
+    {
+      "tag": "reinforcement_learning",
+      "patterns": [
+        "reinforcement learning basics",
+        "q learning explanation",
+        "deep q network meaning",
+        "reward function definition",
+        "exploration vs exploitation"
+      ]
+    },
+    {
+      "tag": "generative_ai_llm",
+      "patterns": [
+        "transformer models",
+        "bert vs gpt",
+        "embedding search explanation",
+        "rag architecture meaning",
+        "prompt engineering basics"
       ]
     },
     {
       "tag": "interview_preparation",
       "patterns": [
         "data science interview tips",
-        "how to prepare for data science interview",
         "resume tips for data science",
+        "portfolio building advice",
         "common interview mistakes",
-        "portfolio advice"
+        "how to prepare for interviews"
       ]
     }
   ]

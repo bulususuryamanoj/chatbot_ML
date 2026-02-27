@@ -1,5 +1,6 @@
 {
   "intents": [
+
     {
       "tag": "machine_learning",
       "patterns": [
@@ -16,6 +17,7 @@
         "hyperparameter tuning methods"
       ]
     },
+
     {
       "tag": "statistics_math",
       "patterns": [
@@ -27,9 +29,13 @@
         "p value meaning",
         "confidence interval definition",
         "anova test explanation",
-        "bayesian statistics basics"
+        "bayesian statistics basics",
+        "maximum likelihood estimation",
+        "kolmogorov smirnov test",
+        "mann whitney test"
       ]
     },
+
     {
       "tag": "python_libraries",
       "patterns": [
@@ -43,6 +49,7 @@
         "python interview questions"
       ]
     },
+
     {
       "tag": "eda_preprocessing",
       "patterns": [
@@ -54,6 +61,7 @@
         "data preprocessing pipeline"
       ]
     },
+
     {
       "tag": "data_visualization",
       "patterns": [
@@ -65,6 +73,20 @@
         "best charts for analysis"
       ]
     },
+
+    {
+      "tag": "powerbi_tableau_bi",
+      "patterns": [
+        "power bi basics",
+        "dax measures meaning",
+        "power query explanation",
+        "tableau dashboard creation",
+        "tableau calculated fields",
+        "business intelligence dashboards",
+        "kpi visualization techniques"
+      ]
+    },
+
     {
       "tag": "sql_data_engineering",
       "patterns": [
@@ -77,6 +99,7 @@
         "fact table vs dimension table"
       ]
     },
+
     {
       "tag": "deep_learning",
       "patterns": [
@@ -89,6 +112,7 @@
         "transformer architecture"
       ]
     },
+
     {
       "tag": "nlp",
       "patterns": [
@@ -101,6 +125,7 @@
         "semantic search meaning"
       ]
     },
+
     {
       "tag": "clustering_unsupervised",
       "patterns": [
@@ -111,6 +136,7 @@
         "unsupervised learning examples"
       ]
     },
+
     {
       "tag": "time_series",
       "patterns": [
@@ -122,6 +148,7 @@
         "autocorrelation function"
       ]
     },
+
     {
       "tag": "feature_engineering",
       "patterns": [
@@ -133,6 +160,7 @@
         "target encoding vs one hot encoding"
       ]
     },
+
     {
       "tag": "model_evaluation",
       "patterns": [
@@ -145,6 +173,7 @@
         "log loss explanation"
       ]
     },
+
     {
       "tag": "recommendation_systems",
       "patterns": [
@@ -154,6 +183,7 @@
         "recommendation system interview questions"
       ]
     },
+
     {
       "tag": "big_data",
       "patterns": [
@@ -164,6 +194,7 @@
         "parquet file format"
       ]
     },
+
     {
       "tag": "mlops_deployment",
       "patterns": [
@@ -176,6 +207,7 @@
         "experiment tracking tools"
       ]
     },
+
     {
       "tag": "reinforcement_learning",
       "patterns": [
@@ -186,6 +218,7 @@
         "exploration vs exploitation"
       ]
     },
+
     {
       "tag": "generative_ai_llm",
       "patterns": [
@@ -196,6 +229,53 @@
         "prompt engineering basics"
       ]
     },
+
+    {
+      "tag": "conversational_ai",
+      "patterns": [
+        "intent recognition meaning",
+        "entity extraction example",
+        "dialog management chatbot",
+        "slot filling chatbot",
+        "multi turn conversation",
+        "context window llm"
+      ]
+    },
+
+    {
+      "tag": "explainable_ai",
+      "patterns": [
+        "what is shap values",
+        "lime explanation",
+        "feature importance meaning",
+        "partial dependence plot",
+        "model interpretability methods"
+      ]
+    },
+
+    {
+      "tag": "vector_search_rag",
+      "patterns": [
+        "vector database meaning",
+        "semantic embedding explanation",
+        "hybrid search model",
+        "reranking in rag",
+        "chunking strategy llm"
+      ]
+    },
+
+    {
+      "tag": "system_design_ai",
+      "patterns": [
+        "chatbot architecture design",
+        "api gateway meaning",
+        "microservices architecture ai",
+        "load balancing chatbot",
+        "inference pipeline explanation",
+        "caching layer ai"
+      ]
+    },
+
     {
       "tag": "interview_preparation",
       "patterns": [
@@ -206,5 +286,6 @@
         "how to prepare for interviews"
       ]
     }
+
   ]
 }

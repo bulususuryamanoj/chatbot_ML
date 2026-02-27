@@ -1,193 +1,453 @@
 {
-  "machine learning": "Machine learning enables systems to learn patterns from data and make predictions.",
-  "supervised learning": "Supervised learning uses labeled data to train models.",
-  "unsupervised learning": "Unsupervised learning finds hidden patterns in unlabeled datasets.",
-  "classification": "Classification predicts categorical outcomes.",
-  "regression": "Regression predicts continuous numeric values.",
-  "decision tree": "Decision trees split data based on feature conditions.",
-  "random forest": "Random Forest combines multiple decision trees for better accuracy.",
-  "gradient boosting": "Gradient boosting builds models sequentially to reduce errors.",
-  "xgboost": "XGBoost is an optimized gradient boosting algorithm.",
-  "lightgbm": "LightGBM is a fast gradient boosting framework.",
-  "catboost": "CatBoost handles categorical variables efficiently.",
-  "bias variance tradeoff": "It balances model complexity and generalization.",
-  "overfitting": "Overfitting occurs when a model learns noise instead of patterns.",
-  "underfitting": "Underfitting happens when a model is too simple.",
-  "mean": "Mean is the average value of numbers.",
-  "median": "Median is the middle value in a sorted dataset.",
-  "mode": "Mode is the most frequent value.",
-  "variance": "Variance measures spread of data.",
-  "standard deviation": "Standard deviation shows how far values deviate from the mean.",
-  "normal distribution": "A bell-shaped probability distribution.",
-  "central limit theorem": "Sample means approach normal distribution as sample size increases.",
-  "hypothesis testing": "Used to test assumptions statistically.",
-  "p value": "Probability of observing results assuming null hypothesis is true.",
-  "confidence interval": "Range of values likely to contain the true parameter.",
-  "bayes theorem": "Updates probability based on prior knowledge.",
-  "numpy": "NumPy provides numerical operations on arrays.",
-  "pandas": "Pandas provides DataFrame structures for analysis.",
-  "scikit learn": "Scikit-learn is a machine learning library.",
-  "list comprehension": "Creates lists using concise syntax.",
-  "lambda function": "Anonymous function in Python.",
-  "dictionary": "Stores key-value pairs.",
-  "tuple": "Immutable ordered sequence.",
-  "eda": "Exploratory Data Analysis helps understand datasets.",
-  "missing values": "Null or empty values in datasets.",
-  "outliers": "Extreme values that differ from others.",
-  "feature scaling": "Rescaling features to similar ranges.",
-  "one hot encoding": "Converts categories into binary columns.",
-  "label encoding": "Assigns numeric labels to categories.",
-  "pca": "Principal Component Analysis reduces dimensions.",
-  "multicollinearity": "High correlation between features.",
-  "histogram": "Shows distribution of numerical data.",
-  "boxplot": "Displays quartiles and outliers.",
-  "scatter plot": "Shows relationship between two variables.",
-  "heatmap": "Color-coded matrix visualization.",
-  "sql join": "Combines rows from tables.",
-  "inner join": "Returns matching records from both tables.",
-  "left join": "Returns all records from left table.",
-  "group by": "Aggregates data by columns.",
-  "etl": "Extract Transform Load pipeline.",
-  "data warehouse": "Central storage for analytics data.",
-  "star schema": "Data warehouse schema with fact and dimension tables.",
-  "snowflake schema": "Normalized warehouse schema.",
-  "neural network": "Model inspired by human brain structure.",
-  "relu": "Activation function returning max(0,x).",
-  "sigmoid": "Activation function mapping values between 0 and 1.",
-  "softmax": "Converts outputs into probabilities.",
-  "cnn": "Convolutional networks used for images.",
-  "rnn": "Recurrent networks used for sequences.",
-  "lstm": "Special RNN handling long-term dependencies.",
-  "attention mechanism": "Focuses on important input parts.",
-  "natural language processing": "Processing human language using AI.",
-  "tokenization": "Splitting text into words.",
-  "stemming": "Reducing words to root forms.",
-  "lemmatization": "Converting words to base dictionary form.",
-  "tf idf": "Measures importance of words in documents.",
-  "word embedding": "Vector representation of words.",
-  "cosine similarity": "Measures similarity between vectors.",
-  "bag of words": "Text representation using word frequency.",
-  "k means clustering": "Groups data into clusters based on similarity.",
-  "hierarchical clustering": "Builds nested clusters.",
-  "dbscan": "Density-based clustering algorithm.",
-  "silhouette score": "Measures cluster quality.",
-  "time series": "Data collected over time intervals.",
-  "arima": "Time series forecasting model.",
-  "seasonality": "Repeating patterns in time data.",
-  "lag feature": "Uses past values as predictors.",
-  "accuracy": "Correct predictions over total predictions.",
-  "precision": "Correct positives over predicted positives.",
-  "recall": "Correct positives over actual positives.",
-  "f1 score": "Balance between precision and recall.",
-  "roc auc": "Measures classification performance.",
-  "cross validation": "Evaluates model using multiple splits.",
-  "big data": "Extremely large datasets requiring distributed processing.",
-  "hadoop": "Framework for distributed storage.",
-  "spark": "Fast distributed data processing engine.",
-  "mlops": "Practices for managing ML lifecycle.",
-  "rest api": "Interface allowing applications to communicate.",
-  "docker": "Containerization tool for deployment.",
-  "model monitoring": "Tracking model performance after deployment.",
-  "data drift": "Change in input data distribution.",
-  "concept drift": "Change in relationship between input and output."
-  ,
-"kendall correlation": "Kendall correlation measures ordinal association between variables.",
-"anova": "ANOVA tests differences between group means.",
-"chi square test": "Chi-square test evaluates association between categorical variables.",
-"t test": "T-test compares means between two groups.",
-"f test": "F-test compares variances between populations.",
-"skewness": "Skewness measures asymmetry of data distribution.",
-"kurtosis": "Kurtosis measures heaviness of distribution tails.",
-"quantile": "Quantiles divide data into equal-sized intervals.",
-"percentile": "Percentile indicates relative standing in dataset.",
-"violin plot": "Violin plot combines boxplot with distribution density.",
-"pair plot": "Pair plot shows relationships between multiple variables.",
-"facet grid": "FacetGrid creates multiple plots based on categories.",
-"count plot": "Count plot displays frequency of categorical data.",
-"density plot": "Density plot shows probability distribution of variables.",
-"log scale": "Log scale transforms axis to logarithmic values.",
-"feature interaction": "Feature interaction occurs when variables influence each other.",
-"polynomial features": "Polynomial features create nonlinear feature combinations.",
-"residual": "Residual is difference between actual and predicted value.",
-"homoscedasticity": "Homoscedasticity means constant variance of errors.",
-"heteroscedasticity": "Heteroscedasticity means varying error variance.",
-"variance inflation factor": "VIF measures multicollinearity severity.",
-"cook distance": "Cook's distance identifies influential observations.",
-"leverage": "Leverage measures influence of data points in regression.",
-"monte carlo simulation": "Monte Carlo uses random sampling for simulations.",
-"bootstrap sampling": "Bootstrap resamples data with replacement.",
-"jackknife resampling": "Jackknife evaluates model stability by removing observations.",
-"bayesian inference": "Bayesian inference updates probability using evidence.",
-"markov chain": "Markov chain models probabilistic transitions between states.",
-"hidden markov model": "HMM models sequential data with hidden states.",
-"kalman filter": "Kalman filter estimates system states over time.",
-"prophet model": "Prophet is a time series forecasting tool by Meta.",
-"exponential smoothing": "Exponential smoothing forecasts time series data.",
-"moving average": "Moving average smooths time series fluctuations.",
-"seasonal decomposition": "Separates trend, seasonality, and noise.",
-"stationarity": "Stationary time series has constant statistical properties.",
-"autocorrelation": "Autocorrelation measures correlation with past values.",
-"partial autocorrelation": "PACF shows correlation excluding intermediate lags.",
-"granger causality": "Granger causality tests predictive relationships.",
-"vector autoregression": "VAR models multivariate time series.",
-"recommender system": "Recommender systems suggest items to users.",
-"collaborative filtering": "Uses user behavior for recommendations.",
-"content based filtering": "Uses item features for recommendations.",
-"matrix factorization": "Matrix factorization decomposes interaction matrices.",
-"implicit feedback": "Implicit feedback uses indirect user signals.",
-"explicit feedback": "Explicit feedback uses ratings or reviews.",
-"a b testing": "A/B testing compares performance of two variants.",
-"uplift modeling": "Uplift modeling predicts treatment impact.",
-"causal inference": "Causal inference identifies cause-effect relationships.",
-"data governance": "Data governance manages data quality and policies.",
-"data lineage": "Data lineage tracks data flow across systems.",
-"data catalog": "Data catalog organizes metadata for datasets.",
-"schema evolution": "Schema evolution handles structure changes in data.",
-"slowly changing dimension": "SCD tracks historical changes in warehouses.",
-"fact table": "Fact table stores measurable metrics.",
-"dimension table": "Dimension table stores descriptive attributes.",
-"partitioning": "Partitioning splits data for faster querying.",
-"bucketing": "Bucketing groups rows into fixed buckets.",
-"parquet": "Parquet is a columnar storage format.",
-"orc format": "ORC is an optimized columnar data format.",
-"avro": "Avro is a row-based data serialization format.",
-"kafka": "Kafka is a distributed event streaming platform.",
-"airflow": "Airflow schedules and manages workflows.",
-"dbt": "dbt transforms data inside warehouses.",
-"feature store": "Feature store manages reusable ML features.",
-"experiment tracking": "Experiment tracking logs model runs.",
-"mlflow": "MLflow manages ML lifecycle.",
-"dvc": "DVC tracks datasets and experiments.",
-"hyperopt": "Hyperopt performs hyperparameter optimization.",
-"optuna": "Optuna optimizes model parameters efficiently.",
-"ray tune": "Ray Tune scales hyperparameter tuning.",
-"model versioning": "Model versioning tracks model updates.",
-"canary deployment": "Canary deployment releases models gradually.",
-"blue green deployment": "Blue-green deployment reduces downtime.",
-"shadow deployment": "Shadow deployment tests models silently.",
-"edge deployment": "Edge deployment runs models on devices.",
-"quantization": "Quantization reduces model size for deployment.",
-"pruning": "Pruning removes unnecessary neural network weights.",
-"knowledge distillation": "Distillation transfers knowledge from large model to smaller one.",
-"transfer learning": "Transfer learning reuses pretrained models.",
-"fine tuning": "Fine tuning adjusts pretrained models to new tasks.",
-"zero shot learning": "Zero-shot predicts unseen classes.",
-"few shot learning": "Few-shot learns from limited examples.",
-"meta learning": "Meta learning learns how to learn.",
-"reinforcement learning": "RL trains agents using rewards.",
-"q learning": "Q-learning learns optimal actions via value estimation.",
-"policy gradient": "Policy gradient optimizes decision policies.",
-"deep q network": "DQN combines deep learning with reinforcement learning.",
-"reward function": "Reward function guides agent behavior.",
-"exploration vs exploitation": "Balances trying new actions vs known rewards.",
-"vector database": "Vector databases store embeddings for similarity search.",
-"embedding search": "Embedding search finds semantically similar text.",
-"semantic search": "Semantic search understands meaning beyond keywords.",
-"rag": "Retrieval augmented generation combines search with language models.",
-"prompt engineering": "Prompt engineering designs inputs for AI models.",
-"hallucination": "Hallucination occurs when models generate incorrect facts.",
-"temperature parameter": "Temperature controls randomness in generation.",
-"top k sampling": "Top-k sampling selects top probable tokens.",
-"top p sampling": "Top-p sampling selects tokens based on probability mass."
+"data":{"level":"basic","definition":"Raw facts or measurements collected from sources.","explanation":"Data alone has no meaning until processed or analyzed.","example":"Numbers in a CSV file.","key_points":["Raw values","Unprocessed"],"interview_tip":"Explain difference between data and information."},
 
+"information":{"level":"basic","definition":"Processed data that conveys meaning.","explanation":"Information helps decision making after analysis.","example":"Monthly sales report.","key_points":["Context","Meaningful"],"interview_tip":"Data becomes information after processing."},
+
+"dataset":{"level":"basic","definition":"Collection of related data points.","explanation":"Datasets are used for analysis and machine learning.","example":"Customer dataset.","key_points":["Rows","Columns"],"interview_tip":"Mention structured vs unstructured."},
+
+"structured data":{"level":"basic","definition":"Data organized in rows and columns.","explanation":"Usually stored in databases.","example":"SQL tables.","key_points":["Schema based"],"interview_tip":"Compare with unstructured data."},
+
+"unstructured data":{"level":"basic","definition":"Data without fixed structure.","explanation":"Includes images, text, audio.","example":"Social media posts.","key_points":["Complex format"],"interview_tip":"Mention NLP usage."},
+
+"feature":{"level":"basic","definition":"Input variable used in modeling.","explanation":"Also called independent variable.","example":"Age column.","key_points":["Predictor"],"interview_tip":"Explain feature engineering."},
+
+"label":{"level":"basic","definition":"Target variable for prediction.","explanation":"Model tries to predict labels.","example":"Spam or Not Spam.","key_points":["Dependent variable"],"interview_tip":"Explain supervised learning."},
+
+"python":{"level":"basic","definition":"Programming language widely used in data science.","explanation":"Simple syntax and large ecosystem.","example":"Data cleaning with Pandas.","key_points":["Readable","Flexible"],"interview_tip":"Mention libraries ecosystem."},
+
+"variable":{"level":"basic","definition":"Container storing data values.","explanation":"Used to store numbers, text, or objects.","example":"x = 10.","key_points":["Dynamic typing"],"interview_tip":"Explain mutable vs immutable."},
+
+"list":{"level":"basic","definition":"Ordered collection of items.","explanation":"Lists are mutable sequences.","example":"[1,2,3].","key_points":["Indexing"],"interview_tip":"Mention slicing."},
+
+"tuple":{"level":"basic","definition":"Immutable ordered sequence.","explanation":"Used when data should not change.","example":"(1,2,3).","key_points":["Faster than list"],"interview_tip":"Explain immutability."},
+
+"dictionary":{"level":"basic","definition":"Key-value data structure.","explanation":"Allows fast lookup by key.","example":"{'name':'AI'}.","key_points":["Hash table"],"interview_tip":"Explain JSON similarity."},
+
+"lambda function":{"level":"basic","definition":"Anonymous inline function.","explanation":"Used for small operations.","example":"lambda x:x*2.","key_points":["One-line function"],"interview_tip":"Mention map/filter."},
+
+"list comprehension":{"level":"basic","definition":"Compact syntax to create lists.","explanation":"Improves readability.","example":"[x*x for x in range(5)].","key_points":["Pythonic"],"interview_tip":"Explain performance."},
+
+"numpy":{"level":"basic","definition":"Numerical computing library.","explanation":"Provides fast array operations.","example":"Matrix multiplication.","key_points":["Vectorized ops"],"interview_tip":"Explain broadcasting."},
+
+"numpy array":{"level":"basic","definition":"Multidimensional numerical array.","explanation":"More efficient than lists.","example":"np.array([1,2,3]).","key_points":["Fixed type"],"interview_tip":"Mention speed advantage."},
+
+"pandas":{"level":"basic","definition":"Data analysis library.","explanation":"Used for tabular data manipulation.","example":"Reading CSV.","key_points":["DataFrame","Series"],"interview_tip":"Explain indexing."},
+
+"dataframe":{"level":"basic","definition":"Tabular data structure in Pandas.","explanation":"Contains rows and columns.","example":"Sales table.","key_points":["Labelled axes"],"interview_tip":"Explain shape."},
+
+"groupby":{"level":"basic","definition":"Aggregation operation in Pandas.","explanation":"Groups rows by category.","example":"Sales by region.","key_points":["Aggregation"],"interview_tip":"Explain split-apply-combine."},
+
+"merge":{"level":"basic","definition":"Combining datasets.","explanation":"Similar to SQL join.","example":"Customer + Orders.","key_points":["Inner","Left join"],"interview_tip":"Explain key columns."},
+
+"matplotlib":{"level":"basic","definition":"Visualization library.","explanation":"Used for plotting charts.","example":"Line plot.","key_points":["Customization"],"interview_tip":"Mention pyplot."},
+
+"seaborn":{"level":"basic","definition":"Statistical visualization library.","explanation":"Provides advanced charts.","example":"Heatmap.","key_points":["Built on matplotlib"],"interview_tip":"Explain pairplot."},
+
+"histogram":{"level":"basic","definition":"Distribution plot.","explanation":"Shows frequency of values.","example":"Age distribution.","key_points":["Bins"],"interview_tip":"Explain skewness."},
+
+"boxplot":{"level":"basic","definition":"Visualization showing quartiles.","explanation":"Helps detect outliers.","example":"Salary spread.","key_points":["Median","IQR"],"interview_tip":"Explain whiskers."},
+
+"scatter plot":{"level":"basic","definition":"Plot showing relationship between two variables.","explanation":"Used to detect correlation.","example":"Height vs Weight.","key_points":["Trend detection"],"interview_tip":"Explain clusters."},
+
+"heatmap":{"level":"basic","definition":"Color-coded matrix visualization.","explanation":"Shows correlation strength.","example":"Correlation matrix.","key_points":["Color scale"],"interview_tip":"Explain interpretation."},
+
+"mean":{"level":"basic","definition":"Average value.","explanation":"Sum divided by count.","example":"Average score.","key_points":["Sensitive to outliers"],"interview_tip":"Compare with median."},
+
+"median":{"level":"basic","definition":"Middle value.","explanation":"Robust to extreme values.","example":"Median income.","key_points":["Sorted data"],"interview_tip":"Explain skewness."},
+
+"mode":{"level":"basic","definition":"Most frequent value.","explanation":"Common in categorical data.","example":"Most common product.","key_points":["Frequency"],"interview_tip":"Explain use cases."},
+
+"variance":{"level":"basic","definition":"Measure of spread.","explanation":"Average squared deviation from mean.","example":"Score variability.","key_points":["Squared units"],"interview_tip":"Link to std dev."},
+
+"standard deviation":{"level":"basic","definition":"Square root of variance.","explanation":"Measures dispersion.","example":"Stock volatility.","key_points":["Spread"],"interview_tip":"Explain z-score."},
+
+"skewness":{"level":"basic","definition":"Measure of asymmetry.","explanation":"Indicates tail direction.","example":"Income distribution.","key_points":["Left or right skew"],"interview_tip":"Explain interpretation."},
+
+"kurtosis":{"level":"basic","definition":"Measure of tail heaviness.","explanation":"Shows extreme value tendency.","example":"Financial returns.","key_points":["Peakedness"],"interview_tip":"Explain leptokurtic."},
+
+"percentile":{"level":"basic","definition":"Relative ranking value.","explanation":"Shows position in dataset.","example":"90th percentile score.","key_points":["Ranking"],"interview_tip":"Explain quartiles."},
+
+"quartile":{"level":"basic","definition":"Divides data into four parts.","explanation":"Used in boxplots.","example":"Q1,Q2,Q3.","key_points":["IQR"],"interview_tip":"Explain spread."},
+
+"normal distribution":{"level":"basic","definition":"Bell-shaped distribution.","explanation":"Common statistical pattern.","example":"Heights.","key_points":["Symmetric"],"interview_tip":"Mention 68-95 rule."},
+
+"z score":{"level":"basic","definition":"Standardized value.","explanation":"Shows distance from mean.","example":"Z=2.","key_points":["Normalization"],"interview_tip":"Explain scaling."},
+
+"correlation":{"level":"basic","definition":"Relationship strength between variables.","explanation":"Ranges from -1 to 1.","example":"Temperature vs sales.","key_points":["Positive","Negative"],"interview_tip":"Explain correlation vs causation."},
+
+"covariance":{"level":"basic","definition":"Joint variability measure.","explanation":"Shows directional relationship.","example":"Stock movements.","key_points":["Scale dependent"],"interview_tip":"Explain normalization."},
+
+"eda":{"level":"basic","definition":"Exploratory Data Analysis.","explanation":"Understanding dataset before modeling.","example":"Plot distributions.","key_points":["Visualization","Statistics"],"interview_tip":"Always start with EDA."},
+"sql":{"level":"basic","definition":"SQL is a language used to manage and query relational databases.","explanation":"It allows users to retrieve, insert, update and delete structured data.","example":"SELECT * FROM customers;","key_points":["Declarative language","Works with tables"],"interview_tip":"Explain SQL as Structured Query Language."},
+
+"sql select":{"level":"basic","definition":"Retrieves data from a table.","explanation":"SELECT specifies which columns to return.","example":"SELECT name FROM users;","key_points":["Column selection"],"interview_tip":"Mention WHERE clause for filtering."},
+
+"sql where":{"level":"basic","definition":"Filters rows based on condition.","explanation":"Used to restrict query output.","example":"WHERE age>25;","key_points":["Logical operators"],"interview_tip":"Explain AND/OR usage."},
+
+"sql order by":{"level":"basic","definition":"Sorts query results.","explanation":"Orders rows ascending or descending.","example":"ORDER BY salary DESC;","key_points":["ASC","DESC"],"interview_tip":"Mention default ASC."},
+
+"sql limit":{"level":"basic","definition":"Restricts number of returned rows.","explanation":"Useful for pagination.","example":"LIMIT 10;","key_points":["Top rows"],"interview_tip":"Explain performance benefit."},
+
+"sql distinct":{"level":"basic","definition":"Removes duplicate rows.","explanation":"Returns unique values.","example":"SELECT DISTINCT city;","key_points":["Unique records"],"interview_tip":"Mention performance cost."},
+
+"sql insert":{"level":"basic","definition":"Adds new rows into a table.","explanation":"Used to store new records.","example":"INSERT INTO users VALUES(...);","key_points":["Data creation"],"interview_tip":"Explain column order importance."},
+
+"sql update":{"level":"basic","definition":"Modifies existing records.","explanation":"Updates column values.","example":"UPDATE users SET age=30;","key_points":["Requires WHERE"],"interview_tip":"Warn about updating all rows accidentally."},
+
+"sql delete":{"level":"basic","definition":"Removes rows from table.","explanation":"Deletes data permanently.","example":"DELETE FROM users WHERE id=1;","key_points":["Irreversible"],"interview_tip":"Always use WHERE clause."},
+
+"sql join":{"level":"basic","definition":"Combines rows from multiple tables.","explanation":"Uses keys to merge datasets.","example":"JOIN orders ON users.id=orders.user_id;","key_points":["Relational concept"],"interview_tip":"Explain foreign keys."},
+
+"inner join":{"level":"basic","definition":"Returns matching records from both tables.","explanation":"Rows must exist in both tables.","example":"INNER JOIN orders;","key_points":["Intersection"],"interview_tip":"Compare with left join."},
+
+"left join":{"level":"basic","definition":"Returns all rows from left table.","explanation":"Includes unmatched rows.","example":"LEFT JOIN orders;","key_points":["Null values"],"interview_tip":"Explain data enrichment."},
+
+"right join":{"level":"basic","definition":"Returns all rows from right table.","explanation":"Opposite of left join.","example":"RIGHT JOIN table;","key_points":["Less commonly used"],"interview_tip":"Mention symmetry."},
+
+"full join":{"level":"intermediate","definition":"Returns all rows from both tables.","explanation":"Combines left and right joins.","example":"FULL OUTER JOIN;","key_points":["Union of tables"],"interview_tip":"Explain null handling."},
+
+"sql group by":{"level":"basic","definition":"Aggregates rows by column.","explanation":"Used with SUM, COUNT, AVG.","example":"GROUP BY country;","key_points":["Aggregation"],"interview_tip":"Explain HAVING clause."},
+
+"sql having":{"level":"intermediate","definition":"Filters aggregated results.","explanation":"Works after GROUP BY.","example":"HAVING COUNT(*)>5;","key_points":["Post aggregation"],"interview_tip":"Differentiate WHERE vs HAVING."},
+
+"sql subquery":{"level":"intermediate","definition":"Query inside another query.","explanation":"Used for complex filtering.","example":"SELECT * WHERE salary>(SELECT AVG(salary));","key_points":["Nested query"],"interview_tip":"Explain performance."},
+
+"sql window function":{"level":"advanced","definition":"Performs calculations across rows.","explanation":"Uses OVER() clause.","example":"ROW_NUMBER() OVER(PARTITION BY dept);","key_points":["Ranking","Running totals"],"interview_tip":"Explain difference from GROUP BY."},
+
+"row_number":{"level":"advanced","definition":"Assigns unique row numbers.","explanation":"Used in ranking queries.","example":"ROW_NUMBER() OVER(...);","key_points":["Sequential numbering"],"interview_tip":"Mention partitions."},
+
+"rank":{"level":"advanced","definition":"Ranks rows with gaps.","explanation":"Same values share rank.","example":"RANK() OVER(...);","key_points":["Competition ranking"],"interview_tip":"Compare with dense_rank."},
+
+"dense_rank":{"level":"advanced","definition":"Ranks rows without gaps.","explanation":"Sequential ranking.","example":"DENSE_RANK() OVER(...);","key_points":["No skipped numbers"],"interview_tip":"Explain ranking difference."},
+
+"cte":{"level":"advanced","definition":"Common Table Expression.","explanation":"Temporary named result set.","example":"WITH sales AS(...);","key_points":["Readable queries"],"interview_tip":"Explain recursive CTE."},
+
+"index":{"level":"intermediate","definition":"Database structure improving query speed.","explanation":"Creates lookup table for faster search.","example":"CREATE INDEX idx_age;","key_points":["Faster reads","Slower writes"],"interview_tip":"Explain B-tree."},
+
+"primary key":{"level":"basic","definition":"Unique identifier for rows.","explanation":"Prevents duplicates.","example":"id column.","key_points":["Uniqueness"],"interview_tip":"Explain constraints."},
+
+"foreign key":{"level":"basic","definition":"Column linking tables.","explanation":"Maintains relational integrity.","example":"order.user_id.","key_points":["References"],"interview_tip":"Explain referential integrity."},
+
+"normalization":{"level":"intermediate","definition":"Database design process reducing redundancy.","explanation":"Splits tables into logical structures.","example":"Separate customer and orders tables.","key_points":["1NF","2NF","3NF"],"interview_tip":"Explain anomalies."},
+
+"denormalization":{"level":"advanced","definition":"Combining tables for performance.","explanation":"Reduces joins but increases redundancy.","example":"Analytics tables.","key_points":["Speed vs storage"],"interview_tip":"Explain tradeoff."},
+
+"etl":{"level":"basic","definition":"Extract Transform Load process.","explanation":"Moves data from source to warehouse.","example":"CSV to database.","key_points":["Pipeline"],"interview_tip":"Explain stages clearly."},
+
+"elt":{"level":"intermediate","definition":"Extract Load Transform approach.","explanation":"Transforms data after loading.","example":"Cloud warehouses.","key_points":["Modern pipeline"],"interview_tip":"Compare ETL vs ELT."},
+
+"data warehouse":{"level":"basic","definition":"Central storage for analytics.","explanation":"Optimized for querying large datasets.","example":"Snowflake warehouse.","key_points":["Historical data"],"interview_tip":"Explain OLAP."},
+
+"data lake":{"level":"basic","definition":"Storage for raw data.","explanation":"Handles structured and unstructured data.","example":"AWS S3.","key_points":["Schema-on-read"],"interview_tip":"Compare with warehouse."},
+
+"star schema":{"level":"intermediate","definition":"Warehouse design using fact and dimension tables.","explanation":"Optimized for analytics.","example":"Sales fact table.","key_points":["Simple joins"],"interview_tip":"Explain dimensions."},
+
+"snowflake schema":{"level":"intermediate","definition":"Normalized star schema.","explanation":"More complex but reduces redundancy.","example":"Normalized dimension tables.","key_points":["Complex joins"],"interview_tip":"Compare with star schema."},
+
+"fact table":{"level":"basic","definition":"Table storing measurable metrics.","explanation":"Contains numeric values.","example":"Sales amount.","key_points":["Foreign keys"],"interview_tip":"Explain granularity."},
+
+"dimension table":{"level":"basic","definition":"Descriptive attribute table.","explanation":"Provides context for facts.","example":"Product info.","key_points":["Categorical data"],"interview_tip":"Explain hierarchy."},
+
+"parquet":{"level":"intermediate","definition":"Columnar storage format.","explanation":"Optimized for analytics queries.","example":"Big data storage.","key_points":["Compression"],"interview_tip":"Explain columnar advantage."},
+
+"orc format":{"level":"intermediate","definition":"Optimized row columnar format.","explanation":"Used in Hadoop ecosystems.","example":"Hive tables.","key_points":["Efficient scanning"],"interview_tip":"Compare with parquet."},
+
+"avro":{"level":"intermediate","definition":"Row-based serialization format.","explanation":"Used in streaming systems.","example":"Kafka messages.","key_points":["Schema evolution"],"interview_tip":"Explain use cases."},
+
+"kafka":{"level":"advanced","definition":"Distributed event streaming platform.","explanation":"Handles real-time data pipelines.","example":"Log streaming.","key_points":["Producers","Consumers"],"interview_tip":"Explain partitions."},
+
+"airflow":{"level":"advanced","definition":"Workflow orchestration tool.","explanation":"Schedules data pipelines.","example":"Daily ETL jobs.","key_points":["DAGs"],"interview_tip":"Explain task dependencies."},
+
+"spark sql":{"level":"advanced","definition":"SQL interface in Apache Spark.","explanation":"Processes large datasets.","example":"Spark DataFrame queries.","key_points":["Distributed execution"],"interview_tip":"Explain lazy evaluation."},
+
+"partitioning":{"level":"intermediate","definition":"Splitting data into parts.","explanation":"Improves query performance.","example":"Partition by date.","key_points":["Faster reads"],"interview_tip":"Explain pruning."},
+
+"bucketing":{"level":"advanced","definition":"Dividing data into fixed buckets.","explanation":"Optimizes joins.","example":"Hive bucketing.","key_points":["Hash partition"],"interview_tip":"Explain difference from partitioning."},
+
+"data pipeline":{"level":"basic","definition":"Automated data processing workflow.","explanation":"Moves data through stages.","example":"Ingestion to analytics.","key_points":["Automation"],"interview_tip":"Explain reliability."},
+
+"stream processing":{"level":"advanced","definition":"Real-time data handling.","explanation":"Processes events continuously.","example":"Fraud detection.","key_points":["Low latency"],"interview_tip":"Explain windowing."},
+"data visualization":{"level":"basic","definition":"Graphical representation of data.","explanation":"Helps users understand patterns and trends quickly.","example":"Bar charts showing sales.","key_points":["Charts","Graphs","Dashboards"],"interview_tip":"Explain why visuals improve decision making."},
+
+"chart":{"level":"basic","definition":"Visual representation of data.","explanation":"Transforms numbers into visual insights.","example":"Line chart.","key_points":["Axes","Labels"],"interview_tip":"Mention clarity and simplicity."},
+
+"bar chart":{"level":"basic","definition":"Chart using bars to compare values.","explanation":"Useful for categorical comparison.","example":"Sales by region.","key_points":["Discrete categories"],"interview_tip":"Explain horizontal vs vertical bars."},
+
+"line chart":{"level":"basic","definition":"Chart connecting points with lines.","explanation":"Shows trends over time.","example":"Stock price trend.","key_points":["Time series"],"interview_tip":"Mention continuous data."},
+
+"pie chart":{"level":"basic","definition":"Circular chart showing proportions.","explanation":"Represents part-to-whole relationship.","example":"Market share.","key_points":["Percentages"],"interview_tip":"Avoid too many slices."},
+
+"scatter plot":{"level":"basic","definition":"Plot showing relationship between two variables.","explanation":"Helps detect correlation.","example":"Height vs weight.","key_points":["Correlation detection"],"interview_tip":"Explain clusters."},
+
+"heatmap":{"level":"basic","definition":"Color-coded matrix visualization.","explanation":"Shows intensity or correlation.","example":"Correlation matrix.","key_points":["Color gradients"],"interview_tip":"Explain interpretation."},
+
+"kpi":{"level":"basic","definition":"Key Performance Indicator metric.","explanation":"Measures business performance.","example":"Revenue growth.","key_points":["Goal tracking"],"interview_tip":"Explain SMART metrics."},
+
+"dashboard":{"level":"basic","definition":"Collection of visuals on one screen.","explanation":"Provides high-level overview.","example":"Sales dashboard.","key_points":["Interactive filters"],"interview_tip":"Explain storytelling."},
+
+"data storytelling":{"level":"intermediate","definition":"Communicating insights using visuals.","explanation":"Combines narrative with charts.","example":"Executive reports.","key_points":["Context","Narrative"],"interview_tip":"Explain audience focus."},
+
+"color theory":{"level":"basic","definition":"Use of colors in visualization.","explanation":"Improves readability and emphasis.","example":"Red for losses.","key_points":["Contrast","Consistency"],"interview_tip":"Avoid rainbow colors."},
+
+"visual hierarchy":{"level":"intermediate","definition":"Organizing visuals by importance.","explanation":"Guides viewer attention.","example":"Highlight KPI cards.","key_points":["Size","Color"],"interview_tip":"Explain layout balance."},
+
+"tableau":{"level":"basic","definition":"Visualization software for analytics.","explanation":"Creates dashboards using drag and drop.","example":"Sales analysis.","key_points":["Tableau Desktop"],"interview_tip":"Explain data blending."},
+
+"tableau worksheet":{"level":"basic","definition":"Single visualization canvas.","explanation":"Used to build charts.","example":"Bar chart worksheet.","key_points":["Marks card"],"interview_tip":"Explain shelves."},
+
+"tableau dashboard":{"level":"basic","definition":"Combination of worksheets.","explanation":"Interactive reporting interface.","example":"Marketing dashboard.","key_points":["Filters","Actions"],"interview_tip":"Explain layout containers."},
+
+"tableau story":{"level":"intermediate","definition":"Sequence of dashboards.","explanation":"Tells analytical narrative.","example":"Quarterly performance story.","key_points":["Story points"],"interview_tip":"Explain storytelling flow."},
+
+"tableau calculated field":{"level":"intermediate","definition":"Custom formula in Tableau.","explanation":"Creates derived metrics.","example":"Profit ratio.","key_points":["Expressions"],"interview_tip":"Explain aggregation."},
+
+"tableau lod expression":{"level":"advanced","definition":"Level of Detail calculation.","explanation":"Controls aggregation level.","example":"FIXED calculations.","key_points":["FIXED","INCLUDE","EXCLUDE"],"interview_tip":"Explain granularity."},
+
+"tableau filter":{"level":"basic","definition":"Limits displayed data.","explanation":"Improves focus and performance.","example":"Filter by region.","key_points":["Context filter"],"interview_tip":"Explain filter order."},
+
+"tableau parameter":{"level":"intermediate","definition":"User-controlled variable.","explanation":"Adds interactivity.","example":"Dynamic metric selection.","key_points":["Single value input"],"interview_tip":"Explain use cases."},
+
+"tableau action filter":{"level":"advanced","definition":"Interactive filter triggered by user action.","explanation":"Connects dashboards.","example":"Click bar to filter charts.","key_points":["Dashboard interactivity"],"interview_tip":"Explain drill-down."},
+
+"power bi":{"level":"basic","definition":"Business analytics tool by Microsoft.","explanation":"Used for dashboards and reporting.","example":"Finance report.","key_points":["Power Query","DAX"],"interview_tip":"Explain semantic model."},
+
+"power bi desktop":{"level":"basic","definition":"Development tool for Power BI.","explanation":"Used to create reports.","example":"Data modeling.","key_points":["Report view"],"interview_tip":"Explain data loading."},
+
+"power query":{"level":"basic","definition":"Data transformation tool in Power BI.","explanation":"Used for cleaning data.","example":"Remove duplicates.","key_points":["ETL tool"],"interview_tip":"Explain applied steps."},
+
+"dax":{"level":"advanced","definition":"Expression language in Power BI.","explanation":"Creates measures and calculations.","example":"SUMX function.","key_points":["Row context","Filter context"],"interview_tip":"Explain CALCULATE function."},
+
+"measure":{"level":"basic","definition":"Dynamic calculation in Power BI.","explanation":"Computed at query time.","example":"Total sales measure.","key_points":["Aggregations"],"interview_tip":"Explain difference from column."},
+
+"calculated column":{"level":"basic","definition":"Column created using DAX.","explanation":"Stored in data model.","example":"Profit column.","key_points":["Row level"],"interview_tip":"Compare with measures."},
+
+"slicer":{"level":"basic","definition":"Interactive filter visual.","explanation":"Allows user to filter report.","example":"Date slicer.","key_points":["User interaction"],"interview_tip":"Explain sync slicers."},
+
+"power bi dashboard":{"level":"basic","definition":"Collection of visuals pinned to one page.","explanation":"Provides overview metrics.","example":"Executive dashboard.","key_points":["Tiles"],"interview_tip":"Explain live connections."},
+
+"power bi report":{"level":"basic","definition":"Multi-page analytical document.","explanation":"Contains visuals and filters.","example":"Sales analysis report.","key_points":["Pages"],"interview_tip":"Explain drill-through."},
+
+"drill through":{"level":"intermediate","definition":"Navigate to detailed report page.","explanation":"Shows deeper insights.","example":"Click region for details.","key_points":["Context filtering"],"interview_tip":"Explain UX benefits."},
+
+"bookmark":{"level":"intermediate","definition":"Saved report state.","explanation":"Used for navigation and storytelling.","example":"Toggle views.","key_points":["Interactive UI"],"interview_tip":"Explain buttons."},
+
+"data modeling":{"level":"intermediate","definition":"Creating relationships between tables.","explanation":"Builds analytical structure.","example":"Fact and dimension tables.","key_points":["Star schema"],"interview_tip":"Explain cardinality."},
+
+"relationship":{"level":"basic","definition":"Connection between tables.","explanation":"Defines data flow.","example":"CustomerID linking tables.","key_points":["One-to-many"],"interview_tip":"Explain filter direction."},
+
+"visual interaction":{"level":"basic","definition":"How visuals affect each other.","explanation":"Controls filtering behavior.","example":"Chart filtering another chart.","key_points":["Cross filtering"],"interview_tip":"Explain edit interactions."},
+
+"conditional formatting":{"level":"basic","definition":"Formatting visuals based on values.","explanation":"Highlights important metrics.","example":"Red negative values.","key_points":["Rules","Gradients"],"interview_tip":"Explain business impact."},
+
+"card visual":{"level":"basic","definition":"Displays single KPI value.","explanation":"Shows important metric clearly.","example":"Total revenue card.","key_points":["Minimal design"],"interview_tip":"Explain KPI usage."},
+
+"matrix visual":{"level":"intermediate","definition":"Table with hierarchical rows.","explanation":"Used for pivot-style reports.","example":"Sales by region and product.","key_points":["Expand collapse"],"interview_tip":"Explain drill-down."},
+
+"machine learning":{"level":"basic","definition":"Machine learning enables systems to learn patterns from data.","explanation":"Instead of writing rules manually, models learn relationships between inputs and outputs.","example":"Spam email detection.","key_points":["Data driven","Pattern recognition"],"interview_tip":"Explain ML as learning from examples."},
+
+"supervised learning":{"level":"basic","definition":"Learning using labeled data.","explanation":"Model learns mapping from input to output.","example":"House price prediction.","key_points":["Regression","Classification"],"interview_tip":"Mention labels."},
+
+"unsupervised learning":{"level":"basic","definition":"Learning without labeled outputs.","explanation":"Finds patterns such as clusters.","example":"Customer segmentation.","key_points":["Clustering","Dimensionality reduction"],"interview_tip":"Explain difference from supervised."},
+
+"classification":{"level":"basic","definition":"Predicting categorical outcomes.","explanation":"Assigns labels to inputs.","example":"Spam or Not Spam.","key_points":["Binary","Multiclass"],"interview_tip":"Explain decision boundary."},
+
+"regression":{"level":"basic","definition":"Predicting continuous values.","explanation":"Estimates numeric output.","example":"Predicting salary.","key_points":["Linear models"],"interview_tip":"Mention error metrics."},
+
+"decision tree":{"level":"intermediate","definition":"Tree-based predictive model.","explanation":"Splits data using feature conditions.","example":"Loan approval.","key_points":["Gini","Entropy"],"interview_tip":"Explain pruning."},
+
+"random forest":{"level":"intermediate","definition":"Ensemble of decision trees.","explanation":"Combines multiple trees to improve accuracy.","example":"Fraud detection.","key_points":["Bagging","Voting"],"interview_tip":"Explain ensemble learning."},
+
+"gradient boosting":{"level":"advanced","definition":"Sequential ensemble algorithm.","explanation":"Each model corrects previous errors.","example":"XGBoost competitions.","key_points":["Boosting"],"interview_tip":"Compare bagging vs boosting."},
+
+"xgboost":{"level":"advanced","definition":"Optimized gradient boosting library.","explanation":"Uses regularization and parallelism.","example":"Tabular ML tasks.","key_points":["Speed","Accuracy"],"interview_tip":"Explain tree boosting."},
+
+"lightgbm":{"level":"advanced","definition":"Fast gradient boosting framework.","explanation":"Uses leaf-wise tree growth.","example":"Large datasets.","key_points":["Efficiency"],"interview_tip":"Explain difference from XGBoost."},
+
+"catboost":{"level":"advanced","definition":"Boosting model handling categorical variables.","explanation":"Reduces preprocessing steps.","example":"Marketing predictions.","key_points":["Ordered boosting"],"interview_tip":"Mention categorical encoding."},
+
+"k nearest neighbors":{"level":"basic","definition":"Instance-based algorithm.","explanation":"Predicts using nearest samples.","example":"Recommendation similarity.","key_points":["Distance metric"],"interview_tip":"Explain scaling importance."},
+
+"support vector machine":{"level":"advanced","definition":"Classifier using hyperplane separation.","explanation":"Maximizes margin between classes.","example":"Text classification.","key_points":["Kernel trick"],"interview_tip":"Explain margin concept."},
+
+"naive bayes":{"level":"basic","definition":"Probabilistic classifier based on Bayes theorem.","explanation":"Assumes feature independence.","example":"Spam filtering.","key_points":["Fast","Simple"],"interview_tip":"Explain independence assumption."},
+
+"feature engineering":{"level":"intermediate","definition":"Creating new features from raw data.","explanation":"Improves model performance.","example":"Date to month feature.","key_points":["Transformation"],"interview_tip":"Explain domain knowledge."},
+
+"feature scaling":{"level":"basic","definition":"Rescaling features to similar range.","explanation":"Improves optimization.","example":"StandardScaler.","key_points":["Normalization","Standardization"],"interview_tip":"Needed for SVM and KNN."},
+
+"one hot encoding":{"level":"basic","definition":"Converts categorical values into binary columns.","explanation":"Avoids ordinal relationships.","example":"Gender columns.","key_points":["Sparse vectors"],"interview_tip":"Explain dummy variable trap."},
+
+"label encoding":{"level":"basic","definition":"Assigns numeric labels to categories.","explanation":"Used for ordinal data.","example":"Education level.","key_points":["Ordered categories"],"interview_tip":"Avoid misuse."},
+
+"pca":{"level":"intermediate","definition":"Dimensionality reduction technique.","explanation":"Projects data into principal components.","example":"Visualizing high-dimensional data.","key_points":["Variance maximization"],"interview_tip":"Explain eigenvectors intuitively."},
+
+"cross validation":{"level":"intermediate","definition":"Repeated train-test splitting.","explanation":"Improves evaluation reliability.","example":"K-fold validation.","key_points":["Generalization"],"interview_tip":"Explain data leakage."},
+
+"train test split":{"level":"basic","definition":"Separating training and testing data.","explanation":"Prevents overfitting.","example":"80/20 split.","key_points":["Evaluation"],"interview_tip":"Explain validation set."},
+
+"accuracy":{"level":"basic","definition":"Correct predictions over total predictions.","explanation":"Simple evaluation metric.","example":"Binary classifier accuracy.","key_points":["Not good for imbalance"],"interview_tip":"Mention precision recall."},
+
+"precision":{"level":"basic","definition":"True positives over predicted positives.","explanation":"Measures exactness.","example":"Spam detection.","key_points":["False positives"],"interview_tip":"Explain tradeoff."},
+
+"recall":{"level":"basic","definition":"True positives over actual positives.","explanation":"Measures completeness.","example":"Disease detection.","key_points":["False negatives"],"interview_tip":"Explain sensitivity."},
+
+"f1 score":{"level":"intermediate","definition":"Harmonic mean of precision and recall.","explanation":"Balances false positives and negatives.","example":"Imbalanced datasets.","key_points":["Composite metric"],"interview_tip":"Explain formula."},
+
+"roc auc":{"level":"advanced","definition":"Area under ROC curve.","explanation":"Measures ranking performance.","example":"Model comparison.","key_points":["Threshold independent"],"interview_tip":"Explain curve intuition."},
+
+"confusion matrix":{"level":"basic","definition":"Table showing prediction outcomes.","explanation":"Displays TP, TN, FP, FN.","example":"Binary classifier evaluation.","key_points":["Error analysis"],"interview_tip":"Explain classification metrics."},
+
+"natural language processing":{"level":"basic","definition":"Processing human language using AI.","explanation":"Includes tokenization and embeddings.","example":"Chatbots.","key_points":["Text preprocessing"],"interview_tip":"Explain NLP pipeline."},
+
+"tokenization":{"level":"basic","definition":"Splitting text into tokens.","explanation":"First step in NLP.","example":"Word tokenization.","key_points":["Text cleaning"],"interview_tip":"Mention stopwords."},
+
+"stemming":{"level":"basic","definition":"Reducing words to root form.","explanation":"Removes suffixes.","example":"running → run.","key_points":["Heuristic method"],"interview_tip":"Compare with lemmatization."},
+
+"lemmatization":{"level":"basic","definition":"Converting words to dictionary form.","explanation":"More accurate than stemming.","example":"better → good.","key_points":["Context aware"],"interview_tip":"Explain difference."},
+
+"tf idf":{"level":"intermediate","definition":"Text importance weighting.","explanation":"Highlights rare but important words.","example":"Search ranking.","key_points":["TF","IDF"],"interview_tip":"Explain intuition."},
+
+"bag of words":{"level":"basic","definition":"Text represented as word frequency.","explanation":"Ignores word order.","example":"Document classification.","key_points":["Sparse vectors"],"interview_tip":"Compare with embeddings."},
+
+"word embedding":{"level":"advanced","definition":"Dense vector representation of words.","explanation":"Captures semantic meaning.","example":"Word2Vec.","key_points":["Semantic similarity"],"interview_tip":"Explain cosine similarity."},
+
+"cosine similarity":{"level":"basic","definition":"Measures similarity between vectors.","explanation":"Uses angle between vectors.","example":"Semantic search.","key_points":["Range -1 to 1"],"interview_tip":"Explain normalization."},
+
+"semantic search":{"level":"advanced","definition":"Search based on meaning rather than keywords.","explanation":"Uses embeddings.","example":"AI chatbots.","key_points":["Vector space"],"interview_tip":"Mention cosine similarity."},
+"deep learning":{"level":"advanced","definition":"Subset of machine learning using neural networks with multiple layers.","explanation":"Deep learning models learn complex patterns from large datasets.","example":"Image classification using CNN.","key_points":["Neural networks","Large data"],"interview_tip":"Explain difference between ML and DL."},
+
+"neural network":{"level":"advanced","definition":"Model inspired by biological neurons.","explanation":"Consists of layers of nodes learning weighted relationships.","example":"Digit recognition.","key_points":["Weights","Activation functions"],"interview_tip":"Explain forward propagation."},
+
+"activation function":{"level":"basic","definition":"Function applied to neuron output.","explanation":"Introduces non-linearity.","example":"ReLU function.","key_points":["Sigmoid","ReLU","Tanh"],"interview_tip":"Explain why non-linearity matters."},
+
+"relu":{"level":"basic","definition":"Rectified Linear Unit activation.","explanation":"Returns max(0,x).","example":"Hidden layer activation.","key_points":["Fast computation"],"interview_tip":"Mention vanishing gradient solution."},
+
+"sigmoid":{"level":"basic","definition":"Activation mapping values between 0 and 1.","explanation":"Often used in binary classification.","example":"Output probability.","key_points":["S-shaped curve"],"interview_tip":"Explain saturation issue."},
+
+"softmax":{"level":"advanced","definition":"Converts outputs into probabilities.","explanation":"Used in multi-class classification.","example":"Image classifier outputs.","key_points":["Probability distribution"],"interview_tip":"Explain normalization."},
+
+"cnn":{"level":"advanced","definition":"Convolutional Neural Network for images.","explanation":"Uses filters to extract spatial features.","example":"Face recognition.","key_points":["Convolution","Pooling"],"interview_tip":"Explain feature maps."},
+
+"rnn":{"level":"advanced","definition":"Recurrent neural network for sequences.","explanation":"Processes sequential data.","example":"Language modeling.","key_points":["Memory"],"interview_tip":"Explain vanishing gradients."},
+
+"lstm":{"level":"advanced","definition":"Improved RNN handling long dependencies.","explanation":"Uses gating mechanism.","example":"Time series forecasting.","key_points":["Forget gate"],"interview_tip":"Explain gates simply."},
+
+"attention mechanism":{"level":"expert","definition":"Mechanism focusing on important inputs.","explanation":"Assigns weights to different tokens.","example":"Machine translation.","key_points":["Self-attention"],"interview_tip":"Mention transformers."},
+
+"transformer architecture":{"level":"expert","definition":"Deep learning architecture based on attention.","explanation":"Processes sequences in parallel.","example":"GPT models.","key_points":["Encoder","Decoder"],"interview_tip":"Explain scalability advantage."},
+
+"bert":{"level":"expert","definition":"Bidirectional transformer model.","explanation":"Understands context from both directions.","example":"Text classification.","key_points":["Pretraining"],"interview_tip":"Explain masked language modeling."},
+
+"gpt model":{"level":"expert","definition":"Generative pre-trained transformer.","explanation":"Generates text using autoregressive learning.","example":"Chatbots.","key_points":["Text generation"],"interview_tip":"Explain next-token prediction."},
+
+"fine tuning":{"level":"advanced","definition":"Adapting pretrained model to new task.","explanation":"Uses smaller dataset.","example":"Domain-specific chatbot.","key_points":["Transfer learning"],"interview_tip":"Explain freezing layers."},
+
+"transfer learning":{"level":"advanced","definition":"Reusing pretrained models.","explanation":"Speeds up training.","example":"ImageNet pretrained CNN.","key_points":["Feature reuse"],"interview_tip":"Explain benefits."},
+
+"quantization":{"level":"advanced","definition":"Reducing model precision for speed.","explanation":"Compresses model size.","example":"Mobile deployment.","key_points":["INT8 models"],"interview_tip":"Explain tradeoff accuracy vs speed."},
+
+"pruning":{"level":"advanced","definition":"Removing unnecessary weights.","explanation":"Reduces model complexity.","example":"Edge AI.","key_points":["Sparse networks"],"interview_tip":"Explain efficiency."},
+
+"knowledge distillation":{"level":"expert","definition":"Training small model from large model.","explanation":"Transfers knowledge.","example":"Student-teacher models.","key_points":["Compression"],"interview_tip":"Explain student model."},
+
+"mlops":{"level":"advanced","definition":"Operational practices for ML lifecycle.","explanation":"Combines DevOps with ML engineering.","example":"CI/CD for models.","key_points":["Monitoring","Automation"],"interview_tip":"Explain lifecycle stages."},
+
+"model deployment":{"level":"basic","definition":"Making model accessible via API.","explanation":"Allows real-time predictions.","example":"Flask API deployment.","key_points":["REST endpoints"],"interview_tip":"Explain inference vs training."},
+
+"model monitoring":{"level":"advanced","definition":"Tracking model performance after deployment.","explanation":"Detects degradation.","example":"Accuracy drift alerts.","key_points":["Metrics tracking"],"interview_tip":"Explain retraining triggers."},
+
+"data drift":{"level":"advanced","definition":"Change in input data distribution.","explanation":"Affects model predictions.","example":"User behavior change.","key_points":["Monitoring needed"],"interview_tip":"Explain retraining."},
+
+"concept drift":{"level":"advanced","definition":"Change in relationship between input and output.","explanation":"Model assumptions become outdated.","example":"Market trend shift.","key_points":["Performance drop"],"interview_tip":"Explain difference from data drift."},
+
+"docker":{"level":"intermediate","definition":"Containerization platform.","explanation":"Packages app with dependencies.","example":"Deploy Flask API.","key_points":["Images","Containers"],"interview_tip":"Explain portability."},
+
+"api inference":{"level":"basic","definition":"Running model predictions via API.","explanation":"Users send requests to get results.","example":"Chatbot endpoint.","key_points":["POST requests"],"interview_tip":"Explain latency."},
+
+"vector database":{"level":"expert","definition":"Database optimized for embeddings.","explanation":"Stores vectors for similarity search.","example":"Pinecone.","key_points":["Semantic search"],"interview_tip":"Explain ANN search."},
+
+"embedding":{"level":"advanced","definition":"Numerical representation of data.","explanation":"Captures semantic meaning.","example":"Sentence embedding.","key_points":["High dimensional vectors"],"interview_tip":"Explain cosine similarity."},
+
+"rag":{"level":"expert","definition":"Retrieval Augmented Generation.","explanation":"Combines retrieval with LLM generation.","example":"Knowledge-based chatbot.","key_points":["Retriever","Generator"],"interview_tip":"Explain pipeline clearly."},
+
+"prompt engineering":{"level":"expert","definition":"Designing prompts for AI models.","explanation":"Improves output quality.","example":"Structured instructions.","key_points":["Few-shot prompts"],"interview_tip":"Explain system prompts."},
+
+"hallucination":{"level":"expert","definition":"AI generating incorrect facts.","explanation":"Occurs when model guesses information.","example":"Fake references.","key_points":["Mitigate using RAG"],"interview_tip":"Explain grounding."},
+
+"temperature parameter":{"level":"expert","definition":"Controls randomness of AI output.","explanation":"Higher temperature increases creativity.","example":"Creative text generation.","key_points":["0 deterministic","1 creative"],"interview_tip":"Explain decoding."},
+
+"top k sampling":{"level":"expert","definition":"Sampling from top k probable tokens.","explanation":"Limits randomness.","example":"Text generation.","key_points":["Controlled output"],"interview_tip":"Compare with top p."},
+
+"top p sampling":{"level":"expert","definition":"Nucleus sampling method.","explanation":"Selects tokens covering probability mass.","example":"LLM decoding.","key_points":["Dynamic selection"],"interview_tip":"Explain probability mass."},
+"chatbot":{"level":"basic","definition":"Software system that simulates conversation with users.","explanation":"Uses NLP and machine learning to understand queries and provide responses.","example":"Customer support assistant.","key_points":["User interaction","Automation"],"interview_tip":"Explain difference between rule-based and AI chatbots."},
+
+"intent recognition":{"level":"advanced","definition":"Process of identifying user intention from text.","explanation":"Used to classify what the user wants.","example":"Booking intent detection.","key_points":["NLP classification"],"interview_tip":"Explain intent vs entity."},
+
+"entity extraction":{"level":"advanced","definition":"Identifying important values from text.","explanation":"Extracts structured information.","example":"Date or location in query.","key_points":["NER models"],"interview_tip":"Mention named entity recognition."},
+
+"dialog management":{"level":"advanced","definition":"Controls conversation flow.","explanation":"Maintains context across messages.","example":"Multi-step chatbot.","key_points":["State tracking"],"interview_tip":"Explain conversation state."},
+
+"slot filling":{"level":"advanced","definition":"Collecting required parameters during conversation.","explanation":"Ensures chatbot gathers needed data.","example":"Booking system asking date and time.","key_points":["Conversation flow"],"interview_tip":"Explain structured dialogs."},
+
+"fallback response":{"level":"basic","definition":"Default reply when chatbot cannot understand.","explanation":"Improves user experience.","example":"I didn’t understand that.","key_points":["Error handling"],"interview_tip":"Explain confidence threshold."},
+
+"context window":{"level":"expert","definition":"Amount of conversation history model can process.","explanation":"Defines how much past text is remembered.","example":"LLM context tokens.","key_points":["Memory limit"],"interview_tip":"Explain token limits."},
+
+"multi turn conversation":{"level":"advanced","definition":"Conversation with multiple sequential messages.","explanation":"Requires memory of previous interactions.","example":"Interview assistant.","key_points":["Context tracking"],"interview_tip":"Explain state handling."},
+
+"semantic embedding":{"level":"advanced","definition":"Numerical representation capturing meaning.","explanation":"Used for semantic similarity search.","example":"Sentence embeddings.","key_points":["Vector representation"],"interview_tip":"Explain embedding space."},
+
+"sentence transformers":{"level":"expert","definition":"Models generating semantic embeddings.","explanation":"Used for semantic search and similarity.","example":"all-MiniLM model.","key_points":["Context-aware vectors"],"interview_tip":"Explain transformer encoders."},
+
+"vector indexing":{"level":"expert","definition":"Organizing embeddings for fast retrieval.","explanation":"Optimizes similarity search.","example":"FAISS index.","key_points":["ANN search"],"interview_tip":"Explain indexing methods."},
+
+"approximate nearest neighbor":{"level":"expert","definition":"Fast similarity search algorithm.","explanation":"Finds similar vectors efficiently.","example":"HNSW index.","key_points":["Speed vs accuracy"],"interview_tip":"Explain ANN concept."},
+
+"hybrid search":{"level":"expert","definition":"Combines keyword and semantic search.","explanation":"Improves retrieval accuracy.","example":"Search engines.","key_points":["BM25 + embeddings"],"interview_tip":"Explain reranking."},
+
+"reranking":{"level":"expert","definition":"Reordering search results using advanced models.","explanation":"Improves response relevance.","example":"LLM reranker.","key_points":["Relevance scoring"],"interview_tip":"Explain ranking pipeline."},
+
+"chunking strategy":{"level":"expert","definition":"Splitting large documents into smaller pieces.","explanation":"Improves retrieval performance.","example":"RAG systems.","key_points":["Token limits"],"interview_tip":"Explain sliding window chunking."},
+
+"explainable ai":{"level":"advanced","definition":"Techniques making models interpretable.","explanation":"Helps understand predictions.","example":"Feature importance charts.","key_points":["Transparency"],"interview_tip":"Mention SHAP and LIME."},
+
+"shap values":{"level":"expert","definition":"Feature attribution method based on game theory.","explanation":"Shows contribution of each feature.","example":"Credit risk explanation.","key_points":["Local explanations"],"interview_tip":"Explain Shapley values."},
+
+"lime":{"level":"advanced","definition":"Local interpretable model explanations.","explanation":"Approximates model locally.","example":"Explain single prediction.","key_points":["Model agnostic"],"interview_tip":"Explain surrogate model."},
+
+"partial dependence plot":{"level":"advanced","definition":"Shows effect of feature on prediction.","explanation":"Averages model response.","example":"Age vs probability curve.","key_points":["Global interpretation"],"interview_tip":"Explain marginal effect."},
+
+"feature importance":{"level":"basic","definition":"Measure of feature contribution.","explanation":"Shows which inputs matter most.","example":"Tree-based models.","key_points":["Ranking"],"interview_tip":"Explain permutation importance."},
+
+"maximum likelihood estimation":{"level":"advanced","definition":"Method to estimate model parameters.","explanation":"Maximizes probability of observed data.","example":"Logistic regression.","key_points":["Statistical inference"],"interview_tip":"Explain likelihood."},
+
+"bayesian network":{"level":"expert","definition":"Probabilistic graphical model.","explanation":"Represents conditional dependencies.","example":"Medical diagnosis model.","key_points":["Directed graph"],"interview_tip":"Explain prior and posterior."},
+
+"kolmogorov smirnov test":{"level":"advanced","definition":"Statistical test comparing distributions.","explanation":"Detects distribution changes.","example":"Data drift detection.","key_points":["Non-parametric"],"interview_tip":"Explain cumulative distribution."},
+
+"mann whitney test":{"level":"advanced","definition":"Non-parametric test comparing two groups.","explanation":"Used when data not normally distributed.","example":"A/B testing.","key_points":["Rank-based"],"interview_tip":"Explain median comparison."},
+
+"prompt template":{"level":"expert","definition":"Structured format for AI prompts.","explanation":"Ensures consistent responses.","example":"Interview assistant template.","key_points":["Reusable prompts"],"interview_tip":"Explain system vs user prompts."},
+
+"chain of thought prompting":{"level":"expert","definition":"Prompting technique encouraging step-by-step reasoning.","explanation":"Improves complex reasoning tasks.","example":"Math problem solving.","key_points":["Reasoning traces"],"interview_tip":"Explain structured reasoning."},
+
+"guardrails":{"level":"expert","definition":"Safety mechanisms restricting AI output.","explanation":"Prevents harmful responses.","example":"Content filters.","key_points":["Policy enforcement"],"interview_tip":"Explain AI safety."},
+
+"inference pipeline":{"level":"advanced","definition":"Process from input to prediction.","explanation":"Includes preprocessing and model inference.","example":"Chatbot response flow.","key_points":["Latency optimization"],"interview_tip":"Explain preprocessing stage."},
+
+"batch inference":{"level":"advanced","definition":"Processing multiple inputs together.","explanation":"Improves efficiency.","example":"Batch predictions.","key_points":["Throughput optimization"],"interview_tip":"Explain offline inference."},
+
+"async processing":{"level":"advanced","definition":"Non-blocking task execution.","explanation":"Improves performance in APIs.","example":"Async Flask endpoints.","key_points":["Concurrency"],"interview_tip":"Explain event loop."},
+
+"rate limiting":{"level":"advanced","definition":"Restricting number of API requests.","explanation":"Prevents overload.","example":"Chatbot API limits.","key_points":["Security","Performance"],"interview_tip":"Explain throttling."},
+
+"caching layer":{"level":"advanced","definition":"Storing frequent responses temporarily.","explanation":"Reduces computation time.","example":"Redis cache.","key_points":["Speed improvement"],"interview_tip":"Explain cache invalidation."},
+
+"microservices architecture":{"level":"expert","definition":"System split into independent services.","explanation":"Improves scalability and maintenance.","example":"Chatbot backend services.","key_points":["Loose coupling"],"interview_tip":"Explain service communication."},
+
+"api gateway":{"level":"expert","definition":"Single entry point for APIs.","explanation":"Manages routing and security.","example":"AWS API Gateway.","key_points":["Centralized control"],"interview_tip":"Explain request routing."},
+
+"load balancing":{"level":"advanced","definition":"Distributing traffic across servers.","explanation":"Improves reliability.","example":"High-traffic chatbot.","key_points":["Scalability"],"interview_tip":"Explain round robin."},
+
+"scalability":{"level":"basic","definition":"Ability to handle growing workload.","explanation":"Important for production AI systems.","example":"Cloud deployment.","key_points":["Horizontal scaling"],"interview_tip":"Explain performance optimization."}
 }

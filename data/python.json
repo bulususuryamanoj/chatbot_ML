@@ -1,0 +1,967 @@
+[
+  {
+    "tag": "what_is_python",
+    "patterns": [
+      "What is Python?",
+      "Define Python",
+      "Explain Python",
+      "Python meaning",
+      "Introduction to Python",
+      "Tell me about Python",
+      "What kind of language is Python?",
+      "Overview of Python",
+      "Explain Python in simple words"
+    ],
+    "response": "Python is a high-level, interpreted, object-oriented programming language known for its simplicity and readability. It is widely used in web development, data science, machine learning, automation, scripting, and software development."
+  },
+  {
+    "tag": "who_created_python",
+    "patterns": [
+      "Who created Python?",
+      "Founder of Python",
+      "Who developed Python?",
+      "Who invented Python?",
+      "Father of Python"
+    ],
+    "response": "Python was created by Guido van Rossum in 1991. He designed Python with the goal of making code simple and readable."
+  },
+  {
+    "tag": "why_python_popular",
+    "patterns": [
+      "Why is Python popular?",
+      "Advantages of Python",
+      "Why should I learn Python?",
+      "Benefits of Python",
+      "Why Python is trending?"
+    ],
+    "response": "Python is popular because it is easy to learn, has simple syntax, supports multiple paradigms, and has powerful libraries for AI, web development, automation, and data science."
+  },
+  {
+    "tag": "features_of_python",
+    "patterns": [
+      "Features of Python",
+      "Key features of Python",
+      "Characteristics of Python",
+      "Important features in Python"
+    ],
+    "response": "Python features include readability, interpreted execution, dynamic typing, object-oriented programming, portability, and a huge standard library."
+  },
+  {
+    "tag": "python_versions",
+    "patterns": [
+      "Python versions",
+      "Difference between Python 2 and Python 3",
+      "Latest Python version"
+    ],
+    "response": "Python 3 is the latest and recommended version. Python 2 is outdated and no longer officially supported."
+  },
+  {
+    "tag": "interpreted_language",
+    "patterns": [
+      "Is Python interpreted?",
+      "What is interpreted language?",
+      "Python compiled or interpreted?"
+    ],
+    "response": "Python is an interpreted language, meaning code is executed line-by-line by the interpreter."
+  },
+  {
+    "tag": "python_indentation",
+    "patterns": [
+      "What is indentation in Python?",
+      "Why indentation is important?"
+    ],
+    "response": "Indentation in Python defines code blocks. It replaces braces used in other languages."
+  },
+  {
+    "tag": "python_variables",
+    "patterns": [
+      "What are variables in Python?",
+      "Define Python variables",
+      "How to create variable in Python?"
+    ],
+    "response": "Variables are containers for storing data values. Python uses dynamic typing, so no need to declare type explicitly."
+  },
+  {
+    "tag": "data_types_python",
+    "patterns": [
+      "What are data types in Python?",
+      "List data types in Python",
+      "Built in data types"
+    ],
+    "response": "Common Python data types include int, float, str, bool, list, tuple, set, and dictionary."
+  },
+  {
+    "tag": "python_string",
+    "patterns": [
+      "What is string in Python?",
+      "Explain string in Python"
+    ],
+    "response": "A string is a sequence of characters enclosed in quotes."
+  },
+
+  {
+    "tag": "python_list",
+    "patterns": [
+      "What is list in Python?",
+      "Explain Python list"
+    ],
+    "response": "A list is an ordered, mutable collection that allows duplicate values."
+  },
+  {
+    "tag": "python_tuple",
+    "patterns": [
+      "What is tuple in Python?",
+      "Explain Python tuple"
+    ],
+    "response": "A tuple is an ordered, immutable collection."
+  },
+  {
+    "tag": "python_set",
+    "patterns": [
+      "What is set in Python?"
+    ],
+    "response": "A set is an unordered collection of unique elements."
+  },
+  {
+    "tag": "python_dictionary",
+    "patterns": [
+      "What is dictionary in Python?"
+    ],
+    "response": "A dictionary is a collection of key-value pairs."
+  },
+  {
+    "tag": "list_vs_tuple",
+    "patterns": [
+      "Difference between list and tuple"
+    ],
+    "response": "Lists are mutable while tuples are immutable."
+  },
+  {
+    "tag": "python_operators",
+    "patterns": [
+      "Types of operators in Python"
+    ],
+    "response": "Operators include arithmetic, logical, comparison, assignment, identity, membership, and bitwise."
+  },
+  {
+    "tag": "if_statement",
+    "patterns": [
+      "What is if statement?"
+    ],
+    "response": "The if statement is used for decision-making based on conditions."
+  },
+  {
+    "tag": "for_loop",
+    "patterns": [
+      "What is for loop?"
+    ],
+    "response": "A for loop is used to iterate over sequences like lists and strings."
+  },
+  {
+    "tag": "while_loop",
+    "patterns": [
+      "What is while loop?"
+    ],
+    "response": "A while loop executes code as long as the condition is true."
+  },
+  {
+    "tag": "break_continue",
+    "patterns": [
+      "What is break and continue?"
+    ],
+    "response": "Break stops the loop. Continue skips the current iteration."
+  },
+
+  {
+    "tag": "python_functions",
+    "patterns": [
+      "What is function in Python?"
+    ],
+    "response": "A function is a reusable block of code defined using the def keyword."
+  },
+  {
+    "tag": "function_arguments",
+    "patterns": [
+      "Types of function arguments?"
+    ],
+    "response": "Python supports positional, keyword, default, and variable-length arguments."
+  },
+  {
+    "tag": "lambda_function",
+    "patterns": [
+      "What is lambda function?"
+    ],
+    "response": "A lambda function is an anonymous function defined using the lambda keyword."
+  },
+  {
+    "tag": "python_oop",
+    "patterns": [
+      "What is OOP in Python?"
+    ],
+    "response": "OOP is a programming paradigm based on objects and classes."
+  },
+  {
+    "tag": "class_in_python",
+    "patterns": [
+      "What is class?"
+    ],
+    "response": "A class is a blueprint for creating objects."
+  },
+  {
+    "tag": "object_in_python",
+    "patterns": [
+      "What is object?"
+    ],
+    "response": "An object is an instance of a class."
+  },
+  {
+    "tag": "inheritance_python",
+    "patterns": [
+      "What is inheritance?"
+    ],
+    "response": "Inheritance allows a class to inherit properties from another class."
+  },
+  {
+    "tag": "polymorphism_python",
+    "patterns": [
+      "What is polymorphism?"
+    ],
+    "response": "Polymorphism allows methods to behave differently based on context."
+  },
+  {
+    "tag": "encapsulation_python",
+    "patterns": [
+      "What is encapsulation?"
+    ],
+    "response": "Encapsulation hides data and restricts direct access."
+  },
+  {
+    "tag": "abstraction_python",
+    "patterns": [
+      "What is abstraction?"
+    ],
+    "response": "Abstraction hides implementation details and shows only functionality."
+  },
+
+  {
+    "tag": "python_exceptions",
+    "patterns": [
+      "What is exception handling?"
+    ],
+    "response": "Exception handling is used to manage runtime errors using try, except, and finally blocks."
+  },
+  {
+    "tag": "python_modules",
+    "patterns": [
+      "What is module?"
+    ],
+    "response": "A module is a file containing Python code."
+  },
+  {
+    "tag": "python_packages",
+    "patterns": [
+      "What is package?"
+    ],
+    "response": "A package is a collection of modules."
+  },
+  {
+    "tag": "pip",
+    "patterns": [
+      "What is pip?"
+    ],
+    "response": "pip is the package manager used to install Python libraries."
+  },
+  {
+    "tag": "virtual_environment",
+    "patterns": [
+      "What is virtual environment?"
+    ],
+    "response": "A virtual environment isolates dependencies for different projects."
+  },
+  {
+    "tag": "python_file_handling",
+    "patterns": [
+      "What is file handling?"
+    ],
+    "response": "File handling allows reading and writing files using open()."
+  },
+  {
+    "tag": "python_decorators",
+    "patterns": [
+      "What are decorators?"
+    ],
+    "response": "Decorators modify the behavior of functions without changing their code."
+  },
+  {
+    "tag": "python_generators",
+    "patterns": [
+      "What are generators?"
+    ],
+    "response": "Generators produce values one at a time using the yield keyword."
+  },
+  {
+    "tag": "python_multithreading",
+    "patterns": [
+      "What is multithreading?"
+    ],
+    "response": "Multithreading allows multiple threads to run concurrently."
+  },
+  {
+    "tag": "deep_copy_vs_shallow_copy",
+    "patterns": [
+      "Difference between deep copy and shallow copy",
+      "What is deep copy in Python?",
+      "What is shallow copy?",
+      "Explain deep vs shallow copy",
+      "How copy works in Python?",
+      "copy module in Python",
+      "When to use deepcopy?",
+      "Shallow copy example",
+      "Deep copy example",
+      "copy vs deepcopy",
+      "Mutable copy behavior",
+      "How object copying works?",
+      "Nested object copying",
+      "List copy vs deepcopy",
+      "Copy function Python"
+    ],
+    "response": "Shallow copy copies only the reference of nested objects, while deep copy creates a completely independent copy of the object and its nested elements. Deep copy is done using copy.deepcopy()."
+  },
+
+  {
+    "tag": "python_memory_management",
+    "patterns": [
+      "How Python manages memory?",
+      "Explain memory management in Python",
+      "How Python allocates memory?",
+      "Python memory model",
+      "Garbage collection in Python",
+      "Memory allocation Python",
+      "Reference counting Python",
+      "Python heap memory",
+      "Stack vs heap in Python",
+      "Memory leaks in Python",
+      "Automatic memory management",
+      "Python object storage",
+      "Memory optimization Python",
+      "Internal memory working",
+      "How Python frees memory?"
+    ],
+    "response": "Python uses automatic memory management with reference counting and garbage collection. Objects are stored in heap memory, and when reference count becomes zero, memory is freed."
+  },
+
+  {
+    "tag": "python_gil",
+    "patterns": [
+      "What is GIL?",
+      "Explain Global Interpreter Lock",
+      "Why Python has GIL?",
+      "How GIL works?",
+      "GIL problem in Python",
+      "What is Global Interpreter Lock?",
+      "Does Python support multithreading?",
+      "Why threading is slow in Python?",
+      "GIL interview question",
+      "GIL limitations",
+      "How to overcome GIL?",
+      "GIL vs multiprocessing",
+      "Concurrency issue Python",
+      "Threading vs multiprocessing",
+      "Python performance issue"
+    ],
+    "response": "The Global Interpreter Lock (GIL) ensures that only one thread executes Python bytecode at a time. It simplifies memory management but limits CPU-bound multithreading performance."
+  },
+
+  {
+    "tag": "python_multithreading_vs_multiprocessing",
+    "patterns": [
+      "Difference between multithreading and multiprocessing",
+      "Thread vs process in Python",
+      "Multithreading vs multiprocessing",
+      "When to use multiprocessing?",
+      "Concurrency in Python",
+      "Parallel processing Python",
+      "CPU bound vs IO bound tasks",
+      "Process module Python",
+      "Threading module Python",
+      "Which is faster threading or multiprocessing?",
+      "Multiprocessing example",
+      "Threading example",
+      "Parallel execution Python",
+      "How to achieve parallelism?",
+      "Process pool vs thread pool"
+    ],
+    "response": "Multithreading is best for IO-bound tasks, while multiprocessing is better for CPU-bound tasks. Multiprocessing bypasses the GIL by using separate processes."
+  },
+
+  {
+    "tag": "python_async_programming",
+    "patterns": [
+      "What is async in Python?",
+      "Explain async and await",
+      "Asynchronous programming Python",
+      "How async works?",
+      "Coroutine in Python",
+      "Event loop Python",
+      "Asyncio module",
+      "Difference between threading and async",
+      "Non blocking code Python",
+      "Async example",
+      "How to use await?",
+      "Concurrent execution Python",
+      "Async interview question",
+      "Async vs sync",
+      "Real world async usage"
+    ],
+    "response": "Asynchronous programming allows non-blocking execution using async and await keywords. It uses event loops and coroutines for efficient concurrency."
+  },
+
+  {
+    "tag": "python_iterators",
+    "patterns": [
+      "What is iterator?",
+      "Explain iterator in Python",
+      "Iterator vs iterable",
+      "How iter works?",
+      "Next function Python",
+      "Custom iterator Python",
+      "Iterable objects",
+      "Iterator protocol",
+      "Iter and next usage",
+      "Loop internally works how?",
+      "Iterator example",
+      "Why use iterators?",
+      "Generator vs iterator",
+      "Iterator methods",
+      "StopIteration exception"
+    ],
+    "response": "An iterator is an object that implements __iter__() and __next__() methods. It allows iteration over collections one element at a time."
+  },
+
+  {
+    "tag": "python_metaclasses",
+    "patterns": [
+      "What is metaclass?",
+      "Explain metaclasses in Python",
+      "How metaclass works?",
+      "Type in Python",
+      "Custom metaclass example",
+      "Metaclass interview question",
+      "Why use metaclass?",
+      "Class of a class Python",
+      "Advanced OOP Python",
+      "Meta programming Python",
+      "Metaclass usage",
+      "Metaclass vs class",
+      "How classes are created?",
+      "type() function usage",
+      "Dynamic class creation"
+    ],
+    "response": "A metaclass is a class of a class. It defines how classes behave. In Python, 'type' is the default metaclass."
+  },
+
+  {
+    "tag": "python_context_manager",
+    "patterns": [
+      "What is context manager?",
+      "Explain with statement",
+      "How with works?",
+      "Context manager example",
+      "__enter__ and __exit__",
+      "Resource management Python",
+      "File handling with",
+      "Custom context manager",
+      "Why use with statement?",
+      "Managing resources safely",
+      "Context manager interview",
+      "Automatic closing files",
+      "Handling exceptions with",
+      "Contextlib module",
+      "Best practice resource handling"
+    ],
+    "response": "Context managers manage resources efficiently using the 'with' statement. They use __enter__ and __exit__ methods to ensure proper cleanup."
+  },
+
+  {
+    "tag": "python_lambda_vs_function",
+    "patterns": [
+      "Difference between lambda and function",
+      "Lambda vs def",
+      "When to use lambda?",
+      "Anonymous function Python",
+      "Lambda expression example",
+      "Lambda interview question",
+      "Lambda limitations",
+      "Can lambda have multiple statements?",
+      "Lambda syntax",
+      "Lambda vs normal function",
+      "Short function Python",
+      "Functional programming Python",
+      "Inline functions",
+      "Why lambda is useful?",
+      "Lambda in map filter reduce"
+    ],
+    "response": "Lambda functions are anonymous, short functions defined in one line. They are useful for simple operations and functional programming."
+  },
+
+  {
+    "tag": "python_list_comprehension",
+    "patterns": [
+      "What is list comprehension?",
+      "Explain list comprehension",
+      "List comprehension example",
+      "Why use list comprehension?",
+      "Short way to create list",
+      "List comprehension syntax",
+      "Nested list comprehension",
+      "Comprehension vs loop",
+      "Performance of comprehension",
+      "Conditional list comprehension",
+      "Pythonic way to write loop",
+      "Create list in one line",
+      "Functional list creation",
+      "Best practice list creation",
+      "List comprehension interview"
+    ],
+    "response": "List comprehension is a concise way to create lists in a single line using expressions and optional conditions."
+  },
+  {
+    "tag": "python_compilation_process",
+    "patterns": [
+      "How Python executes code?",
+      "Explain Python execution process",
+      "Python compilation process",
+      "Is Python compiled or interpreted internally?",
+      "How Python runs a program?",
+      "What happens when we run Python code?",
+      "Python code to bytecode process",
+      "Execution model Python",
+      "Python interpreter working",
+      "How Python converts code?",
+      "Internal working of Python",
+      "Does Python compile code?",
+      "Step by step execution Python",
+      "How .py file runs?",
+      "Python runtime process"
+    ],
+    "response": "Python first compiles source code into bytecode (.pyc files) and then executes it using the Python Virtual Machine (PVM)."
+  },
+
+  {
+    "tag": "python_bytecode",
+    "patterns": [
+      "What is bytecode?",
+      "Explain Python bytecode",
+      "What are .pyc files?",
+      "Python bytecode meaning",
+      "How bytecode works?",
+      "Bytecode vs machine code",
+      "Where Python stores bytecode?",
+      "Compiled Python files",
+      "Dis module Python",
+      "Bytecode interpreter",
+      "Low level Python execution",
+      "Python VM working",
+      "Bytecode generation process",
+      "Why Python generates pyc?",
+      "How to view bytecode?"
+    ],
+    "response": "Bytecode is an intermediate low-level representation of Python code generated after compilation. It is executed by the Python Virtual Machine."
+  },
+
+  {
+    "tag": "python_virtual_machine",
+    "patterns": [
+      "What is Python Virtual Machine?",
+      "Explain PVM",
+      "How PVM works?",
+      "Python runtime environment",
+      "Role of PVM",
+      "Interpreter vs PVM",
+      "Does Python have VM?",
+      "Python internal architecture",
+      "PVM explanation",
+      "Execution engine Python",
+      "How bytecode executed?",
+      "Virtual machine in Python",
+      "Python architecture",
+      "Internal components Python",
+      "Python execution engine"
+    ],
+    "response": "The Python Virtual Machine (PVM) executes bytecode instructions line by line. It is the runtime engine of Python."
+  },
+
+  {
+    "tag": "dunder_methods",
+    "patterns": [
+      "What are dunder methods?",
+      "Explain magic methods",
+      "__init__ meaning",
+      "__str__ vs __repr__",
+      "Special methods Python",
+      "What is __name__?",
+      "Python special methods",
+      "Operator overloading Python",
+      "Double underscore methods",
+      "Dunder method example",
+      "Magic functions Python",
+      "Overriding built in methods",
+      "Object lifecycle Python",
+      "Constructor Python",
+      "Destructor Python"
+    ],
+    "response": "Dunder (double underscore) methods like __init__, __str__, and __repr__ are special methods that define object behavior in Python."
+  },
+
+  {
+    "tag": "python_data_model",
+    "patterns": [
+      "What is Python data model?",
+      "Explain data model in Python",
+      "Object model Python",
+      "Everything is object?",
+      "How Python handles objects?",
+      "Internal object representation",
+      "Attributes and methods Python",
+      "Dynamic typing explanation",
+      "Python object behavior",
+      "Memory representation objects",
+      "Data model interview",
+      "Object identity Python",
+      "Mutable vs immutable internals",
+      "Python attribute lookup",
+      "Method resolution order"
+    ],
+    "response": "Python's data model defines how objects behave, including attributes, methods, and special operations. Everything in Python is an object."
+  },
+
+  {
+    "tag": "method_resolution_order",
+    "patterns": [
+      "What is MRO?",
+      "Explain method resolution order",
+      "How inheritance resolves methods?",
+      "Multiple inheritance MRO",
+      "Diamond problem Python",
+      "MRO interview question",
+      "C3 linearization",
+      "super() usage",
+      "Inheritance conflict resolution",
+      "Order of method execution",
+      "How Python resolves methods?",
+      "MRO example",
+      "super keyword Python",
+      "Inheritance hierarchy",
+      "Advanced OOP question"
+    ],
+    "response": "Method Resolution Order (MRO) defines the order in which Python looks for a method in multiple inheritance scenarios. Python uses C3 linearization."
+  },
+
+  {
+    "tag": "mutable_vs_immutable",
+    "patterns": [
+      "Mutable vs immutable",
+      "Explain mutable objects",
+      "Immutable objects Python",
+      "Why string immutable?",
+      "List mutable?",
+      "Tuple immutable?",
+      "Memory behavior Python",
+      "Object modification Python",
+      "Difference between mutable and immutable",
+      "Interview question mutable",
+      "Can we change tuple?",
+      "String modification Python",
+      "Object state change",
+      "Immutable benefits",
+      "Data safety Python"
+    ],
+    "response": "Mutable objects (like lists) can be changed after creation, while immutable objects (like strings and tuples) cannot."
+  },
+
+  {
+    "tag": "python_slots",
+    "patterns": [
+      "What is __slots__?",
+      "Explain slots in Python",
+      "Memory optimization Python",
+      "Reduce memory usage Python",
+      "Slots interview question",
+      "Class memory control",
+      "Restrict attributes Python",
+      "Why use slots?",
+      "Advanced class optimization",
+      "Slots vs normal class",
+      "Performance improvement Python",
+      "Attribute control Python",
+      "Internal storage Python",
+      "Object attribute storage",
+      "Memory efficient classes"
+    ],
+    "response": "__slots__ is used to restrict dynamic attribute creation and reduce memory usage in Python classes."
+  },
+
+  {
+    "tag": "python_pickling",
+    "patterns": [
+      "What is pickling?",
+      "Explain pickle module",
+      "Serialization Python",
+      "Deserialize Python object",
+      "Pickle vs JSON",
+      "Save object Python",
+      "Store object file Python",
+      "Object persistence Python",
+      "Pickle interview question",
+      "Security issues pickle",
+      "Load object Python",
+      "Dump object Python",
+      "Data serialization Python",
+      "Transfer objects Python",
+      "Pickle example"
+    ],
+    "response": "Pickling is the process of converting a Python object into a byte stream for storage or transfer. It is done using the pickle module."
+  },
+
+  {
+    "tag": "python_thread_safety",
+    "patterns": [
+      "What is thread safety?",
+      "Thread safe code Python",
+      "Race condition Python",
+      "Concurrency issues",
+      "Lock in Python",
+      "Synchronization Python",
+      "Threading lock example",
+      "Deadlock Python",
+      "GIL and thread safety",
+      "Multithreading interview",
+      "Shared resources Python",
+      "Thread synchronization",
+      "Avoid race condition",
+      "Critical section Python",
+      "Parallel safety Python"
+    ],
+    "response": "Thread safety ensures that shared data is accessed safely by multiple threads. Python provides Lock, RLock, and other synchronization primitives."
+  },
+  {
+    "tag": "cpython_vs_pypy",
+    "patterns": [
+      "Difference between CPython and PyPy",
+      "What is CPython?",
+      "What is PyPy?",
+      "CPython vs PyPy performance",
+      "Which Python implementation is faster?",
+      "Python interpreter types",
+      "Alternative Python implementations",
+      "Jython vs CPython",
+      "IronPython vs CPython",
+      "Best Python interpreter",
+      "PyPy advantages",
+      "CPython architecture",
+      "Python runtime differences",
+      "Implementation of Python",
+      "Python execution engines"
+    ],
+    "response": "CPython is the standard Python implementation written in C. PyPy is an alternative implementation using Just-In-Time (JIT) compilation, which can offer better performance in some cases."
+  },
+
+  {
+    "tag": "python_garbage_collection",
+    "patterns": [
+      "How garbage collection works?",
+      "Explain garbage collection in Python",
+      "GC module Python",
+      "Reference counting explained",
+      "Cyclic garbage collection",
+      "Memory cleanup Python",
+      "How Python removes unused objects?",
+      "Garbage collector interview question",
+      "GC thresholds Python",
+      "Manual garbage collection",
+      "Memory leak detection",
+      "GC debugging Python",
+      "Del keyword Python",
+      "Object lifecycle Python",
+      "Automatic memory cleanup"
+    ],
+    "response": "Python uses reference counting and cyclic garbage collection to free unused memory. The gc module helps control garbage collection manually."
+  },
+
+  {
+    "tag": "python_performance_optimization",
+    "patterns": [
+      "How to optimize Python code?",
+      "Improve Python performance",
+      "Speed up Python program",
+      "Performance tuning Python",
+      "Profiling Python code",
+      "cProfile usage",
+      "Time complexity Python",
+      "Efficient coding practices",
+      "Reduce execution time",
+      "Memory optimization tips",
+      "Optimize loops Python",
+      "Best practices performance",
+      "Avoid slow code Python",
+      "High performance Python",
+      "Performance interview question"
+    ],
+    "response": "Python performance can be improved using profiling tools like cProfile, optimizing algorithms, using built-in functions, avoiding unnecessary loops, and leveraging libraries like NumPy."
+  },
+
+  {
+    "tag": "python_c_extensions",
+    "patterns": [
+      "What are C extensions in Python?",
+      "Explain Python C API",
+      "Why use C with Python?",
+      "Improve performance using C",
+      "Python extension modules",
+      "Cython usage",
+      "Embedding C in Python",
+      "CPython internals",
+      "Native extensions Python",
+      "High performance modules",
+      "Compile Python with C",
+      "Boost Python performance",
+      "C library integration",
+      "Call C from Python",
+      "Advanced Python integration"
+    ],
+    "response": "Python supports C extensions using the Python C API. This allows performance-critical code to be written in C and integrated with Python."
+  },
+
+  {
+    "tag": "python_debugging",
+    "patterns": [
+      "How to debug Python code?",
+      "Explain pdb module",
+      "Debugging tools Python",
+      "Find bugs Python",
+      "Traceback explanation",
+      "Logging vs print",
+      "Error tracking Python",
+      "Debugging interview question",
+      "Step by step debugging",
+      "Breakpoint in Python",
+      "VS Code debugging Python",
+      "Advanced debugging techniques",
+      "Stack trace Python",
+      "Exception debugging",
+      "Best debugging practices"
+    ],
+    "response": "Python debugging can be done using the pdb module, logging, IDE debuggers, and traceback analysis to identify and fix issues efficiently."
+  },
+
+  {
+    "tag": "python_metaprogramming",
+    "patterns": [
+      "What is metaprogramming?",
+      "Explain metaprogramming in Python",
+      "Dynamic code generation",
+      "Modify class at runtime",
+      "Reflection in Python",
+      "Introspection Python",
+      "Dynamic attribute creation",
+      "Meta level programming",
+      "Advanced Python techniques",
+      "Runtime behavior modification",
+      "Decorators and metaclasses",
+      "Self modifying code",
+      "Advanced OOP concepts",
+      "Meta programming example",
+      "Senior Python question"
+    ],
+    "response": "Metaprogramming allows programs to modify themselves at runtime. Python supports this via decorators, metaclasses, and introspection."
+  },
+
+  {
+    "tag": "python_design_patterns",
+    "patterns": [
+      "Design patterns in Python",
+      "Singleton pattern Python",
+      "Factory pattern Python",
+      "Observer pattern Python",
+      "Strategy pattern Python",
+      "MVC pattern Python",
+      "OOP design patterns",
+      "Best software design practices",
+      "Python architecture patterns",
+      "Reusable design structures",
+      "Structural patterns Python",
+      "Behavioral patterns Python",
+      "Creational patterns Python",
+      "Interview design pattern question",
+      "Real world design examples"
+    ],
+    "response": "Design patterns like Singleton, Factory, Observer, and Strategy help build scalable and maintainable Python applications."
+  },
+
+  {
+    "tag": "python_edge_cases",
+    "patterns": [
+      "Tricky Python interview questions",
+      "Edge cases in Python",
+      "Weird behavior Python",
+      "Common Python pitfalls",
+      "Mutable default argument issue",
+      "Late binding closure issue",
+      "List multiplication issue",
+      "Identity vs equality",
+      "Is vs equals difference",
+      "Common Python mistakes",
+      "Advanced tricky questions",
+      "Corner cases Python",
+      "Unexpected Python behavior",
+      "Buggy Python examples",
+      "Python gotchas"
+    ],
+    "response": "Common Python edge cases include mutable default arguments, late binding in closures, list multiplication pitfalls, and confusion between 'is' and '=='."
+  },
+
+  {
+    "tag": "python_testing",
+    "patterns": [
+      "How to test Python code?",
+      "Unit testing in Python",
+      "Pytest usage",
+      "Unittest module",
+      "Test driven development Python",
+      "Write test cases Python",
+      "Automated testing Python",
+      "Mocking in Python",
+      "Test coverage Python",
+      "Integration testing Python",
+      "Testing interview question",
+      "Best testing practices",
+      "Test frameworks Python",
+      "Debug vs test difference",
+      "CI CD Python"
+    ],
+    "response": "Python supports testing using unittest and pytest frameworks. Testing ensures reliability, maintainability, and reduces bugs in production."
+  },
+
+  {
+    "tag": "python_scalability_production",
+    "patterns": [
+      "How to scale Python applications?",
+      "Production ready Python",
+      "Deploy Python app",
+      "Best practices production Python",
+      "Python microservices",
+      "Flask vs FastAPI",
+      "Gunicorn usage",
+      "WSGI explanation",
+      "Dockerize Python app",
+      "Cloud deployment Python",
+      "Load balancing Python",
+      "High availability Python",
+      "Monitoring Python app",
+      "Production architecture Python",
+      "Enterprise Python best practices"
+    ],
+    "response": "Python applications can be scaled using WSGI servers like Gunicorn, containerization with Docker, microservices architecture, load balancing, and cloud deployment."
+  }
+
+]

@@ -1,4 +1,5 @@
 [
+  
   {
     "tag": "what_is_python",
     "patterns": [
@@ -10,10 +11,22 @@
       "Tell me about Python",
       "What kind of language is Python?",
       "Overview of Python",
-      "Explain Python in simple words"
+      "Explain Python in simple words",
+      "Can you explain Python programming language?",
+      "What do you mean by Python?",
+      "Brief explanation of Python",
+      "Why is Python used?",
+      "Basic definition of Python",
+      "Python language overview",
+      "What is Python programming?",
+      "Explain Python for beginners",
+      "Python description",
+      "Give me definition of Python",
+      "Python concept"
     ],
     "response": "Python is a high-level, interpreted, object-oriented programming language known for its simplicity and readability. It is widely used in web development, data science, machine learning, automation, scripting, and software development."
   },
+
   {
     "tag": "who_created_python",
     "patterns": [
@@ -21,10 +34,21 @@
       "Founder of Python",
       "Who developed Python?",
       "Who invented Python?",
-      "Father of Python"
+      "Father of Python",
+      "Python creator name",
+      "Who introduced Python?",
+      "Who is Guido van Rossum?",
+      "When was Python created?",
+      "History of Python creator",
+      "Python was developed by whom?",
+      "Origin of Python language",
+      "Who designed Python?",
+      "Python development history",
+      "Who started Python project?"
     ],
-    "response": "Python was created by Guido van Rossum in 1991. He designed Python with the goal of making code simple and readable."
+    "response": "Python was created by Guido van Rossum in 1991. He designed Python with the goal of making code simple, readable, and easy to understand."
   },
+
   {
     "tag": "why_python_popular",
     "patterns": [
@@ -32,279 +56,393 @@
       "Advantages of Python",
       "Why should I learn Python?",
       "Benefits of Python",
-      "Why Python is trending?"
+      "Why Python is trending?",
+      "Why do developers use Python?",
+      "Reasons for Python popularity",
+      "Why Python is widely used?",
+      "What makes Python special?",
+      "Why choose Python?",
+      "Python advantages over other languages",
+      "Why is Python preferred?",
+      "Why Python is easy?",
+      "What are the strengths of Python?",
+      "Why is Python best language?"
     ],
-    "response": "Python is popular because it is easy to learn, has simple syntax, supports multiple paradigms, and has powerful libraries for AI, web development, automation, and data science."
+    "response": "Python is popular because it is easy to learn, has simple syntax, supports multiple programming paradigms, and has powerful libraries for AI, web development, automation, and data science."
   },
-  {
-    "tag": "features_of_python",
-    "patterns": [
-      "Features of Python",
-      "Key features of Python",
-      "Characteristics of Python",
-      "Important features in Python"
-    ],
-    "response": "Python features include readability, interpreted execution, dynamic typing, object-oriented programming, portability, and a huge standard library."
-  },
-  {
-    "tag": "python_versions",
-    "patterns": [
-      "Python versions",
-      "Difference between Python 2 and Python 3",
-      "Latest Python version"
-    ],
-    "response": "Python 3 is the latest and recommended version. Python 2 is outdated and no longer officially supported."
-  },
-  {
-    "tag": "interpreted_language",
-    "patterns": [
-      "Is Python interpreted?",
-      "What is interpreted language?",
-      "Python compiled or interpreted?"
-    ],
-    "response": "Python is an interpreted language, meaning code is executed line-by-line by the interpreter."
-  },
-  {
-    "tag": "python_indentation",
-    "patterns": [
-      "What is indentation in Python?",
-      "Why indentation is important?"
-    ],
-    "response": "Indentation in Python defines code blocks. It replaces braces used in other languages."
-  },
+
   {
     "tag": "python_variables",
     "patterns": [
       "What are variables in Python?",
       "Define Python variables",
-      "How to create variable in Python?"
+      "How to create variable in Python?",
+      "Explain variables",
+      "Variable meaning in Python",
+      "How variables work in Python?",
+      "Declare variable in Python",
+      "Variable syntax",
+      "Dynamic typing example",
+      "Assign value in Python",
+      "What is variable assignment?",
+      "Python variable rules",
+      "Naming rules for variables",
+      "How to store data in Python?",
+      "Variable example"
     ],
-    "response": "Variables are containers for storing data values. Python uses dynamic typing, so no need to declare type explicitly."
+    "response": "Variables are containers for storing data values. Python uses dynamic typing, so you do not need to declare the data type explicitly."
   },
+
   {
     "tag": "data_types_python",
     "patterns": [
       "What are data types in Python?",
       "List data types in Python",
-      "Built in data types"
+      "Built in data types",
+      "Types of data types",
+      "Explain data types",
+      "Different data types in Python",
+      "Primitive data types",
+      "Numeric data types",
+      "Collection data types",
+      "Python data types explanation",
+      "Data types interview question",
+      "How many data types in Python?",
+      "Examples of data types",
+      "Common Python data types",
+      "Data type meaning"
     ],
     "response": "Common Python data types include int, float, str, bool, list, tuple, set, and dictionary."
-  },
-  {
-    "tag": "python_string",
-    "patterns": [
-      "What is string in Python?",
-      "Explain string in Python"
-    ],
-    "response": "A string is a sequence of characters enclosed in quotes."
   },
 
   {
     "tag": "python_list",
     "patterns": [
       "What is list in Python?",
-      "Explain Python list"
+      "Explain Python list",
+      "Define list",
+      "List example in Python",
+      "How list works?",
+      "Create list example",
+      "List syntax",
+      "Why list is mutable?",
+      "Ordered collection Python",
+      "List methods",
+      "Append method",
+      "List interview question",
+      "List properties",
+      "List operations",
+      "How to use list?"
     ],
-    "response": "A list is an ordered, mutable collection that allows duplicate values."
+    "response": "A list is an ordered, mutable collection that allows duplicate values. Lists are defined using square brackets []."
   },
+
   {
     "tag": "python_tuple",
     "patterns": [
       "What is tuple in Python?",
-      "Explain Python tuple"
+      "Explain Python tuple",
+      "Define tuple",
+      "Tuple example",
+      "Tuple vs list",
+      "Immutable collection",
+      "How tuple works?",
+      "Tuple syntax",
+      "Tuple interview question",
+      "Ordered immutable collection",
+      "Tuple properties",
+      "Create tuple example",
+      "Why tuple is immutable?",
+      "Tuple operations",
+      "Use of tuple"
     ],
-    "response": "A tuple is an ordered, immutable collection."
+    "response": "A tuple is an ordered, immutable collection of elements. Tuples are defined using parentheses ()."
   },
-  {
-    "tag": "python_set",
-    "patterns": [
-      "What is set in Python?"
-    ],
-    "response": "A set is an unordered collection of unique elements."
-  },
+
   {
     "tag": "python_dictionary",
     "patterns": [
-      "What is dictionary in Python?"
+      "What is dictionary in Python?",
+      "Explain dictionary",
+      "Define dictionary",
+      "Dictionary example",
+      "Key value pairs",
+      "How dictionary works?",
+      "Create dictionary example",
+      "Dictionary syntax",
+      "Dict meaning",
+      "Dictionary interview question",
+      "Mapping type Python",
+      "Access dictionary values",
+      "Dictionary properties",
+      "Dictionary methods",
+      "Why use dictionary?"
     ],
-    "response": "A dictionary is a collection of key-value pairs."
-  },
-  {
-    "tag": "list_vs_tuple",
-    "patterns": [
-      "Difference between list and tuple"
-    ],
-    "response": "Lists are mutable while tuples are immutable."
-  },
-  {
-    "tag": "python_operators",
-    "patterns": [
-      "Types of operators in Python"
-    ],
-    "response": "Operators include arithmetic, logical, comparison, assignment, identity, membership, and bitwise."
-  },
-  {
-    "tag": "if_statement",
-    "patterns": [
-      "What is if statement?"
-    ],
-    "response": "The if statement is used for decision-making based on conditions."
-  },
-  {
-    "tag": "for_loop",
-    "patterns": [
-      "What is for loop?"
-    ],
-    "response": "A for loop is used to iterate over sequences like lists and strings."
-  },
-  {
-    "tag": "while_loop",
-    "patterns": [
-      "What is while loop?"
-    ],
-    "response": "A while loop executes code as long as the condition is true."
-  },
-  {
-    "tag": "break_continue",
-    "patterns": [
-      "What is break and continue?"
-    ],
-    "response": "Break stops the loop. Continue skips the current iteration."
+    "response": "A dictionary is a collection of key-value pairs. It is unordered and mutable."
   },
 
   {
     "tag": "python_functions",
     "patterns": [
-      "What is function in Python?"
+      "What is function in Python?",
+      "Define function",
+      "Explain function",
+      "Function example",
+      "How to create function?",
+      "Function syntax",
+      "Def keyword usage",
+      "Why use functions?",
+      "Reusable code block",
+      "Return statement",
+      "Function interview question",
+      "User defined function",
+      "Arguments in function",
+      "Function working",
+      "How functions work?"
     ],
-    "response": "A function is a reusable block of code defined using the def keyword."
-  },
-  {
-    "tag": "function_arguments",
-    "patterns": [
-      "Types of function arguments?"
-    ],
-    "response": "Python supports positional, keyword, default, and variable-length arguments."
-  },
-  {
-    "tag": "lambda_function",
-    "patterns": [
-      "What is lambda function?"
-    ],
-    "response": "A lambda function is an anonymous function defined using the lambda keyword."
-  },
-  {
-    "tag": "python_oop",
-    "patterns": [
-      "What is OOP in Python?"
-    ],
-    "response": "OOP is a programming paradigm based on objects and classes."
-  },
-  {
-    "tag": "class_in_python",
-    "patterns": [
-      "What is class?"
-    ],
-    "response": "A class is a blueprint for creating objects."
-  },
-  {
-    "tag": "object_in_python",
-    "patterns": [
-      "What is object?"
-    ],
-    "response": "An object is an instance of a class."
-  },
-  {
-    "tag": "inheritance_python",
-    "patterns": [
-      "What is inheritance?"
-    ],
-    "response": "Inheritance allows a class to inherit properties from another class."
-  },
-  {
-    "tag": "polymorphism_python",
-    "patterns": [
-      "What is polymorphism?"
-    ],
-    "response": "Polymorphism allows methods to behave differently based on context."
-  },
-  {
-    "tag": "encapsulation_python",
-    "patterns": [
-      "What is encapsulation?"
-    ],
-    "response": "Encapsulation hides data and restricts direct access."
-  },
-  {
-    "tag": "abstraction_python",
-    "patterns": [
-      "What is abstraction?"
-    ],
-    "response": "Abstraction hides implementation details and shows only functionality."
+    "response": "A function is a reusable block of code defined using the def keyword. It helps in modular programming."
   },
 
   {
-    "tag": "python_exceptions",
+    "tag": "python_oop",
     "patterns": [
-      "What is exception handling?"
+      "What is OOP in Python?",
+      "Explain object oriented programming",
+      "OOP meaning",
+      "Define OOP",
+      "OOP concepts",
+      "Four pillars of OOP",
+      "OOP interview question",
+      "Object oriented concept",
+      "Class object concept",
+      "Why use OOP?",
+      "OOP advantages",
+      "OOP principles",
+      "OOP basics",
+      "Encapsulation polymorphism abstraction",
+      "OOP example"
     ],
-    "response": "Exception handling is used to manage runtime errors using try, except, and finally blocks."
+    "response": "OOP (Object-Oriented Programming) is a programming paradigm based on objects and classes. It includes concepts like inheritance, polymorphism, encapsulation, and abstraction."
   },
+  
+  {
+    "tag": "if_statement_python",
+    "patterns": [
+      "What is if statement in Python?",
+      "Explain if statement",
+      "Define conditional statement",
+      "How if works in Python?",
+      "If condition example",
+      "Decision making in Python",
+      "Conditional statement syntax",
+      "How to use if in Python?",
+      "Simple if example",
+      "If interview question",
+      "What is decision structure?",
+      "Condition checking in Python",
+      "If block explanation",
+      "Boolean condition example",
+      "Basic conditional logic"
+    ],
+    "response": "The if statement is used to execute code only if a specified condition is true. It allows decision-making in Python programs."
+  },
+
+  {
+    "tag": "if_else_statement",
+    "patterns": [
+      "What is if else statement?",
+      "Explain if else",
+      "If else syntax",
+      "Difference between if and if else",
+      "Conditional branching",
+      "If else example",
+      "How if else works?",
+      "Decision making using else",
+      "Python conditional branching",
+      "If else interview question",
+      "When to use else?",
+      "Control flow in Python",
+      "Alternate condition Python",
+      "Else statement explanation",
+      "Multiple outcomes in condition"
+    ],
+    "response": "The if-else statement allows execution of one block of code if the condition is true and another block if the condition is false."
+  },
+
+  {
+    "tag": "elif_statement",
+    "patterns": [
+      "What is elif?",
+      "Explain elif in Python",
+      "Multiple conditions Python",
+      "If elif else example",
+      "How elif works?",
+      "Elif syntax",
+      "Conditional ladder Python",
+      "Nested conditions",
+      "Multiple branching example",
+      "Decision tree Python",
+      "Elif interview question",
+      "Use of elif",
+      "Chain conditions",
+      "Check multiple cases",
+      "Control flow with elif"
+    ],
+    "response": "The elif statement allows checking multiple conditions sequentially. It is used after an if statement to test additional conditions."
+  },
+
+  {
+    "tag": "nested_if",
+    "patterns": [
+      "What is nested if?",
+      "Explain nested if in Python",
+      "If inside if example",
+      "Nested conditional statement",
+      "Multiple level condition",
+      "Nested if syntax",
+      "Conditional inside conditional",
+      "Nested if interview question",
+      "How nested if works?",
+      "Complex condition example",
+      "Multi level branching",
+      "Nested decision making",
+      "Deep conditional structure",
+      "When to use nested if?",
+      "Nested if else example"
+    ],
+    "response": "A nested if statement is an if statement inside another if statement. It allows checking additional conditions within an existing condition."
+  },
+
   {
     "tag": "python_modules",
     "patterns": [
-      "What is module?"
+      "What is module in Python?",
+      "Define module",
+      "Explain modules",
+      "Why use modules?",
+      "Module example",
+      "How to create module?",
+      "Import module Python",
+      "User defined module",
+      "Module interview question",
+      "Built in modules",
+      "Python modular programming",
+      "Reuse code using modules",
+      "Module structure",
+      "Module syntax",
+      "Importance of modules"
     ],
-    "response": "A module is a file containing Python code."
+    "response": "A module is a Python file containing functions, classes, or variables. It helps organize code and promote reusability."
   },
+
   {
     "tag": "python_packages",
     "patterns": [
-      "What is package?"
+      "What is package in Python?",
+      "Define package",
+      "Explain Python packages",
+      "Difference between module and package",
+      "Package example",
+      "How to create package?",
+      "Init file Python",
+      "__init__ file meaning",
+      "Python package structure",
+      "Package vs module",
+      "Organizing modules",
+      "Hierarchical modules",
+      "Package interview question",
+      "Folder as package",
+      "Package import example"
     ],
-    "response": "A package is a collection of modules."
+    "response": "A package is a collection of modules organized in directories. It usually contains an __init__.py file."
   },
+
   {
-    "tag": "pip",
+    "tag": "python_libraries",
     "patterns": [
-      "What is pip?"
+      "What is library in Python?",
+      "Define Python library",
+      "Difference between module and library",
+      "Popular Python libraries",
+      "External libraries Python",
+      "Why use libraries?",
+      "Library vs package",
+      "Standard library Python",
+      "Third party libraries",
+      "Library example",
+      "NumPy is library?",
+      "Pandas library meaning",
+      "What are built in libraries?",
+      "How libraries work?",
+      "Library usage example"
     ],
-    "response": "pip is the package manager used to install Python libraries."
+    "response": "A library is a collection of modules and packages that provide reusable functionality. Python has a rich standard library and many third-party libraries."
   },
+
   {
-    "tag": "virtual_environment",
+    "tag": "pip_python",
     "patterns": [
-      "What is virtual environment?"
+      "What is pip?",
+      "Explain pip in Python",
+      "Install package using pip",
+      "Pip command example",
+      "Python package manager",
+      "How pip works?",
+      "Upgrade pip",
+      "Install library using pip",
+      "Pip interview question",
+      "Uninstall package pip",
+      "Pip list command",
+      "Package installation Python",
+      "Pip vs conda",
+      "Manage dependencies pip",
+      "What does pip stand for?"
     ],
-    "response": "A virtual environment isolates dependencies for different projects."
+    "response": "pip is the default package manager for Python used to install and manage third-party libraries."
   },
+
   {
-    "tag": "python_file_handling",
+    "tag": "virtual_environment_python",
     "patterns": [
-      "What is file handling?"
+      "What is virtual environment?",
+      "Explain venv",
+      "Why use virtual environment?",
+      "Create virtual environment",
+      "How to activate venv?",
+      "Virtual environment example",
+      "Isolate dependencies Python",
+      "venv interview question",
+      "Manage dependencies project wise",
+      "Activate virtual environment",
+      "Deactivate venv",
+      "Python environment isolation",
+      "Project specific libraries",
+      "Virtualenv vs venv",
+      "Environment management Python"
     ],
-    "response": "File handling allows reading and writing files using open()."
+    "response": "A virtual environment is an isolated environment that allows you to manage project-specific dependencies without affecting global Python installations."
   },
+
   {
-    "tag": "python_decorators",
+    "tag": "name_main_python",
     "patterns": [
-      "What are decorators?"
+      "What is __name__ in Python?",
+      "Explain __main__",
+      "Why use if __name__ == '__main__'?",
+      "__name__ == '__main__' meaning",
+      "Main function Python",
+      "Script execution control",
+      "How Python runs main?",
+      "Entry point in Python",
+      "__main__ interview question",
+      "Python execution block",
+      "Prevent auto execution",
+      "Import vs run Python file",
+      "Conditional execution Python",
+      "Why check __name__?",
+      "Main guard Python"
     ],
-    "response": "Decorators modify the behavior of functions without changing their code."
-  },
-  {
-    "tag": "python_generators",
-    "patterns": [
-      "What are generators?"
-    ],
-    "response": "Generators produce values one at a time using the yield keyword."
-  },
-  {
-    "tag": "python_multithreading",
-    "patterns": [
-      "What is multithreading?"
-    ],
-    "response": "Multithreading allows multiple threads to run concurrently."
+    "response": "The condition if __name__ == '__main__' ensures that code runs only when the file is executed directly, not when imported as a module."
   },
   {
     "tag": "deep_copy_vs_shallow_copy",
@@ -962,6 +1100,423 @@
       "Enterprise Python best practices"
     ],
     "response": "Python applications can be scaled using WSGI servers like Gunicorn, containerization with Docker, microservices architecture, load balancing, and cloud deployment."
+  },
+  {
+    "tag": "for_loop_python",
+    "patterns": [
+      "What is for loop in Python?",
+      "Explain for loop",
+      "Define for loop",
+      "How for loop works?",
+      "For loop example",
+      "Syntax of for loop",
+      "Iteration in Python",
+      "Loop through list",
+      "Loop over string",
+      "For loop interview question",
+      "How to iterate sequence?",
+      "For loop with range",
+      "When to use for loop?",
+      "Python iteration example",
+      "Basic looping in Python"
+    ],
+    "response": "The for loop is used to iterate over a sequence such as a list, tuple, string, or range. It executes a block of code for each item in the sequence."
+  },
+
+  {
+    "tag": "while_loop_python",
+    "patterns": [
+      "What is while loop?",
+      "Explain while loop in Python",
+      "Define while loop",
+      "How while loop works?",
+      "While loop example",
+      "Syntax of while loop",
+      "Conditional loop",
+      "Repeat until condition false",
+      "While loop interview question",
+      "Infinite loop example",
+      "Loop based on condition",
+      "Difference between for and while",
+      "Control loop with condition",
+      "Basic loop example",
+      "While loop explanation"
+    ],
+    "response": "The while loop executes a block of code repeatedly as long as a given condition remains true."
+  },
+
+  {
+    "tag": "break_statement_python",
+    "patterns": [
+      "What is break statement?",
+      "Explain break in Python",
+      "How break works?",
+      "Break example",
+      "Exit loop Python",
+      "Stop loop early",
+      "Break in for loop",
+      "Break in while loop",
+      "Break interview question",
+      "Terminate loop conditionally",
+      "Stop iteration Python",
+      "Break usage",
+      "Loop control break",
+      "End loop immediately",
+      "Control flow break"
+    ],
+    "response": "The break statement immediately terminates the loop and transfers control to the next statement after the loop."
+  },
+
+  {
+    "tag": "continue_statement_python",
+    "patterns": [
+      "What is continue statement?",
+      "Explain continue in Python",
+      "Continue example",
+      "Skip iteration Python",
+      "Difference between break and continue",
+      "Continue in for loop",
+      "Continue in while loop",
+      "Skip current iteration",
+      "Continue interview question",
+      "Loop control continue",
+      "Bypass iteration",
+      "Continue keyword usage",
+      "Skip loop step",
+      "Conditional skip in loop",
+      "Continue statement explanation"
+    ],
+    "response": "The continue statement skips the current iteration of the loop and moves to the next iteration."
+  },
+
+  {
+    "tag": "pass_statement_python",
+    "patterns": [
+      "What is pass statement?",
+      "Explain pass in Python",
+      "Pass keyword usage",
+      "Why use pass?",
+      "Empty loop example",
+      "Placeholder statement",
+      "Pass interview question",
+      "Pass in function",
+      "Pass in class",
+      "Do nothing statement",
+      "Temporary block placeholder",
+      "Pass syntax",
+      "When to use pass?",
+      "Pass statement meaning",
+      "Control flow pass"
+    ],
+    "response": "The pass statement is a null operation. It is used as a placeholder when a statement is syntactically required but no action is needed."
+  },
+
+  {
+    "tag": "nested_loops_python",
+    "patterns": [
+      "What is nested loop?",
+      "Explain nested loops",
+      "Loop inside loop",
+      "Nested for loop example",
+      "Nested while loop",
+      "Multiple loops example",
+      "Nested iteration Python",
+      "Double loop example",
+      "Matrix traversal loop",
+      "Nested loops interview question",
+      "2D loop example",
+      "Loop within loop",
+      "Complex iteration",
+      "Multi level loop",
+      "Nested loop explanation"
+    ],
+    "response": "A nested loop is a loop inside another loop. The inner loop runs completely for each iteration of the outer loop."
+  },
+
+  {
+    "tag": "range_function_python",
+    "patterns": [
+      "What is range function?",
+      "Explain range in Python",
+      "Range example",
+      "How range works?",
+      "Range syntax",
+      "Range start stop step",
+      "Generate numbers in loop",
+      "Range interview question",
+      "Range in for loop",
+      "Iterate numbers Python",
+      "Sequence generator",
+      "Range function usage",
+      "How to loop numbers?",
+      "Range explanation",
+      "Numeric iteration"
+    ],
+    "response": "The range() function generates a sequence of numbers. It is commonly used in for loops to iterate a specific number of times."
+  },
+
+  {
+    "tag": "enumerate_python",
+    "patterns": [
+      "What is enumerate?",
+      "Explain enumerate function",
+      "Enumerate example",
+      "Loop with index",
+      "Get index and value in loop",
+      "Enumerate syntax",
+      "Index iteration Python",
+      "Enumerate interview question",
+      "Iterate with index",
+      "Enumerate usage",
+      "Better loop with enumerate",
+      "Access position in loop",
+      "Loop counter example",
+      "Enumerate vs range",
+      "Enumerate explanation"
+    ],
+    "response": "The enumerate() function adds a counter to an iterable and returns both the index and the value during iteration."
+  },
+
+  {
+    "tag": "zip_function_python",
+    "patterns": [
+      "What is zip function?",
+      "Explain zip in Python",
+      "Zip example",
+      "Combine lists using zip",
+      "Parallel iteration",
+      "Zip syntax",
+      "Iterate multiple lists",
+      "Zip interview question",
+      "Pair elements Python",
+      "Zip usage example",
+      "Merge sequences",
+      "Zip explanation",
+      "Loop two lists together",
+      "Zip function meaning",
+      "Zip vs enumerate"
+    ],
+    "response": "The zip() function combines multiple iterables and returns tuples containing corresponding elements from each iterable."
+  },
+
+  {
+    "tag": "loop_else_python",
+    "patterns": [
+      "What is loop else?",
+      "Explain for else in Python",
+      "While else example",
+      "Loop with else block",
+      "Else after loop",
+      "For else interview question",
+      "Loop completion block",
+      "When else executes in loop?",
+      "Control flow loop else",
+      "Loop termination condition",
+      "Loop else usage",
+      "Python for else meaning",
+      "While else meaning",
+      "Loop with condition and else",
+      "Else in iteration"
+    ],
+    "response": "The else block in a loop executes only if the loop completes normally without encountering a break statement."
+  },
+  
+  {
+    "tag": "numpy_library",
+    "patterns": [
+      "What is NumPy?",
+      "Explain NumPy library",
+      "Why use NumPy?",
+      "NumPy meaning",
+      "What is ndarray?",
+      "NumPy array explanation",
+      "Difference between list and NumPy array",
+      "NumPy operations example",
+      "Why NumPy is faster?",
+      "NumPy interview question",
+      "Vectorized operations Python",
+      "Numerical computing library",
+      "NumPy in data science",
+      "NumPy advantages",
+      "Broadcasting in NumPy"
+    ],
+    "response": "NumPy is a fundamental library for numerical computing in Python. It provides support for multi-dimensional arrays (ndarray) and fast mathematical operations using vectorization."
+  },
+
+  {
+    "tag": "pandas_library",
+    "patterns": [
+      "What is Pandas?",
+      "Explain Pandas library",
+      "Why use Pandas?",
+      "DataFrame meaning",
+      "Series in Pandas",
+      "Pandas interview question",
+      "Data manipulation in Python",
+      "Pandas example",
+      "Handling missing data Pandas",
+      "Groupby in Pandas",
+      "Merge vs join Pandas",
+      "Data cleaning using Pandas",
+      "Pandas vs NumPy",
+      "Load CSV using Pandas",
+      "Data analysis library Python"
+    ],
+    "response": "Pandas is a data manipulation and analysis library that provides DataFrame and Series structures for handling structured data efficiently."
+  },
+
+  {
+    "tag": "matplotlib_library",
+    "patterns": [
+      "What is Matplotlib?",
+      "Explain Matplotlib",
+      "Data visualization library Python",
+      "Plot graph using Matplotlib",
+      "Line plot example",
+      "Bar chart Python",
+      "Matplotlib interview question",
+      "How to visualize data?",
+      "Matplotlib vs Seaborn",
+      "Plot customization",
+      "Create histogram Python",
+      "Basic plotting library",
+      "Matplotlib functions",
+      "Visualization basics",
+      "Plotting in Python"
+    ],
+    "response": "Matplotlib is a plotting library used for creating static, animated, and interactive visualizations in Python."
+  },
+
+  {
+    "tag": "seaborn_library",
+    "patterns": [
+      "What is Seaborn?",
+      "Explain Seaborn library",
+      "Difference between Matplotlib and Seaborn",
+      "Statistical visualization Python",
+      "Seaborn example",
+      "Heatmap using Seaborn",
+      "Pairplot explanation",
+      "Advanced visualization library",
+      "Seaborn interview question",
+      "Distribution plot Seaborn",
+      "Data visualization styling",
+      "Seaborn vs Matplotlib",
+      "Correlation heatmap",
+      "Better plots in Python",
+      "Seaborn features"
+    ],
+    "response": "Seaborn is a statistical data visualization library built on top of Matplotlib. It provides high-level interface for attractive and informative graphics."
+  },
+
+  {
+    "tag": "scikit_learn_library",
+    "patterns": [
+      "What is scikit-learn?",
+      "Explain sklearn",
+      "Machine learning library Python",
+      "Sklearn example",
+      "Model training using sklearn",
+      "Sklearn interview question",
+      "Classification in sklearn",
+      "Regression in sklearn",
+      "Preprocessing in sklearn",
+      "Feature scaling sklearn",
+      "Pipeline in sklearn",
+      "Model evaluation sklearn",
+      "Train test split",
+      "Sklearn algorithms",
+      "ML library Python"
+    ],
+    "response": "Scikit-learn is a machine learning library providing simple and efficient tools for classification, regression, clustering, preprocessing, and model evaluation."
+  },
+
+  {
+    "tag": "tensorflow_library",
+    "patterns": [
+      "What is TensorFlow?",
+      "Explain TensorFlow",
+      "Deep learning library",
+      "Neural networks TensorFlow",
+      "TensorFlow vs PyTorch",
+      "TensorFlow interview question",
+      "Build ANN using TensorFlow",
+      "Keras in TensorFlow",
+      "GPU support TensorFlow",
+      "TensorFlow features",
+      "DL framework Python",
+      "TensorFlow example",
+      "Machine learning framework",
+      "TensorFlow architecture",
+      "TensorFlow usage"
+    ],
+    "response": "TensorFlow is an open-source deep learning framework developed by Google for building neural networks and large-scale machine learning models."
+  },
+
+  {
+    "tag": "pytorch_library",
+    "patterns": [
+      "What is PyTorch?",
+      "Explain PyTorch",
+      "PyTorch vs TensorFlow",
+      "Deep learning using PyTorch",
+      "Torch library meaning",
+      "PyTorch interview question",
+      "Dynamic computation graph",
+      "Neural network PyTorch",
+      "Torch tensor explanation",
+      "DL framework PyTorch",
+      "PyTorch features",
+      "Model building PyTorch",
+      "Why PyTorch popular?",
+      "PyTorch example",
+      "AI framework Python"
+    ],
+    "response": "PyTorch is an open-source deep learning framework known for dynamic computation graphs and flexibility in building neural networks."
+  },
+
+  {
+    "tag": "xgboost_library",
+    "patterns": [
+      "What is XGBoost?",
+      "Explain XGBoost",
+      "Gradient boosting library",
+      "XGBoost interview question",
+      "Why XGBoost powerful?",
+      "Boosting algorithm Python",
+      "XGBoost example",
+      "Tree boosting library",
+      "Ensemble learning library",
+      "XGBoost vs LightGBM",
+      "Model performance boosting",
+      "Advanced ML algorithm",
+      "Extreme gradient boosting",
+      "XGBoost features",
+      "Machine learning boosting"
+    ],
+    "response": "XGBoost is an optimized gradient boosting library designed for speed and performance in supervised machine learning tasks."
+  },
+
+  {
+    "tag": "lightgbm_library",
+    "patterns": [
+      "What is LightGBM?",
+      "Explain LightGBM",
+      "LightGBM vs XGBoost",
+      "Fast gradient boosting",
+      "Boosting framework Python",
+      "LightGBM example",
+      "Why LightGBM faster?",
+      "Tree-based boosting",
+      "ML boosting library",
+      "LightGBM interview question",
+      "Gradient boosting decision tree",
+      "Large dataset boosting",
+      "LightGBM features",
+      "Optimized ML library",
+      "Efficient boosting algorithm"
+    ],
+    "response": "LightGBM is a fast gradient boosting framework that uses tree-based learning algorithms optimized for performance and efficiency."
   }
 
 ]

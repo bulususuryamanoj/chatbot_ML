@@ -53,6 +53,15 @@ aiml_responses = {}
 for intent in aiml_data:
     aiml_responses[intent["tag"]] = intent["responses"][0]
 
+# ===========================================================
+# LOAD PYTHON RESPONSES
+# ===========================================================
+with open('data/python.json','r',encoding='utf-8') as f:
+    python_data = json.load(f)
+python_responses = {}
+for intent in python_data:
+    python_responses[intent['tag']]=  intent['response']
+
 # ==========================================================
 # FORMAT STRUCTURED RESPONSE
 # ==========================================================
@@ -134,23 +143,28 @@ def chat():
     # -------------------------
     best_concept = find_best_concept(user_message)
 
-    if best_concept and predicted_tag not in aiml_responses:
-        final_answer = format_response(
-            best_concept,
-            concepts[best_concept]
-        )
+    final_answer = None
+    primary_answers = []
 
+    if predicted_tag in python_responses:
+     primary_answers.append(python_responses[predicted_tag])
+
+    if predicted_tag in aiml_responses:
+        primary_answers.append(aiml_responses[predicted_tag])
+
+    if primary_answers:
+        final_answer = max(primary_answers, key=len)
+
+    elif best_concept and best_concept in concepts:
+        final_answer= concepts[best_concept]
+
+    else:
+        final_answer = "I understand the topic but don't have detailed information yet."
     # -------------------------
     # PRIORITY 2 → AIML FALLBACK
+   
     # -------------------------
-    elif predicted_tag in aiml_responses:
-        final_answer = aiml_responses[predicted_tag]
 
-    # -------------------------
-    # FALLBACK
-    # -------------------------
-    else:
-        final_answer = "⚠️ The assistant is still learning this concept."
 
     return jsonify({
         "response": final_answer,

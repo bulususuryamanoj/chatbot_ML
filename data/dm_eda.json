@@ -1,0 +1,1672 @@
+[
+{
+  "tag": "what_is_eda",
+  "patterns": [
+    "What is EDA?",
+    "Explain exploratory data analysis",
+    "EDA meaning",
+    "Why EDA is important?",
+    "Purpose of EDA",
+    "Define EDA in data science"
+  ],
+  "responses": [
+    "Exploratory Data Analysis (EDA) is the process of analyzing and summarizing datasets to understand their structure, detect patterns, identify anomalies, and prepare data for modeling."
+  ]
+},
+{
+  "tag": "steps_in_eda",
+  "patterns": [
+    "Steps in EDA",
+    "EDA process",
+    "How to perform EDA?",
+    "Stages of exploratory data analysis",
+    "EDA workflow"
+  ],
+  "responses": [
+    "The main steps in EDA include understanding data, handling missing values, detecting outliers, analyzing distributions, checking correlations, feature engineering, and visualization."
+  ]
+},
+{
+  "tag": "pandas_dataframe",
+  "patterns": [
+    "What is pandas dataframe?",
+    "Explain dataframe",
+    "DataFrame meaning in pandas",
+    "Structure of dataframe",
+    "How dataframe works?"
+  ],
+  "responses": [
+    "A Pandas DataFrame is a two-dimensional labeled data structure with rows and columns, similar to a table in SQL or Excel."
+  ]
+},
+{
+  "tag": "pandas_series",
+  "patterns": [
+    "What is pandas series?",
+    "Explain series in pandas",
+    "Difference between series and dataframe",
+    "Series meaning"
+  ],
+  "responses": [
+    "A Pandas Series is a one-dimensional labeled array capable of holding any data type."
+  ]
+},
+{
+  "tag": "reading_csv_pandas",
+  "patterns": [
+    "How to read csv in pandas?",
+    "pd read csv example",
+    "Load dataset using pandas",
+    "Import csv file in python"
+  ],
+  "responses": [
+    "CSV files can be loaded using pd.read_csv(). It reads structured data into a Pandas DataFrame."
+  ]
+},
+{
+  "tag": "head_tail_function",
+  "patterns": [
+    "What is head function?",
+    "Explain tail in pandas",
+    "View first rows of dataframe",
+    "Check last rows of dataset"
+  ],
+  "responses": [
+    "The head() function displays the first few rows of a dataset, while tail() shows the last few rows."
+  ]
+},
+{
+  "tag": "data_info_function",
+  "patterns": [
+    "What is info function?",
+    "Explain df info",
+    "How to check dataset structure?"
+  ],
+  "responses": [
+    "The info() function provides summary information including data types and non-null counts."
+  ]
+},
+{
+  "tag": "describe_function",
+  "patterns": [
+    "What is describe function?",
+    "Explain df describe",
+    "Statistical summary in pandas"
+  ],
+  "responses": [
+    "The describe() function generates statistical summary including mean, median, std, min and max."
+  ]
+},
+{
+  "tag": "numpy_array",
+  "patterns": [
+    "What is numpy array?",
+    "Explain numpy arrays",
+    "Advantages of numpy arrays"
+  ],
+  "responses": [
+    "NumPy arrays are multi-dimensional data structures optimized for numerical computations."
+  ]
+},
+{
+  "tag": "numpy_vs_list",
+  "patterns": [
+    "Difference between numpy array and list",
+    "Why numpy faster than list?",
+    "List vs numpy"
+  ],
+  "responses": [
+    "NumPy arrays are faster and more memory efficient compared to Python lists because they use contiguous memory allocation."
+  ]
+},
+{
+  "tag": "missing_values_meaning",
+  "patterns": [
+    "What are missing values?",
+    "Define missing data",
+    "Null values meaning"
+  ],
+  "responses": [
+    "Missing values are data points that are not recorded or unavailable in a dataset."
+  ]
+},
+{
+  "tag": "detect_missing_values",
+  "patterns": [
+    "How to detect missing values?",
+    "Check null values in pandas",
+    "Find NaN values"
+  ],
+  "responses": [
+    "Missing values can be detected using isnull() or isna() functions in Pandas."
+  ]
+},
+{
+  "tag": "drop_missing_values",
+  "patterns": [
+    "How to drop missing values?",
+    "Remove null values",
+    "Drop NaN rows"
+  ],
+  "responses": [
+    "Missing values can be removed using dropna() method."
+  ]
+},
+{
+  "tag": "fill_missing_values",
+  "patterns": [
+    "How to fill missing values?",
+    "Imputation techniques",
+    "Replace null values"
+  ],
+  "responses": [
+    "Missing values can be filled using mean, median, mode or forward/backward filling."
+  ]
+},
+{
+  "tag": "outlier_meaning",
+  "patterns": [
+    "What is outlier?",
+    "Outlier meaning",
+    "Extreme values in dataset"
+  ],
+  "responses": [
+    "An outlier is a data point significantly different from other observations."
+  ]
+},
+{
+  "tag": "z_score_method",
+  "patterns": [
+    "Z score method",
+    "Detect outliers using z score",
+    "Z score formula"
+  ],
+  "responses": [
+    "Z-score measures how many standard deviations a value is from the mean."
+  ]
+},
+{
+  "tag": "iqr_method",
+  "patterns": [
+    "IQR method",
+    "Outlier detection using IQR",
+    "Interquartile range meaning"
+  ],
+  "responses": [
+    "IQR method detects outliers using Q1 and Q3 quartiles."
+  ]
+},
+{
+  "tag": "feature_scaling_meaning",
+  "patterns": [
+    "What is feature scaling?",
+    "Why scaling needed?",
+    "Feature scaling importance"
+  ],
+  "responses": [
+    "Feature scaling standardizes features to similar ranges to improve model performance."
+  ]
+},
+{
+  "tag": "min_max_scaling",
+  "patterns": [
+    "Min max scaling",
+    "Normalization formula",
+    "Scale data between 0 and 1"
+  ],
+  "responses": [
+    "Min-Max scaling transforms values into a fixed range between 0 and 1."
+  ]
+},
+{
+  "tag": "standard_scaling",
+  "patterns": [
+    "Standard scaling",
+    "Standard scaler meaning",
+    "Z score normalization"
+  ],
+  "responses": [
+    "Standard scaling transforms data to mean 0 and standard deviation 1."
+  ]
+},
+{
+  "tag": "label_encoding_meaning",
+  "patterns": [
+    "What is label encoding?",
+    "Explain label encoder",
+    "Label encoding example"
+  ],
+  "responses": [
+    "Label encoding converts categorical data into numeric labels."
+  ]
+},
+{
+  "tag": "one_hot_encoding_meaning",
+  "patterns": [
+    "What is one hot encoding?",
+    "Explain one hot encoding",
+    "One hot encoder example"
+  ],
+  "responses": [
+    "One hot encoding creates binary columns for each category."
+  ]
+},
+{
+  "tag": "correlation_meaning",
+  "patterns": [
+    "What is correlation?",
+    "Explain correlation",
+    "Correlation meaning in statistics"
+  ],
+  "responses": [
+    "Correlation measures the relationship between two variables."
+  ]
+},
+{
+  "tag": "pearson_correlation",
+  "patterns": [
+    "Pearson correlation",
+    "Pearson coefficient",
+    "Linear correlation meaning"
+  ],
+  "responses": [
+    "Pearson correlation measures linear relationship between variables."
+  ]
+},
+{
+  "tag": "multicollinearity_meaning",
+  "patterns": [
+    "What is multicollinearity?",
+    "Explain multicollinearity problem"
+  ],
+  "responses": [
+    "Multicollinearity occurs when independent variables are highly correlated."
+  ]
+},
+
+{
+  "tag": "covariance_meaning",
+  "patterns": [
+    "What is covariance?",
+    "Explain covariance",
+    "Covariance meaning in statistics",
+    "Difference between covariance and correlation",
+    "Covariance formula"
+  ],
+  "responses": [
+    "Covariance measures how two variables change together. A positive covariance indicates variables increase together, while negative covariance indicates inverse relationship."
+  ]
+},
+{
+  "tag": "correlation_vs_covariance",
+  "patterns": [
+    "Correlation vs covariance",
+    "Difference between correlation and covariance",
+    "Which is better correlation or covariance?"
+  ],
+  "responses": [
+    "Covariance shows direction of relationship, while correlation standardizes the measure between -1 and 1, making it easier to interpret."
+  ]
+},
+{
+  "tag": "variance_meaning",
+  "patterns": [
+    "What is variance?",
+    "Explain variance",
+    "Variance formula",
+    "Why variance important?"
+  ],
+  "responses": [
+    "Variance measures how far data points spread from the mean. It is the square of standard deviation."
+  ]
+},
+{
+  "tag": "standard_deviation_meaning",
+  "patterns": [
+    "What is standard deviation?",
+    "Explain standard deviation",
+    "Standard deviation formula"
+  ],
+  "responses": [
+    "Standard deviation measures dispersion of data around the mean."
+  ]
+},
+{
+  "tag": "skewness_meaning",
+  "patterns": [
+    "What is skewness?",
+    "Explain skewness",
+    "Positive vs negative skewness"
+  ],
+  "responses": [
+    "Skewness measures asymmetry of distribution. Positive skew means long right tail, negative skew means long left tail."
+  ]
+},
+{
+  "tag": "kurtosis_meaning",
+  "patterns": [
+    "What is kurtosis?",
+    "Explain kurtosis",
+    "Leptokurtic vs platykurtic"
+  ],
+  "responses": [
+    "Kurtosis measures tail heaviness of distribution. High kurtosis indicates more extreme outliers."
+  ]
+},
+{
+  "tag": "log_transformation",
+  "patterns": [
+    "What is log transformation?",
+    "Why use log transform?",
+    "Reduce skewness using log"
+  ],
+  "responses": [
+    "Log transformation reduces right skewness and stabilizes variance."
+  ]
+},
+{
+  "tag": "boxcox_transformation",
+  "patterns": [
+    "What is boxcox transformation?",
+    "Explain boxcox",
+    "When to use boxcox?"
+  ],
+  "responses": [
+    "Box-Cox transformation makes data more normally distributed."
+  ]
+},
+{
+  "tag": "power_transformation",
+  "patterns": [
+    "What is power transformation?",
+    "Explain power transform",
+    "Yeo Johnson transformation"
+  ],
+  "responses": [
+    "Power transformation adjusts skewed data to approximate normal distribution."
+  ]
+},
+{
+  "tag": "feature_selection_meaning",
+  "patterns": [
+    "What is feature selection?",
+    "Explain feature selection",
+    "Why feature selection important?"
+  ],
+  "responses": [
+    "Feature selection is the process of selecting important variables to improve model performance."
+  ]
+},
+{
+  "tag": "filter_methods_feature_selection",
+  "patterns": [
+    "Filter methods in feature selection",
+    "Chi square feature selection",
+    "Correlation based feature selection"
+  ],
+  "responses": [
+    "Filter methods select features using statistical tests like correlation and chi-square."
+  ]
+},
+{
+  "tag": "wrapper_methods_feature_selection",
+  "patterns": [
+    "Wrapper methods",
+    "Recursive feature elimination",
+    "RFE meaning"
+  ],
+  "responses": [
+    "Wrapper methods evaluate subsets of features using model performance."
+  ]
+},
+{
+  "tag": "embedded_methods_feature_selection",
+  "patterns": [
+    "Embedded feature selection",
+    "Lasso feature selection",
+    "Feature importance in tree models"
+  ],
+  "responses": [
+    "Embedded methods perform feature selection during model training."
+  ]
+},
+{
+  "tag": "variance_threshold",
+  "patterns": [
+    "Variance threshold method",
+    "Remove low variance features"
+  ],
+  "responses": [
+    "Variance threshold removes features with low variability."
+  ]
+},
+{
+  "tag": "vif_meaning",
+  "patterns": [
+    "What is VIF?",
+    "Variance inflation factor meaning",
+    "How to detect multicollinearity using VIF?"
+  ],
+  "responses": [
+    "VIF measures how much variance of a regression coefficient increases due to multicollinearity."
+  ]
+},
+{
+  "tag": "data_leakage",
+  "patterns": [
+    "What is data leakage?",
+    "Explain data leakage",
+    "Why data leakage dangerous?"
+  ],
+  "responses": [
+    "Data leakage occurs when information from test data is used during training."
+  ]
+},
+{
+  "tag": "train_test_split_meaning",
+  "patterns": [
+    "What is train test split?",
+    "Why split dataset?",
+    "Purpose of train test split"
+  ],
+  "responses": [
+    "Train-test split divides data into training and testing sets to evaluate model performance."
+  ]
+},
+{
+  "tag": "stratified_sampling",
+  "patterns": [
+    "What is stratified sampling?",
+    "Explain stratified split",
+    "Why use stratify in train test split?"
+  ],
+  "responses": [
+    "Stratified sampling preserves class distribution in training and testing data."
+  ]
+},
+{
+  "tag": "data_balancing",
+  "patterns": [
+    "What is data balancing?",
+    "Handle imbalanced dataset",
+    "SMOTE meaning"
+  ],
+  "responses": [
+    "Data balancing techniques like SMOTE handle class imbalance in datasets."
+  ]
+},
+{
+  "tag": "smote_meaning",
+  "patterns": [
+    "What is SMOTE?",
+    "Explain SMOTE algorithm"
+  ],
+  "responses": [
+    "SMOTE generates synthetic samples to balance minority classes."
+  ]
+},
+{
+  "tag": "oversampling",
+  "patterns": [
+    "What is oversampling?",
+    "Explain oversampling technique"
+  ],
+  "responses": [
+    "Oversampling increases minority class samples."
+  ]
+},
+{
+  "tag": "undersampling",
+  "patterns": [
+    "What is undersampling?",
+    "Explain undersampling"
+  ],
+  "responses": [
+    "Undersampling reduces majority class samples."
+  ]
+},
+{
+  "tag": "feature_scaling_impact",
+  "patterns": [
+    "Why scaling important for SVM?",
+    "Algorithms affected by scaling"
+  ],
+  "responses": [
+    "Distance-based algorithms like SVM and KNN are sensitive to feature scaling."
+  ]
+},
+{
+  "tag": "data_validation",
+  "patterns": [
+    "What is data validation?",
+    "Explain data validation process"
+  ],
+  "responses": [
+    "Data validation ensures dataset quality and consistency before modeling."
+  ]
+},
+{
+  "tag": "data_pipeline_meaning",
+  "patterns": [
+    "What is data pipeline?",
+    "Explain preprocessing pipeline"
+  ],
+  "responses": [
+    "A data pipeline automates preprocessing steps like scaling, encoding, and transformation."
+  ]
+},
+{
+  "tag": "groupby_operation",
+  "patterns": [
+    "What is groupby in pandas?",
+    "Explain groupby function",
+    "How groupby works?",
+    "Aggregation using groupby",
+    "Groupby example"
+  ],
+  "responses": [
+    "GroupBy in Pandas is used to split data into groups based on categorical variables and perform aggregation like sum, mean, count on each group."
+  ]
+},
+{
+  "tag": "aggregation_functions",
+  "patterns": [
+    "Aggregation functions in pandas",
+    "Common aggregation methods",
+    "Sum mean count in pandas",
+    "Describe aggregation operations"
+  ],
+  "responses": [
+    "Aggregation functions include sum(), mean(), median(), count(), min(), max(), and std(). They summarize grouped data."
+  ]
+},
+{
+  "tag": "pivot_table",
+  "patterns": [
+    "What is pivot table?",
+    "Explain pivot table in pandas",
+    "Pivot vs groupby",
+    "Create pivot table example"
+  ],
+  "responses": [
+    "A pivot table summarizes data by reshaping it into a matrix format using aggregation."
+  ]
+},
+{
+  "tag": "merge_function",
+  "patterns": [
+    "What is merge in pandas?",
+    "Explain merge function",
+    "Join two dataframes",
+    "Inner join in pandas",
+    "Left join in pandas"
+  ],
+  "responses": [
+    "Merge combines two DataFrames based on a common column similar to SQL joins."
+  ]
+},
+{
+  "tag": "concat_function",
+  "patterns": [
+    "What is concat?",
+    "Explain pandas concat",
+    "Combine datasets vertically",
+    "Append dataframes"
+  ],
+  "responses": [
+    "Concat is used to combine multiple DataFrames either vertically or horizontally."
+  ]
+},
+{
+  "tag": "apply_function",
+  "patterns": [
+    "What is apply in pandas?",
+    "Explain apply method",
+    "Custom function on dataframe"
+  ],
+  "responses": [
+    "The apply() function allows applying custom functions across rows or columns."
+  ]
+},
+{
+  "tag": "lambda_in_pandas",
+  "patterns": [
+    "Lambda in pandas",
+    "Use lambda function in dataframe",
+    "Anonymous function in pandas"
+  ],
+  "responses": [
+    "Lambda functions allow quick inline operations on DataFrame columns."
+  ]
+},
+{
+  "tag": "duplicated_rows",
+  "patterns": [
+    "How to find duplicate rows?",
+    "Remove duplicates in pandas",
+    "Duplicate detection"
+  ],
+  "responses": [
+    "Duplicates can be detected using duplicated() and removed using drop_duplicates()."
+  ]
+},
+{
+  "tag": "data_filtering",
+  "patterns": [
+    "How to filter data?",
+    "Conditional filtering in pandas",
+    "Boolean indexing meaning"
+  ],
+  "responses": [
+    "Boolean indexing filters data based on conditions."
+  ]
+},
+{
+  "tag": "sorting_dataframe",
+  "patterns": [
+    "Sort dataframe",
+    "Sort values in pandas",
+    "Order dataset by column"
+  ],
+  "responses": [
+    "Data can be sorted using sort_values() or sort_index()."
+  ]
+},
+{
+  "tag": "datetime_conversion",
+  "patterns": [
+    "Convert to datetime",
+    "Handle date column in pandas",
+    "Datetime format conversion"
+  ],
+  "responses": [
+    "Datetime columns can be converted using pd.to_datetime()."
+  ]
+},
+{
+  "tag": "time_series_eda",
+  "patterns": [
+    "EDA for time series",
+    "Analyze time series data",
+    "Time series preprocessing"
+  ],
+  "responses": [
+    "Time series EDA includes trend analysis, seasonality detection, and lag feature creation."
+  ]
+},
+{
+  "tag": "lag_feature",
+  "patterns": [
+    "What is lag feature?",
+    "Create lag feature",
+    "Lag variable meaning"
+  ],
+  "responses": [
+    "Lag features use previous time steps as predictors in time series modeling."
+  ]
+},
+{
+  "tag": "rolling_window",
+  "patterns": [
+    "Rolling window in pandas",
+    "Moving average calculation",
+    "Rolling mean example"
+  ],
+  "responses": [
+    "Rolling window computes statistics over sliding windows of data."
+  ]
+},
+{
+  "tag": "expanding_window",
+  "patterns": [
+    "Expanding window",
+    "Cumulative statistics in pandas"
+  ],
+  "responses": [
+    "Expanding window calculates cumulative statistics from start to current index."
+  ]
+},
+{
+  "tag": "feature_interaction",
+  "patterns": [
+    "What is feature interaction?",
+    "Create interaction features",
+    "Polynomial features meaning"
+  ],
+  "responses": [
+    "Feature interaction combines variables to capture non-linear relationships."
+  ]
+},
+{
+  "tag": "binning_discretization",
+  "patterns": [
+    "What is binning?",
+    "Discretization in data science",
+    "Convert continuous to categorical"
+  ],
+  "responses": [
+    "Binning converts continuous variables into categorical intervals."
+  ]
+},
+{
+  "tag": "one_hot_vs_label_encoding",
+  "patterns": [
+    "Difference between one hot and label encoding",
+    "Which encoding to use?",
+    "Encoding comparison"
+  ],
+  "responses": [
+    "One-hot encoding avoids ordinal relationships, while label encoding is suitable for ordered categories."
+  ]
+},
+{
+  "tag": "scaling_vs_normalization",
+  "patterns": [
+    "Scaling vs normalization",
+    "Standardization vs min max",
+    "Difference between scaling techniques"
+  ],
+  "responses": [
+    "Scaling standardizes mean and variance, while normalization scales values to fixed range."
+  ]
+},
+{
+  "tag": "data_quality_checks",
+  "patterns": [
+    "Data quality metrics",
+    "How to check data quality?",
+    "Data validation rules"
+  ],
+  "responses": [
+    "Data quality checks include completeness, consistency, uniqueness, and accuracy."
+  ]
+},
+{
+  "tag": "missing_data_types",
+  "patterns": [
+    "Types of missing data",
+    "MCAR MAR MNAR meaning"
+  ],
+  "responses": [
+    "Missing data types include MCAR (completely random), MAR (random), and MNAR (not random)."
+  ]
+},
+{
+  "tag": "data_transformation_pipeline",
+  "patterns": [
+    "Build preprocessing pipeline",
+    "Sklearn pipeline meaning"
+  ],
+  "responses": [
+    "A preprocessing pipeline automates scaling, encoding, and transformation steps."
+  ]
+},
+{
+  "tag": "cross_validation_meaning",
+  "patterns": [
+    "What is cross validation?",
+    "K fold cross validation meaning"
+  ],
+  "responses": [
+    "Cross-validation splits data into multiple folds to validate model robustness."
+  ]
+},
+{
+  "tag": "data_sampling",
+  "patterns": [
+    "Sampling techniques",
+    "Random sampling meaning"
+  ],
+  "responses": [
+    "Sampling selects a subset of data for analysis."
+  ]
+},
+{
+  "tag": "feature_importance",
+  "patterns": [
+    "What is feature importance?",
+    "Importance of features in model"
+  ],
+  "responses": [
+    "Feature importance indicates how much each variable contributes to prediction."
+  ]
+},
+{
+  "tag": "data_profiling",
+  "patterns": [
+    "What is data profiling?",
+    "Explain data profiling",
+    "Purpose of data profiling",
+    "Automated data profiling tools"
+  ],
+  "responses": [
+    "Data profiling is the process of analyzing datasets to understand structure, patterns, distributions, missing values, and anomalies before modeling."
+  ]
+},
+{
+  "tag": "data_auditing",
+  "patterns": [
+    "What is data auditing?",
+    "Explain data audit process",
+    "Data audit meaning"
+  ],
+  "responses": [
+    "Data auditing ensures data integrity, accuracy, completeness, and compliance with predefined standards."
+  ]
+},
+{
+  "tag": "data_consistency",
+  "patterns": [
+    "What is data consistency?",
+    "Explain consistency check in data",
+    "How to maintain data consistency?"
+  ],
+  "responses": [
+    "Data consistency ensures that values follow logical rules and constraints across the dataset."
+  ]
+},
+{
+  "tag": "data_uniqueness",
+  "patterns": [
+    "What is uniqueness in data quality?",
+    "Check unique values in dataset"
+  ],
+  "responses": [
+    "Uniqueness ensures there are no duplicate records in the dataset."
+  ]
+},
+{
+  "tag": "high_cardinality_encoding",
+  "patterns": [
+    "What is high cardinality?",
+    "Handle high cardinality categorical variables",
+    "High cardinality encoding techniques"
+  ],
+  "responses": [
+    "High cardinality refers to categorical variables with many unique values. Techniques include target encoding and frequency encoding."
+  ]
+},
+{
+  "tag": "target_encoding",
+  "patterns": [
+    "What is target encoding?",
+    "Explain mean encoding",
+    "Target encoding example"
+  ],
+  "responses": [
+    "Target encoding replaces categorical values with the mean of the target variable."
+  ]
+},
+{
+  "tag": "frequency_encoding",
+  "patterns": [
+    "What is frequency encoding?",
+    "Explain frequency encoding method"
+  ],
+  "responses": [
+    "Frequency encoding replaces categories with their occurrence frequency."
+  ]
+},
+{
+  "tag": "dimensionality_reduction",
+  "patterns": [
+    "What is dimensionality reduction?",
+    "Why dimensionality reduction important?",
+    "Reduce number of features"
+  ],
+  "responses": [
+    "Dimensionality reduction reduces the number of features while retaining important information."
+  ]
+},
+{
+  "tag": "pca_meaning",
+  "patterns": [
+    "What is PCA?",
+    "Explain principal component analysis",
+    "PCA meaning in machine learning"
+  ],
+  "responses": [
+    "PCA is a dimensionality reduction technique that transforms correlated variables into principal components."
+  ]
+},
+{
+  "tag": "eigenvalues_eigenvectors",
+  "patterns": [
+    "Eigenvalues meaning",
+    "Eigenvectors in PCA",
+    "Role of eigenvalues in dimensionality reduction"
+  ],
+  "responses": [
+    "Eigenvalues measure variance explained by components, while eigenvectors define direction of components."
+  ]
+},
+{
+  "tag": "variance_explained_ratio",
+  "patterns": [
+    "Explained variance ratio",
+    "How to choose number of components in PCA?"
+  ],
+  "responses": [
+    "Explained variance ratio shows how much variance each principal component captures."
+  ]
+},
+{
+  "tag": "curse_of_dimensionality",
+  "patterns": [
+    "What is curse of dimensionality?",
+    "Explain high dimensional data problem"
+  ],
+  "responses": [
+    "Curse of dimensionality occurs when model performance decreases with increasing number of features."
+  ]
+},
+{
+  "tag": "data_normality_assumption",
+  "patterns": [
+    "Normality assumption in statistics",
+    "Why normal distribution important?"
+  ],
+  "responses": [
+    "Many statistical models assume data follows normal distribution."
+  ]
+},
+{
+  "tag": "heteroscedasticity",
+  "patterns": [
+    "What is heteroscedasticity?",
+    "Explain heteroscedasticity problem"
+  ],
+  "responses": [
+    "Heteroscedasticity occurs when error variance changes across data."
+  ]
+},
+{
+  "tag": "homoscedasticity",
+  "patterns": [
+    "What is homoscedasticity?",
+    "Explain constant variance assumption"
+  ],
+  "responses": [
+    "Homoscedasticity means constant variance of errors across observations."
+  ]
+},
+{
+  "tag": "data_standardization_pipeline",
+  "patterns": [
+    "Build scaling pipeline",
+    "Pipeline for standardization"
+  ],
+  "responses": [
+    "Standardization pipeline ensures consistent scaling during training and testing."
+  ]
+},
+{
+  "tag": "data_cleaning_strategies",
+  "patterns": [
+    "Real world data cleaning strategies",
+    "Industry data cleaning methods"
+  ],
+  "responses": [
+    "Industry strategies include automated validation, rule-based filtering, and anomaly detection."
+  ]
+},
+{
+  "tag": "handling_text_data_eda",
+  "patterns": [
+    "EDA for text data",
+    "Preprocessing text data"
+  ],
+  "responses": [
+    "Text EDA includes tokenization, word frequency analysis, and removing stopwords."
+  ]
+},
+{
+  "tag": "handling_image_metadata",
+  "patterns": [
+    "EDA for image dataset",
+    "Image metadata preprocessing"
+  ],
+  "responses": [
+    "Image EDA includes checking dimensions, pixel distributions, and metadata analysis."
+  ]
+},
+{
+  "tag": "data_validation_frameworks",
+  "patterns": [
+    "Data validation frameworks",
+    "Great expectations meaning"
+  ],
+  "responses": [
+    "Frameworks like Great Expectations automate dataset validation rules."
+  ]
+},
+{
+  "tag": "automated_feature_engineering",
+  "patterns": [
+    "Automated feature engineering",
+    "Feature tools meaning"
+  ],
+  "responses": [
+    "Automated feature engineering generates features automatically using libraries like Featuretools."
+  ]
+},
+{
+  "tag": "interaction_terms",
+  "patterns": [
+    "What are interaction terms?",
+    "Polynomial interaction features"
+  ],
+  "responses": [
+    "Interaction terms capture combined effects of two or more features."
+  ]
+},
+{
+  "tag": "data_rescaling",
+  "patterns": [
+    "Rescaling data meaning",
+    "Why rescale features?"
+  ],
+  "responses": [
+    "Rescaling ensures numeric features are comparable."
+  ]
+},
+{
+  "tag": "missing_not_at_random",
+  "patterns": [
+    "MNAR meaning",
+    "Missing not at random explanation"
+  ],
+  "responses": [
+    "MNAR occurs when missingness depends on unobserved data."
+  ]
+},
+{
+  "tag": "data_reproducibility",
+  "patterns": [
+    "What is data reproducibility?",
+    "Ensure reproducibility in data science"
+  ],
+  "responses": [
+    "Reproducibility ensures same results can be generated with same data and pipeline."
+  ]
+},
+
+{
+  "tag": "trend_analysis",
+  "patterns": [
+    "What is trend analysis?",
+    "Explain trend in time series",
+    "Identify trend in dataset"
+  ],
+  "responses": [
+    "Trend analysis identifies long-term movement or direction in time series data."
+  ]
+},
+{
+  "tag": "seasonality_meaning",
+  "patterns": [
+    "What is seasonality?",
+    "Explain seasonal pattern",
+    "Seasonality in time series"
+  ],
+  "responses": [
+    "Seasonality refers to repeating patterns occurring at fixed intervals in time series data."
+  ]
+},
+{
+  "tag": "time_series_decomposition",
+  "patterns": [
+    "Time series decomposition",
+    "Additive vs multiplicative model",
+    "Decompose time series"
+  ],
+  "responses": [
+    "Time series decomposition splits data into trend, seasonality, and residual components."
+  ]
+},
+{
+  "tag": "autocorrelation",
+  "patterns": [
+    "What is autocorrelation?",
+    "Explain autocorrelation in time series"
+  ],
+  "responses": [
+    "Autocorrelation measures correlation of a variable with its past values."
+  ]
+},
+{
+  "tag": "partial_autocorrelation",
+  "patterns": [
+    "What is partial autocorrelation?",
+    "PACF meaning"
+  ],
+  "responses": [
+    "Partial autocorrelation measures correlation between observations excluding intermediate lags."
+  ]
+},
+{
+  "tag": "data_drift",
+  "patterns": [
+    "What is data drift?",
+    "Explain data drift",
+    "Detect data drift"
+  ],
+  "responses": [
+    "Data drift occurs when input data distribution changes over time."
+  ]
+},
+{
+  "tag": "concept_drift",
+  "patterns": [
+    "What is concept drift?",
+    "Difference between data drift and concept drift"
+  ],
+  "responses": [
+    "Concept drift occurs when the relationship between input and output changes over time."
+  ]
+},
+{
+  "tag": "feature_store",
+  "patterns": [
+    "What is feature store?",
+    "Explain feature store in ML",
+    "Feature store meaning"
+  ],
+  "responses": [
+    "A feature store is a centralized repository to manage and reuse machine learning features."
+  ]
+},
+{
+  "tag": "data_versioning",
+  "patterns": [
+    "What is data versioning?",
+    "Explain dataset version control"
+  ],
+  "responses": [
+    "Data versioning tracks changes in datasets to ensure reproducibility."
+  ]
+},
+{
+  "tag": "memory_optimization",
+  "patterns": [
+    "Optimize memory in pandas",
+    "Reduce memory usage in dataset"
+  ],
+  "responses": [
+    "Memory optimization includes changing data types and using categorical encoding."
+  ]
+},
+{
+  "tag": "categorical_dtype",
+  "patterns": [
+    "What is categorical dtype?",
+    "Convert column to categorical"
+  ],
+  "responses": [
+    "Categorical dtype reduces memory by storing categories efficiently."
+  ]
+},
+{
+  "tag": "chunk_processing",
+  "patterns": [
+    "Read large csv in chunks",
+    "Handle large dataset in pandas"
+  ],
+  "responses": [
+    "Chunk processing reads large datasets in smaller parts to reduce memory load."
+  ]
+},
+{
+  "tag": "data_partitioning",
+  "patterns": [
+    "What is data partitioning?",
+    "Partition dataset meaning"
+  ],
+  "responses": [
+    "Data partitioning splits large datasets into manageable parts."
+  ]
+},
+{
+  "tag": "data_sampling_strategies",
+  "patterns": [
+    "Sampling strategies in data science",
+    "Types of sampling techniques"
+  ],
+  "responses": [
+    "Sampling strategies include random sampling, stratified sampling, and systematic sampling."
+  ]
+},
+{
+  "tag": "robust_scaling",
+  "patterns": [
+    "What is robust scaling?",
+    "Robust scaler meaning"
+  ],
+  "responses": [
+    "Robust scaling uses median and IQR, making it resistant to outliers."
+  ]
+},
+{
+  "tag": "rare_category_encoding",
+  "patterns": [
+    "Handle rare categories",
+    "Rare category encoding"
+  ],
+  "responses": [
+    "Rare categories can be grouped into an 'Other' category to reduce noise."
+  ]
+},
+{
+  "tag": "data_schema_validation",
+  "patterns": [
+    "What is schema validation?",
+    "Validate dataset schema"
+  ],
+  "responses": [
+    "Schema validation ensures columns follow expected data types and formats."
+  ]
+},
+{
+  "tag": "data_pipeline_monitoring",
+  "patterns": [
+    "Monitor data pipeline",
+    "Data pipeline monitoring meaning"
+  ],
+  "responses": [
+    "Pipeline monitoring ensures data quality and detects failures in production systems."
+  ]
+},
+{
+  "tag": "data_reconciliation",
+  "patterns": [
+    "What is data reconciliation?",
+    "Explain reconciliation process"
+  ],
+  "responses": [
+    "Data reconciliation ensures consistency between datasets from different sources."
+  ]
+},
+{
+  "tag": "null_value_patterns",
+  "patterns": [
+    "Pattern of missing values",
+    "Analyze missing value patterns"
+  ],
+  "responses": [
+    "Missing value pattern analysis helps determine randomness of missing data."
+  ]
+},
+{
+  "tag": "data_anomaly_detection",
+  "patterns": [
+    "What is anomaly detection?",
+    "Detect anomalies in dataset"
+  ],
+  "responses": [
+    "Anomaly detection identifies unusual patterns that deviate from normal behavior."
+  ]
+},
+{
+  "tag": "boxplot_analysis",
+  "patterns": [
+    "Boxplot analysis meaning",
+    "Interpret boxplot"
+  ],
+  "responses": [
+    "Boxplot visualizes distribution, median, quartiles, and outliers."
+  ]
+},
+{
+  "tag": "heatmap_analysis",
+  "patterns": [
+    "Correlation heatmap",
+    "Interpret heatmap"
+  ],
+  "responses": [
+    "Heatmap visualizes correlation matrix using color intensity."
+  ]
+},
+{
+  "tag": "data_distribution_analysis",
+  "patterns": [
+    "Analyze data distribution",
+    "Check distribution of feature"
+  ],
+  "responses": [
+    "Distribution analysis identifies skewness and spread of data."
+  ]
+},
+{
+  "tag": "data_scalability",
+  "patterns": [
+    "What is data scalability?",
+    "Handle scalable data pipeline"
+  ],
+  "responses": [
+    "Data scalability ensures systems can handle increasing data volumes."
+  ]
+},
+{
+  "tag": "data_governance",
+  "patterns": [
+    "What is data governance?",
+    "Explain data governance in analytics"
+  ],
+  "responses": [
+    "Data governance defines policies to ensure data quality, security, and compliance."
+  ]
+},
+{
+  "tag": "data_security",
+  "patterns": [
+    "Data security in data science",
+    "Protect dataset information"
+  ],
+  "responses": [
+    "Data security protects sensitive data using encryption and access control."
+  ]
+},
+
+{
+  "tag": "data_standard_error",
+  "patterns": [
+    "What is standard error?",
+    "Explain standard error",
+    "Standard error vs standard deviation"
+  ],
+  "responses": [
+    "Standard error measures the accuracy of a sample mean by estimating variability between sample means."
+  ]
+},
+{
+  "tag": "confidence_interval_eda",
+  "patterns": [
+    "Confidence interval in EDA",
+    "Calculate confidence interval",
+    "Interpret confidence interval"
+  ],
+  "responses": [
+    "A confidence interval estimates the range in which a population parameter is likely to fall."
+  ]
+},
+{
+  "tag": "data_normalization_methods",
+  "patterns": [
+    "Types of normalization",
+    "Normalization techniques in data science"
+  ],
+  "responses": [
+    "Common normalization methods include Min-Max scaling, Z-score normalization, and Robust scaling."
+  ]
+},
+{
+  "tag": "handling_inconsistent_data",
+  "patterns": [
+    "How to handle inconsistent data?",
+    "Fix inconsistent dataset values"
+  ],
+  "responses": [
+    "Inconsistent data can be handled by standardizing formats, correcting typos, and validating categorical entries."
+  ]
+},
+{
+  "tag": "data_standard_rules",
+  "patterns": [
+    "Define data validation rules",
+    "Create validation rules in dataset"
+  ],
+  "responses": [
+    "Validation rules define constraints such as allowed ranges, data types, and mandatory fields."
+  ]
+},
+{
+  "tag": "handling_duplicate_entries",
+  "patterns": [
+    "Remove duplicate entries",
+    "Detect duplicate records"
+  ],
+  "responses": [
+    "Duplicate entries can be detected and removed using drop_duplicates() method in pandas."
+  ]
+},
+{
+  "tag": "missing_value_visualization",
+  "patterns": [
+    "Visualize missing values",
+    "Missing value heatmap"
+  ],
+  "responses": [
+    "Missing values can be visualized using heatmaps or bar plots to detect patterns."
+  ]
+},
+{
+  "tag": "outlier_capping",
+  "patterns": [
+    "What is outlier capping?",
+    "Winsorization meaning"
+  ],
+  "responses": [
+    "Outlier capping replaces extreme values with percentile thresholds."
+  ]
+},
+{
+  "tag": "winsorization",
+  "patterns": [
+    "Explain winsorization",
+    "Winsorization example"
+  ],
+  "responses": [
+    "Winsorization limits extreme values by replacing them with boundary percentiles."
+  ]
+},
+{
+  "tag": "feature_transformation",
+  "patterns": [
+    "What is feature transformation?",
+    "Transform features before modeling"
+  ],
+  "responses": [
+    "Feature transformation modifies variables to improve model performance."
+  ]
+},
+{
+  "tag": "data_splitting_strategies",
+  "patterns": [
+    "Different data splitting methods",
+    "Train validation test split"
+  ],
+  "responses": [
+    "Data can be split into train, validation, and test sets to evaluate performance."
+  ]
+},
+{
+  "tag": "holdout_method",
+  "patterns": [
+    "What is holdout method?",
+    "Explain holdout validation"
+  ],
+  "responses": [
+    "Holdout method splits dataset into training and testing sets once."
+  ]
+},
+{
+  "tag": "k_fold_validation",
+  "patterns": [
+    "Explain k fold cross validation",
+    "K fold validation meaning"
+  ],
+  "responses": [
+    "K-fold validation divides data into k subsets and rotates training/testing."
+  ]
+},
+{
+  "tag": "stratified_k_fold",
+  "patterns": [
+    "What is stratified k fold?",
+    "Stratified cross validation"
+  ],
+  "responses": [
+    "Stratified K-fold maintains class distribution in each fold."
+  ]
+},
+{
+  "tag": "data_preprocessing_workflow",
+  "patterns": [
+    "Data preprocessing workflow",
+    "Steps before machine learning model"
+  ],
+  "responses": [
+    "Workflow includes cleaning, transformation, scaling, encoding, and splitting."
+  ]
+},
+{
+  "tag": "automated_data_cleaning",
+  "patterns": [
+    "Automated data cleaning tools",
+    "Auto clean dataset"
+  ],
+  "responses": [
+    "Automated cleaning uses scripts or frameworks to standardize preprocessing."
+  ]
+},
+{
+  "tag": "handling_big_data_eda",
+  "patterns": [
+    "EDA for big data",
+    "Analyze large datasets"
+  ],
+  "responses": [
+    "Big data EDA requires distributed processing tools like Spark."
+  ]
+},
+{
+  "tag": "data_compression",
+  "patterns": [
+    "Data compression in analytics",
+    "Reduce dataset size"
+  ],
+  "responses": [
+    "Data compression reduces storage and speeds processing."
+  ]
+},
+{
+  "tag": "data_indexing",
+  "patterns": [
+    "What is indexing in pandas?",
+    "Set index in dataframe"
+  ],
+  "responses": [
+    "Indexing allows efficient row selection and labeling."
+  ]
+},
+{
+  "tag": "hierarchical_indexing",
+  "patterns": [
+    "What is multi index?",
+    "Hierarchical indexing meaning"
+  ],
+  "responses": [
+    "Hierarchical indexing allows multiple levels of indexing."
+  ]
+},
+{
+  "tag": "handling_sparse_data",
+  "patterns": [
+    "What is sparse data?",
+    "Handle sparse dataset"
+  ],
+  "responses": [
+    "Sparse data contains many zero values and can be optimized using sparse matrices."
+  ]
+},
+{
+  "tag": "data_integrity",
+  "patterns": [
+    "What is data integrity?",
+    "Ensure data integrity"
+  ],
+  "responses": [
+    "Data integrity ensures data remains accurate and consistent over time."
+  ]
+},
+{
+  "tag": "data_standardization_rules",
+  "patterns": [
+    "Standardization rules in dataset",
+    "Maintain dataset standards"
+  ],
+  "responses": [
+    "Standardization ensures consistent naming conventions and formats."
+  ]
+},
+{
+  "tag": "handling_missing_time_series",
+  "patterns": [
+    "Missing values in time series",
+    "Fill missing dates"
+  ],
+  "responses": [
+    "Time series missing values can be filled using interpolation."
+  ]
+},
+{
+  "tag": "interpolation_method",
+  "patterns": [
+    "What is interpolation?",
+    "Linear interpolation meaning"
+  ],
+  "responses": [
+    "Interpolation estimates missing values between known points."
+  ]
+},
+{
+  "tag": "data_visual_inspection",
+  "patterns": [
+    "Visual inspection of dataset",
+    "Manual data inspection"
+  ],
+  "responses": [
+    "Visual inspection helps detect anomalies and inconsistencies."
+  ]
+},
+{
+  "tag": "data_summary_statistics",
+  "patterns": [
+    "Summary statistics meaning",
+    "Statistical summary in EDA"
+  ],
+  "responses": [
+    "Summary statistics include mean, median, variance, and percentiles."
+  ]
+},
+{
+  "tag": "data_quality_metrics",
+  "patterns": [
+    "Metrics for data quality",
+    "Evaluate dataset quality"
+  ],
+  "responses": [
+    "Quality metrics include completeness, accuracy, timeliness, and validity."
+  ]
+},
+{
+  "tag": "model_ready_dataset",
+  "patterns": [
+    "What is model ready dataset?",
+    "Prepare dataset for machine learning"
+  ],
+  "responses": [
+    "A model-ready dataset is cleaned, scaled, encoded, and split properly."
+  ]
+},
+{
+  "tag": "industry_eda_practices",
+  "patterns": [
+    "Industry EDA best practices",
+    "Real world EDA approach"
+  ],
+  "responses": [
+    "Industry EDA focuses on automation, reproducibility, scalability, and monitoring."
+  ]
+}
+]

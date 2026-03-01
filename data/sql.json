@@ -1,0 +1,1015 @@
+[
+{
+  "tag": "what_is_sql",
+  "patterns": [
+    "What is SQL?",
+    "Explain SQL",
+    "Define SQL",
+    "SQL meaning",
+    "Introduction to SQL"
+  ],
+  "responses": [
+    "SQL (Structured Query Language) is a language used to manage, manipulate, and retrieve data from relational databases."
+  ]
+},
+{
+  "tag": "why_sql_for_data_science",
+  "patterns": [
+    "Why SQL is important for data science?",
+    "Role of SQL in data science",
+    "Use of SQL in analytics"
+  ],
+  "responses": [
+    "SQL is essential for extracting, filtering, aggregating, and analyzing structured data stored in databases."
+  ]
+},
+{
+  "tag": "relational_database",
+  "patterns": [
+    "What is relational database?",
+    "Explain relational database",
+    "Relational database meaning"
+  ],
+  "responses": [
+    "A relational database stores data in tables with rows and columns and uses relationships between tables."
+  ]
+},
+{
+  "tag": "table_in_sql",
+  "patterns": [
+    "What is table in SQL?",
+    "Define table in database"
+  ],
+  "responses": [
+    "A table is a structured collection of data organized into rows and columns."
+  ]
+},
+{
+  "tag": "primary_key",
+  "patterns": [
+    "What is primary key?",
+    "Primary key meaning",
+    "Define primary key in SQL"
+  ],
+  "responses": [
+    "A primary key uniquely identifies each record in a table."
+  ]
+},
+{
+  "tag": "foreign_key",
+  "patterns": [
+    "What is foreign key?",
+    "Explain foreign key",
+    "Foreign key meaning"
+  ],
+  "responses": [
+    "A foreign key links one table to another by referencing a primary key."
+  ]
+},
+{
+  "tag": "select_statement",
+  "patterns": [
+    "What is SELECT statement?",
+    "Explain SELECT query",
+    "Basic select query"
+  ],
+  "responses": [
+    "SELECT is used to retrieve data from one or more tables."
+  ]
+},
+{
+  "tag": "where_clause",
+  "patterns": [
+    "What is WHERE clause?",
+    "Explain WHERE in SQL"
+  ],
+  "responses": [
+    "WHERE filters records based on specified conditions."
+  ]
+},
+{
+  "tag": "order_by_clause",
+  "patterns": [
+    "What is ORDER BY?",
+    "Sort data in SQL"
+  ],
+  "responses": [
+    "ORDER BY sorts query results in ascending or descending order."
+  ]
+},
+{
+  "tag": "group_by_clause",
+  "patterns": [
+    "What is GROUP BY?",
+    "Explain GROUP BY",
+    "Group data in SQL"
+  ],
+  "responses": [
+    "GROUP BY groups rows with similar values for aggregation."
+  ]
+},
+{
+  "tag": "having_clause",
+  "patterns": [
+    "What is HAVING clause?",
+    "Difference between WHERE and HAVING"
+  ],
+  "responses": [
+    "HAVING filters aggregated results after GROUP BY."
+  ]
+},
+{
+  "tag": "aggregate_functions",
+  "patterns": [
+    "Aggregate functions in SQL",
+    "What are aggregate functions?"
+  ],
+  "responses": [
+    "Common aggregate functions include COUNT, SUM, AVG, MIN, and MAX."
+  ]
+},
+{
+  "tag": "count_function",
+  "patterns": [
+    "What is COUNT?",
+    "Explain COUNT function"
+  ],
+  "responses": [
+    "COUNT returns number of rows matching a condition."
+  ]
+},
+{
+  "tag": "sum_function",
+  "patterns": [
+    "What is SUM function?",
+    "Explain SUM in SQL"
+  ],
+  "responses": [
+    "SUM calculates total of numeric column."
+  ]
+},
+{
+  "tag": "avg_function",
+  "patterns": [
+    "What is AVG?",
+    "Explain average in SQL"
+  ],
+  "responses": [
+    "AVG calculates average of numeric values."
+  ]
+},
+{
+  "tag": "min_max_function",
+  "patterns": [
+    "What is MIN and MAX?",
+    "Explain MIN MAX functions"
+  ],
+  "responses": [
+    "MIN returns smallest value, MAX returns largest value."
+  ]
+},
+{
+  "tag": "inner_join",
+  "patterns": [
+    "What is INNER JOIN?",
+    "Explain inner join"
+  ],
+  "responses": [
+    "INNER JOIN returns matching records from both tables."
+  ]
+},
+{
+  "tag": "left_join",
+  "patterns": [
+    "What is LEFT JOIN?",
+    "Explain left join"
+  ],
+  "responses": [
+    "LEFT JOIN returns all records from left table and matching from right."
+  ]
+},
+{
+  "tag": "right_join",
+  "patterns": [
+    "What is RIGHT JOIN?",
+    "Explain right join"
+  ],
+  "responses": [
+    "RIGHT JOIN returns all records from right table."
+  ]
+},
+{
+  "tag": "full_join",
+  "patterns": [
+    "What is FULL JOIN?",
+    "Explain full outer join"
+  ],
+  "responses": [
+    "FULL JOIN returns all records when there is match in either table."
+  ]
+},
+{
+  "tag": "subquery",
+  "patterns": [
+    "What is subquery?",
+    "Explain nested query"
+  ],
+  "responses": [
+    "A subquery is a query inside another SQL query."
+  ]
+},
+{
+  "tag": "distinct_keyword",
+  "patterns": [
+    "What is DISTINCT?",
+    "Remove duplicate rows in SQL"
+  ],
+  "responses": [
+    "DISTINCT removes duplicate rows from result."
+  ]
+},
+{
+  "tag": "like_operator",
+  "patterns": [
+    "What is LIKE operator?",
+    "Pattern matching in SQL"
+  ],
+  "responses": [
+    "LIKE searches for specific patterns using wildcards."
+  ]
+},
+{
+  "tag": "between_operator",
+  "patterns": [
+    "What is BETWEEN?",
+    "Use BETWEEN in SQL"
+  ],
+  "responses": [
+    "BETWEEN filters values within a range."
+  ]
+},
+{
+  "tag": "in_operator",
+  "patterns": [
+    "What is IN operator?",
+    "Explain IN in SQL"
+  ],
+  "responses": [
+    "IN allows filtering against multiple values."
+  ]
+},
+{
+  "tag": "null_handling",
+  "patterns": [
+    "What is NULL in SQL?",
+    "Handle NULL values"
+  ],
+  "responses": [
+    "NULL represents missing or unknown values."
+  ]
+},
+{
+  "tag": "is_null_operator",
+  "patterns": [
+    "What is IS NULL?",
+    "Check null in SQL"
+  ],
+  "responses": [
+    "IS NULL checks for null values."
+  ]
+},
+{
+  "tag": "case_statement",
+  "patterns": [
+    "What is CASE statement?",
+    "Conditional logic in SQL"
+  ],
+  "responses": [
+    "CASE performs conditional logic similar to if-else."
+  ]
+},
+{
+  "tag": "limit_clause",
+  "patterns": [
+    "What is LIMIT?",
+    "Top rows in SQL"
+  ],
+  "responses": [
+    "LIMIT restricts number of returned rows."
+  ]
+},
+{
+  "tag": "alias_in_sql",
+  "patterns": [
+    "What is alias?",
+    "Rename column in SQL"
+  ],
+  "responses": [
+    "Alias temporarily renames columns or tables."
+  ]
+},
+{
+  "tag": "create_table",
+  "patterns": [
+    "Create table in SQL",
+    "Syntax for creating table"
+  ],
+  "responses": [
+    "CREATE TABLE defines new table structure."
+  ]
+},
+{
+  "tag": "insert_statement",
+  "patterns": [
+    "Insert data in SQL",
+    "What is INSERT?"
+  ],
+  "responses": [
+    "INSERT adds new records into a table."
+  ]
+},
+{
+  "tag": "update_statement",
+  "patterns": [
+    "Update query in SQL",
+    "Modify records in SQL"
+  ],
+  "responses": [
+    "UPDATE modifies existing records."
+  ]
+},
+{
+  "tag": "delete_statement",
+  "patterns": [
+    "Delete query in SQL",
+    "Remove records in SQL"
+  ],
+  "responses": [
+    "DELETE removes records from a table."
+  ]
+},
+{
+  "tag": "truncate_vs_delete",
+  "patterns": [
+    "Difference between DELETE and TRUNCATE"
+  ],
+  "responses": [
+    "DELETE removes specific rows; TRUNCATE removes all rows quickly."
+  ]
+},
+{
+  "tag": "drop_table",
+  "patterns": [
+    "What is DROP TABLE?"
+  ],
+  "responses": [
+    "DROP TABLE permanently deletes a table."
+  ]
+},
+
+{
+  "tag": "what_is_sql",
+  "patterns": [
+    "What is SQL?",
+    "Explain SQL",
+    "Define SQL",
+    "SQL meaning",
+    "Introduction to SQL"
+  ],
+  "responses": [
+    "SQL (Structured Query Language) is a language used to manage, manipulate, and retrieve data from relational databases."
+  ]
+},
+{
+  "tag": "why_sql_for_data_science",
+  "patterns": [
+    "Why SQL is important for data science?",
+    "Role of SQL in data science",
+    "Use of SQL in analytics"
+  ],
+  "responses": [
+    "SQL is essential for extracting, filtering, aggregating, and analyzing structured data stored in databases."
+  ]
+},
+{
+  "tag": "relational_database",
+  "patterns": [
+    "What is relational database?",
+    "Explain relational database",
+    "Relational database meaning"
+  ],
+  "responses": [
+    "A relational database stores data in tables with rows and columns and uses relationships between tables."
+  ]
+},
+{
+  "tag": "table_in_sql",
+  "patterns": [
+    "What is table in SQL?",
+    "Define table in database"
+  ],
+  "responses": [
+    "A table is a structured collection of data organized into rows and columns."
+  ]
+},
+{
+  "tag": "primary_key",
+  "patterns": [
+    "What is primary key?",
+    "Primary key meaning",
+    "Define primary key in SQL"
+  ],
+  "responses": [
+    "A primary key uniquely identifies each record in a table."
+  ]
+},
+{
+  "tag": "foreign_key",
+  "patterns": [
+    "What is foreign key?",
+    "Explain foreign key",
+    "Foreign key meaning"
+  ],
+  "responses": [
+    "A foreign key links one table to another by referencing a primary key."
+  ]
+},
+{
+  "tag": "select_statement",
+  "patterns": [
+    "What is SELECT statement?",
+    "Explain SELECT query",
+    "Basic select query"
+  ],
+  "responses": [
+    "SELECT is used to retrieve data from one or more tables."
+  ]
+},
+{
+  "tag": "where_clause",
+  "patterns": [
+    "What is WHERE clause?",
+    "Explain WHERE in SQL"
+  ],
+  "responses": [
+    "WHERE filters records based on specified conditions."
+  ]
+},
+{
+  "tag": "order_by_clause",
+  "patterns": [
+    "What is ORDER BY?",
+    "Sort data in SQL"
+  ],
+  "responses": [
+    "ORDER BY sorts query results in ascending or descending order."
+  ]
+},
+{
+  "tag": "group_by_clause",
+  "patterns": [
+    "What is GROUP BY?",
+    "Explain GROUP BY",
+    "Group data in SQL"
+  ],
+  "responses": [
+    "GROUP BY groups rows with similar values for aggregation."
+  ]
+},
+{
+  "tag": "having_clause",
+  "patterns": [
+    "What is HAVING clause?",
+    "Difference between WHERE and HAVING"
+  ],
+  "responses": [
+    "HAVING filters aggregated results after GROUP BY."
+  ]
+},
+{
+  "tag": "aggregate_functions",
+  "patterns": [
+    "Aggregate functions in SQL",
+    "What are aggregate functions?"
+  ],
+  "responses": [
+    "Common aggregate functions include COUNT, SUM, AVG, MIN, and MAX."
+  ]
+},
+{
+  "tag": "count_function",
+  "patterns": [
+    "What is COUNT?",
+    "Explain COUNT function"
+  ],
+  "responses": [
+    "COUNT returns number of rows matching a condition."
+  ]
+},
+{
+  "tag": "sum_function",
+  "patterns": [
+    "What is SUM function?",
+    "Explain SUM in SQL"
+  ],
+  "responses": [
+    "SUM calculates total of numeric column."
+  ]
+},
+{
+  "tag": "avg_function",
+  "patterns": [
+    "What is AVG?",
+    "Explain average in SQL"
+  ],
+  "responses": [
+    "AVG calculates average of numeric values."
+  ]
+},
+{
+  "tag": "min_max_function",
+  "patterns": [
+    "What is MIN and MAX?",
+    "Explain MIN MAX functions"
+  ],
+  "responses": [
+    "MIN returns smallest value, MAX returns largest value."
+  ]
+},
+{
+  "tag": "inner_join",
+  "patterns": [
+    "What is INNER JOIN?",
+    "Explain inner join"
+  ],
+  "responses": [
+    "INNER JOIN returns matching records from both tables."
+  ]
+},
+{
+  "tag": "left_join",
+  "patterns": [
+    "What is LEFT JOIN?",
+    "Explain left join"
+  ],
+  "responses": [
+    "LEFT JOIN returns all records from left table and matching from right."
+  ]
+},
+{
+  "tag": "right_join",
+  "patterns": [
+    "What is RIGHT JOIN?",
+    "Explain right join"
+  ],
+  "responses": [
+    "RIGHT JOIN returns all records from right table."
+  ]
+},
+{
+  "tag": "full_join",
+  "patterns": [
+    "What is FULL JOIN?",
+    "Explain full outer join"
+  ],
+  "responses": [
+    "FULL JOIN returns all records when there is match in either table."
+  ]
+},
+{
+  "tag": "subquery",
+  "patterns": [
+    "What is subquery?",
+    "Explain nested query"
+  ],
+  "responses": [
+    "A subquery is a query inside another SQL query."
+  ]
+},
+{
+  "tag": "distinct_keyword",
+  "patterns": [
+    "What is DISTINCT?",
+    "Remove duplicate rows in SQL"
+  ],
+  "responses": [
+    "DISTINCT removes duplicate rows from result."
+  ]
+},
+{
+  "tag": "like_operator",
+  "patterns": [
+    "What is LIKE operator?",
+    "Pattern matching in SQL"
+  ],
+  "responses": [
+    "LIKE searches for specific patterns using wildcards."
+  ]
+},
+{
+  "tag": "between_operator",
+  "patterns": [
+    "What is BETWEEN?",
+    "Use BETWEEN in SQL"
+  ],
+  "responses": [
+    "BETWEEN filters values within a range."
+  ]
+},
+{
+  "tag": "in_operator",
+  "patterns": [
+    "What is IN operator?",
+    "Explain IN in SQL"
+  ],
+  "responses": [
+    "IN allows filtering against multiple values."
+  ]
+},
+{
+  "tag": "null_handling",
+  "patterns": [
+    "What is NULL in SQL?",
+    "Handle NULL values"
+  ],
+  "responses": [
+    "NULL represents missing or unknown values."
+  ]
+},
+{
+  "tag": "is_null_operator",
+  "patterns": [
+    "What is IS NULL?",
+    "Check null in SQL"
+  ],
+  "responses": [
+    "IS NULL checks for null values."
+  ]
+},
+{
+  "tag": "case_statement",
+  "patterns": [
+    "What is CASE statement?",
+    "Conditional logic in SQL"
+  ],
+  "responses": [
+    "CASE performs conditional logic similar to if-else."
+  ]
+},
+{
+  "tag": "limit_clause",
+  "patterns": [
+    "What is LIMIT?",
+    "Top rows in SQL"
+  ],
+  "responses": [
+    "LIMIT restricts number of returned rows."
+  ]
+},
+{
+  "tag": "alias_in_sql",
+  "patterns": [
+    "What is alias?",
+    "Rename column in SQL"
+  ],
+  "responses": [
+    "Alias temporarily renames columns or tables."
+  ]
+},
+{
+  "tag": "create_table",
+  "patterns": [
+    "Create table in SQL",
+    "Syntax for creating table"
+  ],
+  "responses": [
+    "CREATE TABLE defines new table structure."
+  ]
+},
+{
+  "tag": "insert_statement",
+  "patterns": [
+    "Insert data in SQL",
+    "What is INSERT?"
+  ],
+  "responses": [
+    "INSERT adds new records into a table."
+  ]
+},
+{
+  "tag": "update_statement",
+  "patterns": [
+    "Update query in SQL",
+    "Modify records in SQL"
+  ],
+  "responses": [
+    "UPDATE modifies existing records."
+  ]
+},
+{
+  "tag": "delete_statement",
+  "patterns": [
+    "Delete query in SQL",
+    "Remove records in SQL"
+  ],
+  "responses": [
+    "DELETE removes records from a table."
+  ]
+},
+{
+  "tag": "truncate_vs_delete",
+  "patterns": [
+    "Difference between DELETE and TRUNCATE"
+  ],
+  "responses": [
+    "DELETE removes specific rows; TRUNCATE removes all rows quickly."
+  ]
+},
+{
+  "tag": "drop_table",
+  "patterns": [
+    "What is DROP TABLE?"
+  ],
+  "responses": [
+    "DROP TABLE permanently deletes a table."
+  ]
+},
+
+{
+  "tag": "what_is_data_warehouse",
+  "patterns": [
+    "What is data warehouse?",
+    "Explain data warehouse",
+    "Data warehouse meaning"
+  ],
+  "responses": [
+    "A data warehouse is a centralized repository designed for analytical reporting and business intelligence.",
+    "It stores historical data from multiple sources and is optimized for complex queries and analytics."
+  ]
+},
+{
+  "tag": "etl_process",
+  "patterns": [
+    "What is ETL?",
+    "Explain ETL process",
+    "ETL meaning in data engineering"
+  ],
+  "responses": [
+    "ETL stands for Extract, Transform, Load — a process used to move data into a data warehouse.",
+    "It extracts data from sources, transforms it into required format, and loads it into destination systems."
+  ]
+},
+{
+  "tag": "fact_table",
+  "patterns": [
+    "What is fact table?",
+    "Explain fact table in data warehouse"
+  ],
+  "responses": [
+    "A fact table stores measurable, quantitative data like sales amount or revenue.",
+    "It usually contains foreign keys linking to dimension tables."
+  ]
+},
+{
+  "tag": "dimension_table",
+  "patterns": [
+    "What is dimension table?",
+    "Explain dimension table"
+  ],
+  "responses": [
+    "A dimension table stores descriptive attributes like customer name or product category.",
+    "It provides context to facts stored in fact tables."
+  ]
+},
+{
+  "tag": "star_schema",
+  "patterns": [
+    "What is star schema?",
+    "Explain star schema in data warehouse"
+  ],
+  "responses": [
+    "Star schema consists of one central fact table connected to multiple dimension tables.",
+    "It simplifies querying and improves performance."
+  ]
+},
+{
+  "tag": "snowflake_schema",
+  "patterns": [
+    "What is snowflake schema?",
+    "Snowflake schema meaning"
+  ],
+  "responses": [
+    "Snowflake schema normalizes dimension tables into multiple related tables.",
+    "It reduces redundancy but increases complexity."
+  ]
+},
+{
+  "tag": "slowly_changing_dimension",
+  "patterns": [
+    "What is slowly changing dimension?",
+    "SCD types explanation"
+  ],
+  "responses": [
+    "Slowly Changing Dimension manages changes in dimension attributes over time.",
+    "Common types include Type 1 (overwrite), Type 2 (historical tracking), and Type 3 (limited history)."
+  ]
+},
+{
+  "tag": "kpi_calculation",
+  "patterns": [
+    "What is KPI in SQL?",
+    "Calculate KPI using SQL"
+  ],
+  "responses": [
+    "KPI (Key Performance Indicator) measures business performance like revenue growth or churn rate.",
+    "SQL can calculate KPIs using aggregation and window functions."
+  ]
+},
+{
+  "tag": "customer_churn_sql",
+  "patterns": [
+    "How to calculate churn rate in SQL?",
+    "Customer churn query example"
+  ],
+  "responses": [
+    "Churn rate is calculated by dividing lost customers by total customers in a period.",
+    "It helps businesses understand retention performance."
+  ]
+},
+{
+  "tag": "cohort_analysis_sql",
+  "patterns": [
+    "Cohort analysis in SQL",
+    "How to perform cohort analysis?"
+  ],
+  "responses": [
+    "Cohort analysis groups users based on acquisition date and tracks retention.",
+    "It is typically implemented using window functions and date grouping."
+  ]
+},
+{
+  "tag": "retention_rate_sql",
+  "patterns": [
+    "Calculate retention rate SQL",
+    "Retention analysis query"
+  ],
+  "responses": [
+    "Retention rate measures percentage of users who return after first activity.",
+    "It requires grouping by signup date and tracking repeat usage."
+  ]
+},
+{
+  "tag": "top_n_per_group",
+  "patterns": [
+    "Top N per group SQL",
+    "Get top 3 per category"
+  ],
+  "responses": [
+    "Top N per group is solved using ROW_NUMBER() partitioned by category.",
+    "It is commonly asked in interviews."
+  ]
+},
+{
+  "tag": "duplicate_detection_sql",
+  "patterns": [
+    "Find duplicate rows in SQL",
+    "Remove duplicates using SQL"
+  ],
+  "responses": [
+    "Duplicates can be detected using GROUP BY and HAVING COUNT > 1.",
+    "Window functions help remove duplicates safely."
+  ]
+},
+{
+  "tag": "gap_analysis_sql",
+  "patterns": [
+    "Find missing dates in SQL",
+    "Gap analysis query"
+  ],
+  "responses": [
+    "Gap analysis identifies missing sequences in data.",
+    "LAG and LEAD functions help detect gaps."
+  ]
+},
+{
+  "tag": "median_sql",
+  "patterns": [
+    "Calculate median in SQL",
+    "Median query example"
+  ],
+  "responses": [
+    "Median can be calculated using window functions and ranking.",
+    "Some databases provide built-in percentile functions."
+  ]
+},
+{
+  "tag": "percentile_sql",
+  "patterns": [
+    "Percentile calculation SQL",
+    "What is percentile function?"
+  ],
+  "responses": [
+    "Percentile measures value below which a percentage of observations fall.",
+    "It is used for salary or performance distribution analysis."
+  ]
+},
+{
+  "tag": "feature_engineering_sql",
+  "patterns": [
+    "Feature engineering using SQL",
+    "Prepare ML features in SQL"
+  ],
+  "responses": [
+    "SQL can create derived features like average purchase, frequency, recency.",
+    "These features are commonly used in machine learning pipelines."
+  ]
+},
+{
+  "tag": "r_f_m_analysis",
+  "patterns": [
+    "What is RFM analysis?",
+    "RFM model SQL"
+  ],
+  "responses": [
+    "RFM stands for Recency, Frequency, Monetary analysis.",
+    "It segments customers based on purchasing behavior."
+  ]
+},
+{
+  "tag": "session_analysis_sql",
+  "patterns": [
+    "Session analysis in SQL",
+    "User session calculation"
+  ],
+  "responses": [
+    "Session analysis groups events into sessions based on time gaps.",
+    "It is used in product analytics."
+  ]
+},
+{
+  "tag": "data_mart",
+  "patterns": [
+    "What is data mart?",
+    "Explain data mart"
+  ],
+  "responses": [
+    "Data mart is a subset of data warehouse focused on specific department.",
+    "It simplifies reporting for business teams."
+  ]
+},
+{
+  "tag": "real_time_analytics_sql",
+  "patterns": [
+    "Real time analytics SQL",
+    "Streaming SQL analytics"
+  ],
+  "responses": [
+    "Real-time analytics processes streaming data instantly.",
+    "Modern systems integrate SQL with streaming engines."
+  ]
+},
+{
+  "tag": "sql_for_ab_testing",
+  "patterns": [
+    "SQL for A B testing",
+    "Analyze experiment results SQL"
+  ],
+  "responses": [
+    "SQL calculates conversion rate differences between experiment groups.",
+    "Statistical testing can be integrated for significance analysis."
+  ]
+},
+{
+  "tag": "data_governance_sql",
+  "patterns": [
+    "What is data governance?",
+    "SQL role in data governance"
+  ],
+  "responses": [
+    "Data governance ensures data quality and compliance.",
+    "SQL controls access through roles and permissions."
+  ]
+},
+{
+  "tag": "partitioning_sql",
+  "patterns": [
+    "What is partitioning in SQL?",
+    "Table partitioning meaning"
+  ],
+  "responses": [
+    "Partitioning splits large tables into smaller segments.",
+    "It improves performance and manageability."
+  ]
+},
+{
+  "tag": "sharding",
+  "patterns": [
+    "What is sharding?",
+    "Database sharding meaning"
+  ],
+  "responses": [
+    "Sharding distributes data across multiple servers.",
+    "It helps scale large applications."
+  ]
+}
+]

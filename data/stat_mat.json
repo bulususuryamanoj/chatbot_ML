@@ -1,0 +1,595 @@
+[
+{
+  "tag": "mean",
+  "patterns": [
+    "What is mean?",
+    "Define mean in statistics",
+    "What is arithmetic mean?",
+    "How to calculate mean?",
+    "Formula of mean",
+    "Explain average in statistics",
+    "Mean meaning in statistics",
+    "How is mean different from median?"
+  ],
+  "responses": [
+    "Mean is the average of a dataset. It is calculated by adding all values and dividing by the total number of values."
+  ]
+},
+{
+  "tag": "median",
+  "patterns": [
+    "What is median?",
+    "Define median",
+    "How to calculate median?",
+    "Median meaning in statistics",
+    "Explain median with example",
+    "When to use median?",
+    "Difference between mean and median"
+  ],
+  "responses": [
+    "Median is the middle value of a dataset when arranged in ascending or descending order. It is useful when data contains outliers."
+  ]
+},
+{
+  "tag": "mode",
+  "patterns": [
+    "What is mode?",
+    "Define mode",
+    "How to find mode?",
+    "Mode meaning in statistics",
+    "What is bimodal distribution?",
+    "Difference between mode and mean"
+  ],
+  "responses": [
+    "Mode is the value that appears most frequently in a dataset. A dataset can have one mode, multiple modes, or no mode."
+  ]
+},
+{
+  "tag": "range",
+  "patterns": [
+    "What is range in statistics?",
+    "Define range",
+    "How to calculate range?",
+    "Range formula",
+    "Meaning of range in statistics"
+  ],
+  "responses": [
+    "Range is the difference between the maximum and minimum values in a dataset. It measures spread."
+  ]
+},
+{
+  "tag": "variance",
+  "patterns": [
+    "What is variance?",
+    "Define variance",
+    "Variance formula",
+    "How to calculate variance?",
+    "Population vs sample variance",
+    "Why variance important?"
+  ],
+  "responses": [
+    "Variance measures how far each data point is from the mean. It shows how spread out the data is."
+  ]
+},
+{
+  "tag": "standard_deviation",
+  "patterns": [
+    "What is standard deviation?",
+    "Define standard deviation",
+    "Standard deviation formula",
+    "Difference between variance and standard deviation",
+    "Why standard deviation important?",
+    "Explain standard deviation simply"
+  ],
+  "responses": [
+    "Standard deviation is the square root of variance. It measures how much data deviates from the mean."
+  ]
+},
+{
+  "tag": "skewness",
+  "patterns": [
+    "What is skewness?",
+    "Define skewness",
+    "Positive vs negative skewness",
+    "How to identify skewed data?",
+    "Skewness meaning"
+  ],
+  "responses": [
+    "Skewness measures the asymmetry of a distribution. Positive skew means the right tail is longer. Negative skew means the left tail is longer."
+  ]
+},
+{
+  "tag": "kurtosis",
+  "patterns": [
+    "What is kurtosis?",
+    "Define kurtosis",
+    "Types of kurtosis",
+    "Leptokurtic meaning",
+    "Platykurtic meaning",
+    "Mesokurtic meaning"
+  ],
+  "responses": [
+    "Kurtosis measures the tailedness of a distribution. High kurtosis means heavy tails, low kurtosis means light tails."
+  ]
+},
+{
+  "tag": "quartiles",
+  "patterns": [
+    "What are quartiles?",
+    "Define Q1 Q2 Q3",
+    "Explain quartiles in statistics",
+    "How to calculate quartiles?",
+    "Quartile meaning"
+  ],
+  "responses": [
+    "Quartiles divide data into four equal parts. Q1 is the 25th percentile, Q2 is the median, and Q3 is the 75th percentile."
+  ]
+},
+{
+  "tag": "interquartile_range",
+  "patterns": [
+    "What is interquartile range?",
+    "Define IQR",
+    "How to calculate IQR?",
+    "IQR formula",
+    "IQR meaning in statistics"
+  ],
+  "responses": [
+    "Interquartile Range (IQR) is the difference between Q3 and Q1. It measures the spread of the middle 50% of data."
+  ]
+},
+
+{
+  "tag": "probability_basics",
+  "patterns": [
+    "What is probability?",
+    "Define probability",
+    "Probability formula",
+    "Explain probability in simple terms",
+    "Basic probability concept"
+  ],
+  "responses": [
+    "Probability measures the likelihood of an event occurring. It ranges from 0 (impossible) to 1 (certain)."
+  ]
+},
+{
+  "tag": "conditional_probability",
+  "patterns": [
+    "What is conditional probability?",
+    "Define conditional probability",
+    "Conditional probability formula",
+    "Explain P(A|B)",
+    "Meaning of conditional probability"
+  ],
+  "responses": [
+    "Conditional probability is the probability of an event occurring given that another event has already occurred."
+  ]
+},
+{
+  "tag": "independent_dependent_events",
+  "patterns": [
+    "What are independent events?",
+    "Define dependent events",
+    "Difference between independent and dependent events",
+    "Examples of independent events"
+  ],
+  "responses": [
+    "Independent events do not affect each other's probability. Dependent events influence the probability of each other."
+  ]
+},
+{
+  "tag": "random_variable",
+  "patterns": [
+    "What is random variable?",
+    "Types of random variables",
+    "Discrete vs continuous random variable",
+    "Explain random variable"
+  ],
+  "responses": [
+    "A random variable represents numerical outcomes of a random experiment. It can be discrete or continuous."
+  ]
+},
+{
+  "tag": "expected_value",
+  "patterns": [
+    "What is expected value?",
+    "Define expectation in probability",
+    "Expected value formula",
+    "Mean of random variable"
+  ],
+  "responses": [
+    "Expected value is the weighted average of all possible values of a random variable."
+  ]
+},
+
+{
+  "tag": "inferential_statistics",
+  "patterns": [
+    "What is inferential statistics?",
+    "Define inferential statistics",
+    "Explain inferential statistics",
+    "Difference between descriptive and inferential statistics",
+    "What is inference in statistics?",
+    "Role of inferential statistics in data science"
+  ],
+  "responses": [
+    "Inferential statistics uses sample data to make conclusions about a population. It helps in hypothesis testing, confidence intervals, and predictions."
+  ]
+},
+{
+  "tag": "population_vs_sample",
+  "patterns": [
+    "What is population in statistics?",
+    "Define sample in statistics",
+    "Difference between population and sample",
+    "Population vs sample",
+    "Why sample is used instead of population?",
+    "Example of population and sample"
+  ],
+  "responses": [
+    "Population refers to the entire group of interest, while a sample is a subset of the population used for analysis."
+  ]
+},
+{
+  "tag": "sampling_methods",
+  "patterns": [
+    "What are sampling methods?",
+    "Types of sampling techniques",
+    "Explain random sampling",
+    "What is stratified sampling?",
+    "Difference between probability and non probability sampling",
+    "Sampling techniques in statistics"
+  ],
+  "responses": [
+    "Sampling methods are techniques used to select a subset from a population. Common methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling."
+  ]
+},
+{
+  "tag": "sampling_distribution",
+  "patterns": [
+    "What is sampling distribution?",
+    "Define sampling distribution",
+    "Explain sampling distribution of mean",
+    "Why sampling distribution important?",
+    "Sampling distribution meaning"
+  ],
+  "responses": [
+    "Sampling distribution is the probability distribution of a statistic (like mean) obtained from multiple samples of the same population."
+  ]
+},
+{
+  "tag": "central_limit_theorem",
+  "patterns": [
+    "What is Central Limit Theorem?",
+    "Explain CLT",
+    "Central limit theorem meaning",
+    "Why CLT important?",
+    "Role of CLT in machine learning",
+    "How CLT works?"
+  ],
+  "responses": [
+    "Central Limit Theorem states that the sampling distribution of the sample mean approaches a normal distribution as sample size increases, regardless of population distribution."
+  ]
+},
+{
+  "tag": "null_hypothesis",
+  "patterns": [
+    "What is null hypothesis?",
+    "Define null hypothesis",
+    "H0 meaning",
+    "Example of null hypothesis",
+    "Why null hypothesis important?"
+  ],
+  "responses": [
+    "Null hypothesis (H0) states that there is no significant difference or effect. It is assumed true until evidence suggests otherwise."
+  ]
+},
+{
+  "tag": "alternative_hypothesis",
+  "patterns": [
+    "What is alternative hypothesis?",
+    "Define alternative hypothesis",
+    "H1 meaning",
+    "Difference between null and alternative hypothesis",
+    "Example of alternative hypothesis"
+  ],
+  "responses": [
+    "Alternative hypothesis (H1) states that there is a significant difference or effect. It is accepted if null hypothesis is rejected."
+  ]
+},
+{
+  "tag": "p_value",
+  "patterns": [
+    "What is p value?",
+    "Define p value",
+    "Interpretation of p value",
+    "What does p less than 0.05 mean?",
+    "Why p value important?"
+  ],
+  "responses": [
+    "P-value is the probability of observing results as extreme as the sample results assuming null hypothesis is true. If p < 0.05, results are statistically significant."
+  ]
+},
+{
+  "tag": "type_1_error",
+  "patterns": [
+    "What is Type 1 error?",
+    "Define Type 1 error",
+    "False positive meaning",
+    "Example of Type 1 error",
+    "Alpha error meaning"
+  ],
+  "responses": [
+    "Type 1 error occurs when we reject a true null hypothesis. It is also called false positive."
+  ]
+},
+{
+  "tag": "type_2_error",
+  "patterns": [
+    "What is Type 2 error?",
+    "Define Type 2 error",
+    "False negative meaning",
+    "Example of Type 2 error",
+    "Beta error meaning"
+  ],
+  "responses": [
+    "Type 2 error occurs when we fail to reject a false null hypothesis. It is also called false negative."
+  ]
+},
+{
+  "tag": "confidence_interval",
+  "patterns": [
+    "What is confidence interval?",
+    "Define confidence interval",
+    "Explain 95 percent confidence interval",
+    "How to calculate confidence interval?",
+    "Why confidence interval important?"
+  ],
+  "responses": [
+    "A confidence interval provides a range of values within which the true population parameter is expected to lie with a certain confidence level."
+  ]
+},
+{
+  "tag": "z_test",
+  "patterns": [
+    "What is z test?",
+    "Define z test",
+    "When to use z test?",
+    "Difference between z test and t test",
+    "Z test formula"
+  ],
+  "responses": [
+    "Z-test is used to test hypotheses when population variance is known and sample size is large (n > 30)."
+  ]
+},
+{
+  "tag": "t_test",
+  "patterns": [
+    "What is t test?",
+    "Define t test",
+    "Types of t test",
+    "When to use t test?",
+    "Independent vs paired t test"
+  ],
+  "responses": [
+    "T-test is used to compare means when sample size is small and population variance is unknown."
+  ]
+},
+{
+  "tag": "anova",
+  "patterns": [
+    "What is ANOVA?",
+    "Full form of ANOVA",
+    "Explain ANOVA",
+    "When to use ANOVA?",
+    "Difference between ANOVA and t test"
+  ],
+  "responses": [
+    "ANOVA stands for Analysis of Variance. It is used to compare means of three or more groups."
+  ]
+},
+{
+  "tag": "chi_square_test",
+  "patterns": [
+    "What is chi square test?",
+    "Define chi square test",
+    "When to use chi square?",
+    "Chi square example",
+    "Chi square test purpose"
+  ],
+  "responses": [
+    "Chi-square test is used to determine if there is a significant association between categorical variables."
+  ]
+},
+{
+  "tag": "statistical_power",
+  "patterns": [
+    "What is statistical power?",
+    "Define statistical power",
+    "Power of test meaning",
+    "How to increase statistical power?",
+    "Relation between power and type 2 error"
+  ],
+  "responses": [
+    "Statistical power is the probability of correctly rejecting a false null hypothesis. Higher power reduces Type 2 error."
+  ]
+},
+{
+  "tag": "covariance",
+  "patterns": [
+    "What is covariance?",
+    "Define covariance",
+    "Covariance meaning",
+    "Covariance formula",
+    "Explain covariance in statistics",
+    "How covariance works?",
+    "What does covariance measure?",
+    "Positive vs negative covariance"
+  ],
+  "responses": [
+    "Covariance measures the direction of relationship between two variables. If covariance is positive, variables move in the same direction. If negative, they move in opposite directions."
+  ]
+},
+{
+  "tag": "correlation",
+  "patterns": [
+    "What is correlation?",
+    "Define correlation",
+    "Correlation meaning",
+    "Difference between covariance and correlation",
+    "Pearson correlation meaning",
+    "What does correlation measure?",
+    "Correlation formula",
+    "Range of correlation coefficient"
+  ],
+  "responses": [
+    "Correlation measures both the strength and direction of relationship between two variables. It ranges from -1 to +1. +1 means perfect positive correlation, -1 means perfect negative correlation."
+  ]
+},
+{
+  "tag": "covariance_vs_correlation",
+  "patterns": [
+    "Difference between covariance and correlation",
+    "Covariance vs correlation",
+    "Compare covariance and correlation",
+    "How is covariance different from correlation?"
+  ],
+  "responses": [
+    "Covariance shows direction of relationship but does not standardize the scale. Correlation standardizes covariance and always lies between -1 and 1, making it easier to interpret."
+  ]
+},
+{
+  "tag": "bias_variance_tradeoff",
+  "patterns": [
+    "What is bias variance tradeoff?",
+    "Explain bias variance tradeoff",
+    "Bias vs variance",
+    "What is bias in machine learning?",
+    "What is variance in machine learning?",
+    "Overfitting and underfitting relation to bias variance",
+    "Why bias variance tradeoff important?"
+  ],
+  "responses": [
+    "Bias-Variance Tradeoff explains the balance between model simplicity and complexity. High bias leads to underfitting, while high variance leads to overfitting. The goal is to minimize total error by balancing both."
+  ]
+},
+{
+  "tag": "high_bias",
+  "patterns": [
+    "What is high bias?",
+    "High bias meaning",
+    "Underfitting meaning",
+    "Example of high bias model",
+    "How to reduce bias in ML?"
+  ],
+  "responses": [
+    "High bias occurs when a model is too simple and fails to capture underlying patterns. It leads to underfitting."
+  ]
+},
+{
+  "tag": "high_variance",
+  "patterns": [
+    "What is high variance?",
+    "High variance meaning",
+    "Overfitting meaning",
+    "Example of high variance model",
+    "How to reduce variance in ML?"
+  ],
+  "responses": [
+    "High variance occurs when a model learns noise from training data and performs poorly on unseen data. It leads to overfitting."
+  ]
+},
+{
+  "tag": "central_limit_theorem_deep",
+  "patterns": [
+    "Explain Central Limit Theorem in detail",
+    "Deep explanation of CLT",
+    "Why Central Limit Theorem important?",
+    "Role of CLT in statistics",
+    "How CLT works mathematically?",
+    "CLT in machine learning"
+  ],
+  "responses": [
+    "Central Limit Theorem states that when independent samples are drawn from any distribution, the sampling distribution of the sample mean approaches a normal distribution as sample size increases (usually n ≥ 30), regardless of the original population distribution. This is fundamental for confidence intervals and hypothesis testing."
+  ]
+},
+{
+  "tag": "confusion_matrix",
+  "patterns": [
+    "What is confusion matrix?",
+    "Define confusion matrix",
+    "Explain confusion matrix",
+    "Confusion matrix in classification",
+    "What are TP TN FP FN?",
+    "Structure of confusion matrix"
+  ],
+  "responses": [
+    "A confusion matrix is a table used to evaluate classification models. It contains True Positives (TP), True Negatives (TN), False Positives (FP), and False Negatives (FN)."
+  ]
+},
+{
+  "tag": "accuracy",
+  "patterns": [
+    "What is accuracy?",
+    "Accuracy formula",
+    "Define accuracy in ML",
+    "How to calculate accuracy?",
+    "Accuracy meaning in classification"
+  ],
+  "responses": [
+    "Accuracy measures the proportion of correct predictions. Formula: (TP + TN) / (TP + TN + FP + FN)."
+  ]
+},
+{
+  "tag": "precision",
+  "patterns": [
+    "What is precision?",
+    "Precision formula",
+    "Define precision in ML",
+    "Difference between precision and recall",
+    "When to use precision?"
+  ],
+  "responses": [
+    "Precision measures how many predicted positive cases are actually positive. Formula: TP / (TP + FP)."
+  ]
+},
+{
+  "tag": "recall",
+  "patterns": [
+    "What is recall?",
+    "Recall formula",
+    "Define recall in ML",
+    "Sensitivity meaning",
+    "When recall important?"
+  ],
+  "responses": [
+    "Recall measures how many actual positive cases were correctly identified. Formula: TP / (TP + FN)."
+  ]
+},
+{
+  "tag": "f1_score",
+  "patterns": [
+    "What is F1 score?",
+    "F1 score formula",
+    "Define F1 score",
+    "Why F1 score important?",
+    "Difference between accuracy and F1 score"
+  ],
+  "responses": [
+    "F1 score is the harmonic mean of precision and recall. It balances both metrics and is useful for imbalanced datasets."
+  ]
+},
+{
+  "tag": "roc_auc",
+  "patterns": [
+    "What is ROC curve?",
+    "Explain AUC",
+    "ROC AUC meaning",
+    "How ROC curve works?",
+    "Why AUC important?"
+  ],
+  "responses": [
+    "ROC curve plots True Positive Rate vs False Positive Rate. AUC measures overall classification performance. Higher AUC means better model performance."
+  ]
+}
+]

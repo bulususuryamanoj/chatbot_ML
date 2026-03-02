@@ -60,7 +60,14 @@ with open('data/python.json','r',encoding='utf-8') as f:
     python_data = json.load(f)
 python_responses = {}
 for intent in python_data:
-    python_responses[intent['tag']]=  intent['response']
+    python_responses[intent['tag'] ]=  intent['response']
+
+# =========================================================
+with open('data/stat_mat.json','r',encoding='utf-8') as f:
+    stat_mat_data = json.load(f)
+stat_mat_response = {}
+for intent in stat_mat_data:
+    stat_mat_response[intent['tag']] = intent['responses'][0]
 
 # ==========================================================
 # FORMAT STRUCTURED RESPONSE
@@ -151,6 +158,8 @@ def chat():
 
     if predicted_tag in aiml_responses:
         primary_answers.append(aiml_responses[predicted_tag])
+    if predicted_tag in stat_mat_response:
+        primary_answers.append(stat_mat_response[predicted_tag])
 
     if primary_answers:
         final_answer = max(primary_answers, key=len)

@@ -63,15 +63,42 @@ for intent in python_data:
     python_responses[intent['tag'] ]=  intent['response']
 
 # =========================================================
+# LOAD STATISTICS AND MATHEMATICS RESPONSES
+# =========================================================
 with open('data/stat_mat.json','r',encoding='utf-8') as f:
     stat_mat_data = json.load(f)
 stat_mat_response = {}
 for intent in stat_mat_data:
     stat_mat_response[intent['tag']] = intent['responses'][0]
+# =========================================================
+# LOAD DATA MODELLING AND EDA RESPONSE
+# =========================================================
+with open('data/dm_eda.json','r',encoding='utf-8') as f:
+    dm_eda_data = json.load(f)
+dm_eda_responses= {}
+for intent in dm_eda_data:
+    dm_eda_responses[intent['tag']] = intent['responses'][0]
 
-# ==========================================================
+# =========================================================
+# LOAD SQL RESPONSES
+# =========================================================
+with open('data/sql.json','r',encoding='utf-8') as f:
+    sql_data = json.load(f)
+sql_responses ={}
+for intent in sql_data:
+    sql_responses[intent['tag']] = intent['responses'][0]
+
+# ========================================================
+# LOAD VISUALISATION DATA
+# ========================================================
+with open('data/viz.json','r',encoding='utf-8') as f:
+    viz_data = json.load(f)
+viz_responses = {}
+for intent in viz_data:
+    viz_responses[intent['tag']] = intent['responses'][0]
+# ========================================================
 # FORMAT STRUCTURED RESPONSE
-# ==========================================================
+# ========================================================
 def format_response(concept_name, concept_data):
 
     text = f"📘 Concept: {concept_name.replace('_',' ').title()}\n\n"
@@ -135,52 +162,58 @@ def chat():
     user_message = data.get("message")
 
     # -------------------------
-    # Intent Prediction
+    # LinearSVC Prediction
     # -------------------------
     input_vector = vectorizer.transform([user_message])
-    probs = model.predict_proba(input_vector)[0]
 
-    max_prob = probs.max()
-    predicted_tag = label_encoder.inverse_transform(
-        [probs.argmax()]
-    )[0]
+    prediction = model.predict(input_vector)
+    predicted_tag = label_encoder.inverse_transform(prediction)[0]
+
+    # Confidence score (from decision function)
+    decision_scores = model.decision_function(input_vector)
+
+    if len(decision_scores.shape) > 1:
+        confidence = float(np.max(decision_scores))
+    else:
+        confidence = float(decision_scores[0])
 
     # -------------------------
-    # PRIORITY 1 → CONTENT.JSON
+    # Collect All Possible Answers
     # -------------------------
     best_concept = find_best_concept(user_message)
 
-    final_answer = None
-    primary_answers = []
+    all_answers = []
 
     if predicted_tag in python_responses:
-     primary_answers.append(python_responses[predicted_tag])
+        all_answers.append(python_responses[predicted_tag])
 
     if predicted_tag in aiml_responses:
-        primary_answers.append(aiml_responses[predicted_tag])
+        all_answers.append(aiml_responses[predicted_tag])
+
     if predicted_tag in stat_mat_response:
-        primary_answers.append(stat_mat_response[predicted_tag])
+        all_answers.append(stat_mat_response[predicted_tag])
 
-    if primary_answers:
-        final_answer = max(primary_answers, key=len)
+    if predicted_tag in dm_eda_responses:
+        all_answers.append(dm_eda_responses[predicted_tag])
 
-    elif best_concept and best_concept in concepts:
-        final_answer= concepts[best_concept]
+    if predicted_tag in sql_responses:
+        all_answers.append(sql_responses[predicted_tag])
 
+    if predicted_tag in viz_responses:
+        all_answers.append(viz_responses[predicted_tag])
+
+    if best_concept and best_concept in concepts:
+        all_answers.append(concepts[best_concept])
+
+    if all_answers:
+        final_answer = max(all_answers, key=len)
     else:
         final_answer = "I understand the topic but don't have detailed information yet."
-    # -------------------------
-    # PRIORITY 2 → AIML FALLBACK
-   
-    # -------------------------
-
 
     return jsonify({
         "response": final_answer,
-        "confidence": round(float(max_prob), 3)
+        "confidence": round(confidence, 3)
     })
-
-
 # ==========================================================
 # RUN SERVER
 # ==========================================================

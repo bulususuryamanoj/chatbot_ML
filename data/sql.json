@@ -1011,5 +1011,241 @@
     "Sharding distributes data across multiple servers.",
     "It helps scale large applications."
   ]
+},
+
+{
+  "tag": "what_is_ddl",
+  "patterns": [
+    "What is DDL?",
+    "Explain DDL in SQL",
+    "DDL meaning",
+    "Data Definition Language"
+  ],
+  "responses": [
+    "DDL stands for Data Definition Language. It is used to define and modify database structure.",
+    "DDL commands manage schema objects like tables, indexes, and views."
+  ]
+},
+{
+  "tag": "ddl_commands",
+  "patterns": [
+    "List DDL commands",
+    "DDL command types",
+    "Examples of DDL"
+  ],
+  "responses": [
+    "Common DDL commands include CREATE, ALTER, DROP, TRUNCATE, and RENAME.",
+    "DDL modifies the structure of database objects rather than the data itself."
+  ]
+},
+{
+  "tag": "create_command",
+  "patterns": [
+    "What is CREATE in SQL?",
+    "Explain CREATE command"
+  ],
+  "responses": [
+    "CREATE is a DDL command used to create new tables, databases, or other objects.",
+    "Example: CREATE TABLE students(id INT, name VARCHAR(50));"
+  ]
+},
+{
+  "tag": "alter_command",
+  "patterns": [
+    "What is ALTER in SQL?",
+    "Explain ALTER command"
+  ],
+  "responses": [
+    "ALTER modifies the structure of an existing table.",
+    "It can add, modify, or delete columns."
+  ]
+},
+{
+  "tag": "drop_command",
+  "patterns": [
+    "What is DROP command?",
+    "Explain DROP in SQL"
+  ],
+  "responses": [
+    "DROP permanently deletes a table or database.",
+    "Once dropped, the data and structure are removed completely."
+  ]
+},
+{
+  "tag": "truncate_command",
+  "patterns": [
+    "What is TRUNCATE?",
+    "Difference between DELETE and TRUNCATE"
+  ],
+  "responses": [
+    "TRUNCATE removes all rows from a table quickly without logging individual row deletions.",
+    "It cannot be rolled back in many databases."
+  ]
+},
+{
+  "tag": "what_is_dml",
+  "patterns": [
+    "What is DML?",
+    "Explain DML in SQL",
+    "Data Manipulation Language"
+  ],
+  "responses": [
+    "DML stands for Data Manipulation Language. It is used to manipulate data inside tables.",
+    "DML commands modify the actual records in database tables."
+  ]
+},
+{
+  "tag": "dml_commands",
+  "patterns": [
+    "List DML commands",
+    "Examples of DML"
+  ],
+  "responses": [
+    "Common DML commands include INSERT, UPDATE, DELETE, and SELECT.",
+    "DML operates on table data rather than table structure."
+  ]
+},
+{
+  "tag": "insert_command",
+  "patterns": [
+    "What is INSERT in SQL?",
+    "Explain INSERT statement"
+  ],
+  "responses": [
+    "INSERT adds new records into a table.",
+    "Example: INSERT INTO students VALUES(1, 'John');"
+  ]
+},
+{
+  "tag": "update_command",
+  "patterns": [
+    "What is UPDATE in SQL?",
+    "Explain UPDATE statement"
+  ],
+  "responses": [
+    "UPDATE modifies existing records in a table.",
+    "It requires a WHERE clause to prevent updating all rows accidentally."
+  ]
+},
+{
+  "tag": "delete_command",
+  "patterns": [
+    "What is DELETE in SQL?",
+    "Explain DELETE statement"
+  ],
+  "responses": [
+    "DELETE removes specific rows from a table.",
+    "It can be rolled back if used inside a transaction."
+  ]
+},
+{
+  "tag": "what_is_dcl",
+  "patterns": [
+    "What is DCL?",
+    "Explain Data Control Language"
+  ],
+  "responses": [
+    "DCL stands for Data Control Language. It controls access permissions in a database.",
+    "DCL manages user privileges and security."
+  ]
+},
+{
+  "tag": "dcl_commands",
+  "patterns": [
+    "List DCL commands",
+    "Examples of DCL"
+  ],
+  "responses": [
+    "Common DCL commands include GRANT and REVOKE.",
+    "These commands control user access to database objects."
+  ]
+},
+{
+  "tag": "grant_command",
+  "patterns": [
+    "What is GRANT in SQL?",
+    "Explain GRANT command"
+  ],
+  "responses": [
+    "GRANT gives specific privileges to users.",
+    "Example: GRANT SELECT ON students TO user1;"
+  ]
+},
+{
+  "tag": "revoke_command",
+  "patterns": [
+    "What is REVOKE in SQL?",
+    "Explain REVOKE command"
+  ],
+  "responses": [
+    "REVOKE removes privileges previously granted to a user.",
+    "It ensures database security by restricting access."
+  ]
+},
+{
+  "tag": "what_is_tcl",
+  "patterns": [
+    "What is TCL?",
+    "Explain Transaction Control Language"
+  ],
+  "responses": [
+    "TCL stands for Transaction Control Language. It manages database transactions.",
+    "TCL ensures data integrity during multiple operations."
+  ]
+},
+{
+  "tag": "tcl_commands",
+  "patterns": [
+    "List TCL commands",
+    "Examples of TCL"
+  ],
+  "responses": [
+    "Common TCL commands include COMMIT, ROLLBACK, and SAVEPOINT.",
+    "These commands control transaction behavior."
+  ]
+},
+{
+  "tag": "commit_command",
+  "patterns": [
+    "What is COMMIT?",
+    "Explain COMMIT in SQL"
+  ],
+  "responses": [
+    "COMMIT permanently saves changes made in a transaction.",
+    "Once committed, changes cannot be undone."
+  ]
+},
+{
+  "tag": "rollback_command",
+  "patterns": [
+    "What is ROLLBACK?",
+    "Explain ROLLBACK in SQL"
+  ],
+  "responses": [
+    "ROLLBACK undoes changes made during a transaction.",
+    "It restores database to previous consistent state."
+  ]
+},
+{
+  "tag": "savepoint_command",
+  "patterns": [
+    "What is SAVEPOINT?",
+    "Explain SAVEPOINT in SQL"
+  ],
+  "responses": [
+    "SAVEPOINT creates a checkpoint inside a transaction.",
+    "You can rollback to a specific savepoint instead of entire transaction."
+  ]
+},
+{
+  "tag": "difference_ddl_dml_dcl_tcl",
+  "patterns": [
+    "Difference between DDL DML DCL TCL",
+    "Compare SQL command types"
+  ],
+  "responses": [
+    "DDL defines structure, DML manipulates data, DCL controls access, and TCL manages transactions.",
+    "Each category serves a different role in database management."
+  ]
 }
 ]
